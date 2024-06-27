@@ -41,18 +41,17 @@ tmc5130-uart
 
 #+NAME: synopsis
 #+BEGIN_SRC text :exports none :noweb yes
-Stepper motor controller and driver in various form factors.
+Stepper motor controller and driver board using a TMC5130 with a UART interface.
 #+END_SRC
 
 #+NAME: references
 #+BEGIN_SRC text :exports none :noweb yes
-[[https://www.analog.com/en/products/tmc5160.html][TMC5160]]
-[[https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html][RP2040]]
+[[https://www.analog.com/en/products/tmc5130.html][TMC5130]]
 #+END_SRC
 
 #+NAME: creation-date
 #+BEGIN_SRC text :exports none :noweb yes
-2024-03-20
+2024-06-27
 #+END_SRC
 
 #+NAME: description
