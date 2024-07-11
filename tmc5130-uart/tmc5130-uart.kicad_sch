@@ -6,7 +6,7 @@
 
   (title_block
     (title "tmc5130-uart")
-    (date "2024-07-02")
+    (date "2024-07-11")
     (rev "1.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -165,9 +165,9 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 2c19c5b8-4346-48d0-abe2-21547d6f9ec7)
     )
-    (pin "VCC" passive (at 152.4 67.31 0)
+    (pin "VAA" passive (at 152.4 67.31 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 45327894-3c20-4521-b47d-fa48e698d55d)
+      (uuid bbdd0c8c-0cf5-43e3-a832-b9e2489efe16)
     )
     (instances
       (project "tmc5130-uart"

@@ -5,7 +5,7 @@
     "method": 1,
     "options": 1,
     "recursive": true,
-    "scope": 0,
+    "scope": 1,
     "sort_order": 1
   },
   "appearance": {
