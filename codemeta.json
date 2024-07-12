@@ -1,0 +1,26 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/BSD-3-Clause",
+    "codeRepository": "https://github.com/janelia-kicad/prism-pcb",
+    "dateCreated": "2024-06-27",
+    "dateModified": "2024-07-12",
+    "name": "prism-pcb",
+    "version": "1.0",
+    "description": "PCB for each tessellated maze prism.",
+    "programmingLanguage": [
+        "KiCad"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Polidoro",
+            "email": "peter@polidoro.io",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Howard Hughes Medical Institute"
+            }
+        }
+    ]
+}

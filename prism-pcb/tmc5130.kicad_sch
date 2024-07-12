@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "tmc5130-uart")
+    (title "prism-pcb")
     (date "2024-07-11")
     (rev "1.0")
     (company "Howard Hughes Medical Institute")
@@ -1755,7 +1755,7 @@
     (pin "1" (uuid fa487710-34a4-4cbf-adb9-53b116762a85))
     (pin "2" (uuid c1cdff03-8f70-4486-8ab9-673a29c128d4))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C411") (unit 1)
         )
@@ -1802,7 +1802,7 @@
     (pin "2" (uuid 6e0ac64d-7fe1-4f0a-95c7-bbca541dc4fe))
     (pin "1" (uuid def0e2a8-d09e-42a1-98fe-5d81c3919f2b))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C408") (unit 1)
         )
@@ -1849,7 +1849,7 @@
     (pin "1" (uuid c3be7a3c-89ba-4ca3-952a-c0b5b6ddb648))
     (pin "2" (uuid 4701184d-0369-4cca-b4d3-e2622e558777))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C409") (unit 1)
         )
@@ -1896,7 +1896,7 @@
     (pin "2" (uuid 57f2adc6-d23b-457d-a37f-1a60d8b96467))
     (pin "1" (uuid 86c86ef9-160f-421c-9414-fce7db53f1ab))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C406") (unit 1)
         )
@@ -1945,7 +1945,7 @@
     (pin "4" (uuid 95fde51d-a60b-480e-b84f-3ee60f789e08))
     (pin "3" (uuid c15d1ce2-d0cc-44f9-a91d-a3f235759f41))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "J401") (unit 1)
         )
@@ -1992,7 +1992,7 @@
     (pin "1" (uuid 918b065b-837a-4937-966e-3fd5b67b51ca))
     (pin "2" (uuid 32124a95-7d49-483c-8489-e9ed307cdcd5))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "R402") (unit 1)
         )
@@ -2039,7 +2039,7 @@
     (pin "1" (uuid e8b79903-80dd-4076-ba62-4ba5154ee9ed))
     (pin "2" (uuid 3afd56fe-ceaa-4146-b0e0-e5bb171c3fc1))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C417") (unit 1)
         )
@@ -2086,7 +2086,7 @@
     (pin "2" (uuid 0457dc66-c0e4-4181-9d83-2db26c73fcbb))
     (pin "1" (uuid b29a4744-d8d6-41e4-8580-df3f6095d47c))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C401") (unit 1)
         )
@@ -2133,7 +2133,7 @@
     (pin "1" (uuid 23ebb65e-d356-433d-a5e3-eb83759ea398))
     (pin "2" (uuid 16211c6f-a33f-4bff-9c4f-bdee05d2d94e))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C416") (unit 1)
         )
@@ -2180,7 +2180,7 @@
     (pin "1" (uuid 7ec16474-64a6-404d-981b-fec1da276a06))
     (pin "2" (uuid d4afd172-57a5-458b-bf7c-b8fcc6677193))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C410") (unit 1)
         )
@@ -2227,7 +2227,7 @@
     (pin "2" (uuid 7aa6d62b-6ace-4762-a21d-bcc926aa6dd8))
     (pin "1" (uuid 7fa7cae1-21e7-44e1-83a3-1f531db4286a))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C413") (unit 1)
         )
@@ -2274,7 +2274,7 @@
     (pin "1" (uuid 0ea07a37-de9d-4c69-a5df-b47717f9cd11))
     (pin "2" (uuid f059ce22-655c-4b4a-9fca-c1b280ff9ce9))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C402") (unit 1)
         )
@@ -2321,7 +2321,7 @@
     (pin "2" (uuid 3af9c6f4-a9ef-434e-ba55-8f1e486687e0))
     (pin "1" (uuid d1f71d04-1406-476c-84d6-e841620e2c33))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C415") (unit 1)
         )
@@ -2415,7 +2415,7 @@
     (pin "15" (uuid d1d0033c-64ba-4019-81d5-420fcacd0561))
     (pin "14" (uuid bf4b8b43-25cb-436c-b56b-ccc2da8fb748))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "U402") (unit 1)
         )
@@ -2440,7 +2440,7 @@
     )
     (pin "1" (uuid 529b94e0-1dc3-4f8c-9e2d-a607b98c9a4f))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "#FLG0401") (unit 1)
         )
@@ -2489,7 +2489,7 @@
     (pin "1" (uuid b6622e1b-6e1a-4fd5-b339-9a985b088c7d))
     (pin "2" (uuid ab05c396-7e3e-4e94-b7ef-fa0421de0798))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "X401") (unit 1)
         )
@@ -2536,7 +2536,7 @@
     (pin "2" (uuid 4074a62c-81c4-458f-aa48-5d0ea437f3b8))
     (pin "1" (uuid d8b0c7be-4256-498a-87a9-6d5a3482e5d1))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C405") (unit 1)
         )
@@ -2583,7 +2583,7 @@
     (pin "1" (uuid 8ae86f6c-b54e-44ee-b01a-0031d91627e5))
     (pin "2" (uuid 8b3a36f4-a812-44fc-a244-69735c2ec628))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C412") (unit 1)
         )
@@ -2630,7 +2630,7 @@
     (pin "1" (uuid ef9219e2-9a90-4da0-b48e-2ec6e21866f9))
     (pin "2" (uuid 88640290-d6df-4909-992a-9f2f59eb24be))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "R401") (unit 1)
         )
@@ -2677,7 +2677,7 @@
     (pin "2" (uuid 01657b59-9392-49cf-88d6-ebd1c34cd8bc))
     (pin "1" (uuid d1409915-c2c0-4de7-ae75-fe26f88d2b2e))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C404") (unit 1)
         )
@@ -2724,7 +2724,7 @@
     (pin "1" (uuid 7a81413e-18ff-4397-b311-bb9d3e5704ac))
     (pin "2" (uuid b13ce709-a03f-4c5d-8205-ed280ed58e62))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "R403") (unit 1)
         )
@@ -2771,7 +2771,7 @@
     (pin "2" (uuid 5090312e-b060-4fae-bd75-fd4561aa1327))
     (pin "1" (uuid de30d786-2a9c-4ea6-b3df-7d55219460a6))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C407") (unit 1)
         )
@@ -2818,7 +2818,7 @@
     (pin "2" (uuid b4b2de09-400e-4fc8-b50b-8f1273f5f1f8))
     (pin "1" (uuid e8e93e14-8538-4159-ae59-259a1acb0152))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C414") (unit 1)
         )
@@ -2865,7 +2865,7 @@
     (pin "2" (uuid 3c6726f2-3b0c-4db2-af25-2757b91edfe7))
     (pin "1" (uuid 2dfa71bc-9d37-4253-a73d-f15f749a89f9))
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/039ac378-5273-4081-85bf-9eb26cb5ed57"
           (reference "C403") (unit 1)
         )

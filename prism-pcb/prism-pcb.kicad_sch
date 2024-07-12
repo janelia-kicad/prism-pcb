@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "tmc5130-uart")
+    (title "prism-pcb")
     (date "2024-07-11")
     (rev "1.0")
     (company "Howard Hughes Medical Institute")
@@ -112,7 +112,7 @@
       (uuid 417a7a27-ff4a-47be-b25f-c741413e82c2)
     )
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "4"))
       )
     )
@@ -133,7 +133,7 @@
       (uuid 27cfdaec-c4e6-4a5e-aff6-ae19f93ba201)
     )
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "2"))
       )
     )
@@ -170,7 +170,7 @@
       (uuid bbdd0c8c-0cf5-43e3-a832-b9e2489efe16)
     )
     (instances
-      (project "tmc5130-uart"
+      (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "3"))
       )
     )

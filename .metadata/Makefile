@@ -67,4 +67,4 @@ trimmed-images:
 
 .PHONY: zipped-gerbers
 zipped-gerbers:
-	$(GUIX-SHELL) -- sh -c "rm -f documentation/gerbers/*.zip && zip -j -r documentation/gerbers/tmc5130-uart-1.0.zip documentation/gerbers"
+	$(GUIX-SHELL) -- sh -c "rm -f documentation/gerbers/*.zip && zip -j -r documentation/gerbers/prism-pcb-1.0.zip documentation/gerbers"

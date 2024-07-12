@@ -1,16 +1,16 @@
 # This file is generated automatically from metadata
 # File edits may be overwritten!
-- Project Name: tmc5130-uart
-- Synopsis: Stepper motor controller and driver board using a TMC5130 with a UART interface.
+- Project Name: prism-pcb
+- Synopsis: PCB for each tessellated maze prism.
 - Documentation Version: 1.0.0
 - Pcb Version: 1.0
 - Enclosure Version: 1.0
 - Supplemental BOM Version: 1.0
-- Release Date: 2024-06-27
+- Release Date: 2024-07-12
 - Creation Date: 2024-06-27
 - Kicad Version: 7.0.11
 - License: BSD-3-Clause
-- URL: https://github.com/janelia-kicad/tmc5130-uart
+- URL: https://github.com/janelia-kicad/prism-pcb
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
 - Copyright: 2024 Howard Hughes Medical Institute

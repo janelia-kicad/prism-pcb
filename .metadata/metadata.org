@@ -11,12 +11,12 @@
 
 #+NAME: project-name
 #+BEGIN_SRC text :exports none :noweb yes
-tmc5130-uart
+prism-pcb
 #+END_SRC
 
 #+NAME: repository-name
 #+BEGIN_SRC text :exports none :noweb yes
-tmc5130-uart
+prism-pcb
 #+END_SRC
 
 #+NAME: documentation-version
@@ -41,7 +41,7 @@ tmc5130-uart
 
 #+NAME: synopsis
 #+BEGIN_SRC text :exports none :noweb yes
-Stepper motor controller and driver board using a TMC5130 with a UART interface.
+PCB for each tessellated maze prism.
 #+END_SRC
 
 #+NAME: references
