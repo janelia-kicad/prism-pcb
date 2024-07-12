@@ -120,7 +120,7 @@
     "show_footprints_insert": true,
     "show_footprints_normal": false,
     "show_footprints_not_in_posfile": true,
-    "show_footprints_virtual": true,
+    "show_footprints_virtual": false,
     "show_silkscreen": true,
     "show_soldermask": true,
     "show_solderpaste": true,

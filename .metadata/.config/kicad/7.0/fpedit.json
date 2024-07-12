@@ -99,7 +99,7 @@
     "version": 2
   },
   "pcb_display": {
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "layer_presets": []
   },
   "printing": {
@@ -131,7 +131,7 @@
       "axes_enabled": true,
       "fast_grid_1": 4,
       "fast_grid_2": 5,
-      "last_size": 16,
+      "last_size": 14,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "show": true,
