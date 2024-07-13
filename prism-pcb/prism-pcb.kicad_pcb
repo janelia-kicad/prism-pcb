@@ -125,8 +125,8 @@
   (net 19 "/SWP")
   (net 20 "unconnected-(U401-NC-Pad6)")
   (net 21 "/tmc5130/CLOCK")
-  (net 22 "/VM")
-  (net 23 "/VIO")
+  (net 22 "/VAA")
+  (net 23 "/+5V")
   (net 24 "unconnected-(U401-SDO_NAO_CFG0-Pad7)")
   (net 25 "unconnected-(U401-REFL_STEP-Pad8)")
   (net 26 "unconnected-(U401-DNC-Pad14)")
@@ -240,7 +240,7 @@
 
   (footprint "Janelia:C_1210_3225Metric" (layer "F.Cu")
     (tstamp 17035c4f-548e-4f7c-b132-a731c4de27f4)
-    (at 143.4 128.6 180)
+    (at 146.9 113.6 180)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C1021610")
@@ -288,7 +288,7 @@
     (fp_line (start 1.6 1.25) (end -1.6 1.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f19edaaf-01cb-488e-b190-0c3d64e3ce12))
     (pad "1" smd roundrect (at -1.475 0 180) (size 1.15 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
-      (net 22 "/VM") (pintype "passive") (tstamp 55161b7e-e5b5-4e09-bcb2-daeecdaf61e1))
+      (net 22 "/VAA") (pintype "passive") (tstamp 55161b7e-e5b5-4e09-bcb2-daeecdaf61e1))
     (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 1 "/GND") (pintype "passive") (tstamp 6dace1ce-0001-42de-813b-4b3ddbe63fd9))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_1210_3225Metric.step"
@@ -298,7 +298,142 @@
     )
   )
 
-  (footprint "Janelia:C_0402_1005Metric" (layer "F.Cu")
+  (footprint "Janelia:FAN_5VDC_25x25x8mm" locked (layer "F.Cu")
+    (tstamp 1be72af5-4f2e-4561-aea5-4f84f013bc4a)
+    (at 152.4 101.6)
+    (property "LCSC" "")
+    (property "Manufacturer" "ebm-papst Inc.")
+    (property "Manufacturer Part Number" "255M")
+    (property "Sheetfile" "interface.kicad_sch")
+    (property "Sheetname" "interface")
+    (property "Sim.Enable" "0")
+    (property "Synopsis" "FAN AXIAL 25X8MM 5VDC WIRE")
+    (property "Vendor" "Digi-Key")
+    (property "Vendor Part Number" "381-2353-ND")
+    (property "exclude_from_bom" "")
+    (property "ki_description" "Fan Tubeaxial 5VDC Square - 25mm L x 25mm H Sintec 1.2 CFM (0.034m³/min) 2 Wire Leads")
+    (property "ki_keywords" "Fan Motor")
+    (path "/c1dd8f61-494c-402f-8e59-08309c64fc3f/ef5c3985-d02d-45e0-be03-b7ea2bbd5c8f")
+    (attr through_hole)
+    (fp_text reference "M301" (at 0 0 unlocked) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.25) bold))
+      (tstamp fe3d038c-7db6-4f93-85ba-52eda400f625)
+    )
+    (fp_text value "Fan_5VDC_25x25x8mm" (at 0 1 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 48ad7717-e56d-425e-95cd-19d6127ff38b)
+    )
+    (fp_text user "FAN" (at -10 -8 unlocked) (layer "B.SilkS")
+        (effects (font (size 1 1) (thickness 0.25) bold) (justify mirror))
+      (tstamp 15a94ad9-d0d8-425a-9640-b859088b661f)
+    )
+    (fp_text user "BLU" (at -8.73 -13 -90 unlocked) (layer "B.SilkS")
+        (effects (font (size 1 1) (thickness 0.25) bold) (justify mirror))
+      (tstamp 226f21ee-5372-4445-8bc3-7d6a55aa860f)
+    )
+    (fp_text user "RED" (at -11.27 -13 -90 unlocked) (layer "B.SilkS")
+        (effects (font (size 1 1) (thickness 0.25) bold) (justify mirror))
+      (tstamp fc491161-6ca5-402b-99e1-59b557bb9695)
+    )
+    (fp_text user "BLU" (at -8.73 -13 90 unlocked) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.25) bold))
+      (tstamp 6d498e36-7ecb-4d68-9aad-1a2f4063e33f)
+    )
+    (fp_text user "RED" (at -11.27 -13 90 unlocked) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.25) bold))
+      (tstamp c769c937-2cc4-4a58-9916-6b24ccd3c594)
+    )
+    (fp_text user "FAN" (at -10 -8 unlocked) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.25) bold))
+      (tstamp f7527a4b-14c5-458a-92f4-730759e5a4f7)
+    )
+    (fp_text user "${REFERENCE}" (at 10 -10) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 1d474777-66c4-4200-a54c-b8f93e8319bd)
+    )
+    (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 7c1bb1cc-4c4b-4624-8e59-19fbd79437cf)
+    )
+    (fp_text user "${REFERENCE}" (at 10 10) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f38ccc47-796b-4918-a4ca-693936491eab)
+    )
+    (fp_text user "${REFERENCE}" (at -10 10) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp ff5618d7-b1dc-4894-9d5f-74070141d41c)
+    )
+    (fp_rect (start -12.25 -11) (end -7.75 -9)
+      (stroke (width 0.2) (type default)) (fill none) (layer "B.SilkS") (tstamp 5b33e079-311c-44ae-8ffe-7cc4d89f96ef))
+    (fp_rect (start -12.25 -11) (end -7.75 -9)
+      (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 79775e20-b177-41a9-a1e0-25117adaa34a))
+    (fp_circle (center -10 10) (end -7.8 10)
+      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp b5ae4569-972a-498b-b7c4-4a6926e7ae72))
+    (fp_circle (center 10 -10) (end 12.2 -10)
+      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp a76dd8ea-fb80-4326-9bae-0eceb29177fd))
+    (fp_circle (center 10 10) (end 12.2 10)
+      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp e9bf8510-7483-449d-a4d0-c3d53cc2ed36))
+    (fp_circle (center -10 10) (end -7.8 10)
+      (stroke (width 0.05) (type solid)) (fill none) (layer "B.CrtYd") (tstamp 75b21a30-c52c-4bfa-9046-4fd8db7e0d15))
+    (fp_circle (center 10 -10) (end 12.2 -10)
+      (stroke (width 0.05) (type solid)) (fill none) (layer "B.CrtYd") (tstamp 21d360a6-8927-4555-9a2e-b603924f8a94))
+    (fp_circle (center 10 10) (end 12.2 10)
+      (stroke (width 0.05) (type solid)) (fill none) (layer "B.CrtYd") (tstamp 02d1184b-4d2e-4c82-8628-7f187f3468c5))
+    (fp_circle (center -10 10) (end -7.8 10)
+      (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 9dfff656-385a-46eb-a9f1-3ed60f838f84))
+    (fp_circle (center 10 -10) (end 12.2 -10)
+      (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp c1b0298f-cd79-447f-94be-305bff361524))
+    (fp_circle (center 10 10) (end 12.2 10)
+      (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp a686a6ad-bf6b-40aa-8a4d-9aab6db9e93c))
+    (fp_line (start -12.5 10) (end -12.5 -10)
+      (stroke (width 0.1) (type default)) (layer "User.1") (tstamp 89b6d019-48b0-41b0-9f82-48d2ed26e9eb))
+    (fp_line (start -10 -12.5) (end 10 -12.5)
+      (stroke (width 0.1) (type default)) (layer "User.1") (tstamp 6bf5ecea-638e-47e6-8934-3915407842a5))
+    (fp_line (start 10 12.5) (end -10 12.5)
+      (stroke (width 0.1) (type default)) (layer "User.1") (tstamp a99232ab-892a-477f-bc84-a8627a9a93df))
+    (fp_line (start 12.5 -10) (end 12.5 10)
+      (stroke (width 0.1) (type default)) (layer "User.1") (tstamp 1786eb5c-de28-4c02-99ad-abb3083f8792))
+    (fp_arc (start -12.5 -10) (mid -11.767767 -11.767767) (end -10 -12.5)
+      (stroke (width 0.1) (type default)) (layer "User.1") (tstamp c7b6270b-2bce-4098-98c3-0a88aed7e476))
+    (fp_arc (start -10 12.5) (mid -11.767767 11.767767) (end -12.5 10)
+      (stroke (width 0.1) (type default)) (layer "User.1") (tstamp 4ed38eb4-41fb-4ab6-abf5-0145497237da))
+    (fp_arc (start 10 -12.5) (mid 11.767767 -11.767767) (end 12.5 -10)
+      (stroke (width 0.1) (type default)) (layer "User.1") (tstamp ccb6a108-3ee0-4f68-8fd7-3e2bcbe2ab6e))
+    (fp_arc (start 12.5 10) (mid 11.767767 11.767767) (end 10 12.5)
+      (stroke (width 0.1) (type default)) (layer "User.1") (tstamp f109c6f8-220f-43da-a6cd-7beb8d728ddd))
+    (pad "1" thru_hole rect locked (at -11.27 -10 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 23 "/+5V") (pinfunction "+5V") (pintype "passive") (tstamp 7dcc89bd-19a7-468c-a499-c7e4a23c92f1))
+    (pad "2" thru_hole oval locked (at -8.73 -10 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "GND") (pintype "passive") (tstamp 45ffeff9-bc34-4f01-b9ca-4f82432e5f15))
+    (pad "3" thru_hole circle locked (at -10 10) (size 4.4 4.4) (drill 2.2) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "MH") (pintype "passive") (tstamp 7694493c-2a9a-4860-a435-a82a056e49db))
+    (pad "3" thru_hole circle locked (at 10 -10) (size 4.4 4.4) (drill 2.2) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "MH") (pintype "passive") (tstamp 837935a7-a2b4-4a9d-9280-457cb92ec79e))
+    (pad "3" thru_hole circle locked (at 10 10) (size 4.4 4.4) (drill 2.2) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "MH") (pintype "passive") (tstamp 7f4116ee-9152-4728-8862-82f007626349))
+    (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/FAN_255M.step"
+      (offset (xyz 0 0 10))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
+    (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/Standoff_M2_4x10mm.step"
+      (offset (xyz 10 10 5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -180 0 0))
+    )
+    (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/Standoff_M2_4x10mm.step"
+      (offset (xyz 10 -10 5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
+    (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/Standoff_M2_4x10mm.step"
+      (offset (xyz -10 -10 5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
+  )
+
+  (footprint "Janelia:C_0402_1005Metric" locked (layer "F.Cu")
     (tstamp 351d3dd8-aec6-4023-a9a6-753bce054656)
     (at 154.4 94.6)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -347,9 +482,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 66a8ed51-9d78-41b3-9350-ebdfdae0fcb4))
     (fp_line (start 0.5 0.25) (end -0.5 0.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a0df6f8c-e605-4ea6-b586-9c98eac2832f))
-    (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "/VM") (pintype "passive") (tstamp 0e7ecaff-2643-4be6-a955-f1b3e314b024))
-    (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 22 "/VAA") (pintype "passive") (tstamp 0e7ecaff-2643-4be6-a955-f1b3e314b024))
+    (pad "2" smd roundrect locked (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pintype "passive") (tstamp 1ae25030-2274-4b33-8669-ff3004420f42))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_0402_1005Metric.step"
       (offset (xyz 0 0 0))
@@ -502,7 +637,7 @@
     (fp_line (start 0.5 0.25) (end -0.5 0.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d81f34b1-95ce-4422-b41f-458c579e91fb))
     (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 23 "/VIO") (pintype "passive") (tstamp 4e7a97a0-5e8d-4b52-9c72-4bdf33ad2923))
+      (net 23 "/+5V") (pintype "passive") (tstamp 4e7a97a0-5e8d-4b52-9c72-4bdf33ad2923))
     (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pintype "passive") (tstamp 3b9e946e-a79d-4a7f-9d72-d19f471b5b7a))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_0402_1005Metric.step"
@@ -710,7 +845,7 @@
     )
   )
 
-  (footprint "Janelia:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "Janelia:C_0805_2012Metric" locked (layer "F.Cu")
     (tstamp 531bfc41-7ca1-499b-9377-337f444a998b)
     (at 154.4 110.6)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -759,9 +894,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f6f832fb-6e93-42a8-afb2-e3ef1bc29602))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7715b224-0eae-488b-9d0b-6de5d0026172))
-    (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "/VM") (pintype "passive") (tstamp d5d7ef24-9047-41aa-b876-60fbdc9213d5))
-    (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 22 "/VAA") (pintype "passive") (tstamp d5d7ef24-9047-41aa-b876-60fbdc9213d5))
+    (pad "2" smd roundrect locked (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pintype "passive") (tstamp 03d0171e-ab5d-45ca-b2ea-caa41639697e))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_0805_2012Metric.step"
       (offset (xyz 0 0 0))
@@ -820,7 +955,7 @@
     (fp_line (start 0.5 0.25) (end -0.5 0.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cbee96f6-a8f1-4914-8270-f85cb406dda0))
     (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "/VM") (pintype "passive") (tstamp 786253a4-4385-40a6-a122-76577762d3b4))
+      (net 22 "/VAA") (pintype "passive") (tstamp 786253a4-4385-40a6-a122-76577762d3b4))
     (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/tmc5130/VCP") (pintype "passive") (tstamp f1cedfc9-f59b-4eab-8007-206c6e490d3c))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_0402_1005Metric.step"
@@ -886,13 +1021,13 @@
     (pad "6" smd rect locked (at -0.5 0 90) (size 0.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "/GND") (pinfunction "Pin_6") (pintype "passive") (tstamp 8b4b38af-6640-4905-be6b-b67ad29a7655))
     (pad "7" smd rect locked (at -1.500001 0 90) (size 0.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 22 "/VM") (pinfunction "Pin_7") (pintype "passive") (tstamp 1865fe66-ac94-454c-b9cd-9cdd22147427))
+      (net 22 "/VAA") (pinfunction "Pin_7") (pintype "passive") (tstamp 1865fe66-ac94-454c-b9cd-9cdd22147427))
     (pad "8" smd rect locked (at -2.500001 0 90) (size 0.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 22 "/VM") (pinfunction "Pin_8") (pintype "passive") (tstamp 7e45af30-e894-4e45-bdb3-4e74a98a05d0))
+      (net 22 "/VAA") (pinfunction "Pin_8") (pintype "passive") (tstamp 7e45af30-e894-4e45-bdb3-4e74a98a05d0))
     (pad "9" smd rect locked (at -3.500002 0 90) (size 0.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 22 "/VM") (pinfunction "Pin_9") (pintype "passive") (tstamp 6fde7244-70fd-4ed0-afaf-2864f25394de))
+      (net 22 "/VAA") (pinfunction "Pin_9") (pintype "passive") (tstamp 6fde7244-70fd-4ed0-afaf-2864f25394de))
     (pad "10" smd rect locked (at -4.500002 0 90) (size 0.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 22 "/VM") (pinfunction "Pin_10") (pintype "passive") (tstamp 985774fe-5582-4a98-bb61-fdefe9cb8758))
+      (net 22 "/VAA") (pinfunction "Pin_10") (pintype "passive") (tstamp 985774fe-5582-4a98-bb61-fdefe9cb8758))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/68611014422.step"
       (offset (xyz 0 3.35 1.5))
       (scale (xyz 1 1 1))
@@ -900,7 +1035,7 @@
     )
   )
 
-  (footprint "Janelia:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "Janelia:C_0805_2012Metric" locked (layer "F.Cu")
     (tstamp 71024cb6-c89f-45fa-8490-96e063410a73)
     (at 154.4 92.6)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -949,9 +1084,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b07b07ac-b1a9-4474-836a-42fe6fce6faf))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 07b06379-09e8-4b79-afeb-e152042b2aea))
-    (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "/VM") (pintype "passive") (tstamp c8b650ad-4c5e-4252-9367-57093107489d))
-    (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 22 "/VAA") (pintype "passive") (tstamp c8b650ad-4c5e-4252-9367-57093107489d))
+    (pad "2" smd roundrect locked (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pintype "passive") (tstamp a6fbd98e-038b-411d-b4f9-3c5bbd228c6f))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_0805_2012Metric.step"
       (offset (xyz 0 0 0))
@@ -960,7 +1095,7 @@
     )
   )
 
-  (footprint "Janelia:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias" (layer "F.Cu")
+  (footprint "Janelia:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias" locked (layer "F.Cu")
     (tstamp 75db0b1e-65cd-4b65-a74e-82d739f8e4fc)
     (at 152.4 101.6)
     (descr "TQFP, 48 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf (page 45)), generated with kicad-footprint-generator ipc_gullwing_generator.py")
@@ -1068,7 +1203,7 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 3e5d992f-e806-46c5-9965-e39b339eb4e4))
     (fp_circle (center -4.25 -3.5) (end -4 -3.5)
       (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Fab") (tstamp 0069c677-eaba-4f83-8423-bf689412afca))
-    (pad "" smd custom (at -1.6875 -1.6875) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at -1.6875 -1.6875) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1084,7 +1219,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 3b0727b9-d202-4d81-8813-5e5f990d6be6))
-    (pad "" smd custom (at -1.6875 -0.5625) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at -1.6875 -0.5625) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1100,7 +1235,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp a1b2de46-036e-439c-89ab-7ef9f664efcd))
-    (pad "" smd custom (at -1.6875 0.5625) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at -1.6875 0.5625) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1116,7 +1251,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 60f06ee2-faff-48ec-a2aa-e54529bd10f9))
-    (pad "" smd custom (at -1.6875 1.6875) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at -1.6875 1.6875) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1132,7 +1267,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 05a32eda-c3b0-41e4-a98c-1b369eea7457))
-    (pad "" smd custom (at -0.5625 -1.6875) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at -0.5625 -1.6875) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1148,7 +1283,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp c4466760-af93-4da5-8ab3-fada1737a4bb))
-    (pad "" smd custom (at -0.5625 -0.5625) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at -0.5625 -0.5625) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1164,7 +1299,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 909cacd0-cf84-4d21-88b1-2293fd53ddff))
-    (pad "" smd custom (at -0.5625 0.5625) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at -0.5625 0.5625) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1180,7 +1315,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp a4817d99-aedc-4b27-a4f3-ba435f0a50de))
-    (pad "" smd custom (at -0.5625 1.6875) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at -0.5625 1.6875) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1196,7 +1331,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp d567d4ac-ce37-42b4-840e-ef59fe28bbaa))
-    (pad "" smd custom (at 0.5625 -1.6875) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at 0.5625 -1.6875) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1212,7 +1347,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 77b916b2-7e5f-4b99-975d-c7950b1cf19d))
-    (pad "" smd custom (at 0.5625 -0.5625) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at 0.5625 -0.5625) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1228,7 +1363,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 83a1eee4-b1ba-4f46-a929-7823994639b7))
-    (pad "" smd custom (at 0.5625 0.5625) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at 0.5625 0.5625) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1244,7 +1379,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 334db1a3-cd54-4e8a-bc77-2bb163429b7c))
-    (pad "" smd custom (at 0.5625 1.6875) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at 0.5625 1.6875) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1260,7 +1395,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp c5c1e9db-d22e-44ea-92b5-428bcc75884e))
-    (pad "" smd custom (at 1.6875 -1.6875) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at 1.6875 -1.6875) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1276,7 +1411,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 0bde1e9d-1aa2-45a2-afc8-1285b280eb99))
-    (pad "" smd custom (at 1.6875 -0.5625) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at 1.6875 -0.5625) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1292,7 +1427,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 89604f90-d1b7-4017-8a6a-ccec7b9bc0c6))
-    (pad "" smd custom (at 1.6875 0.5625) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at 1.6875 0.5625) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1308,7 +1443,7 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp bea0b9cb-cefe-4985-9ec3-db7604cad3d8))
-    (pad "" smd custom (at 1.6875 1.6875) (size 0.890668 0.890668) (layers "F.Paste")
+    (pad "" smd custom locked (at 1.6875 1.6875) (size 0.890668 0.890668) (layers "F.Paste")
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1324,155 +1459,155 @@
           )
           (width 0.234229) (fill yes))
       ) (tstamp 881afc62-a237-42c7-8834-7bdc0c9869ad))
-    (pad "1" smd roundrect (at -4.1625 -2.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -4.1625 -2.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pinfunction "TST_MODE") (pintype "input") (tstamp e17b13bb-662a-4e7d-8628-dca074eabcd6))
-    (pad "2" smd roundrect (at -4.1625 -2.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at -4.1625 -2.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 21 "/tmc5130/CLOCK") (pinfunction "CLK") (pintype "input") (tstamp 52403116-3de4-4c75-a661-46f88fbd25e5))
-    (pad "3" smd roundrect (at -4.1625 -1.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "3" smd roundrect locked (at -4.1625 -1.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "unconnected-(U401-~{CS}_CFG3-Pad3)") (pinfunction "~{CS}_CFG3") (pintype "input+no_connect") (tstamp 785b99cb-0cc5-4d0a-bed6-eb7ea4f5e8c9))
-    (pad "4" smd roundrect (at -4.1625 -1.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "4" smd roundrect locked (at -4.1625 -1.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "unconnected-(U401-SCK_CFG2-Pad4)") (pinfunction "SCK_CFG2") (pintype "input+no_connect") (tstamp 1d51697f-bfcc-4acc-9278-88413c6c0bdc))
-    (pad "5" smd roundrect (at -4.1625 -0.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "5" smd roundrect locked (at -4.1625 -0.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 17 "unconnected-(U401-SDI_NAI_CFG1-Pad5)") (pinfunction "SDI_NAI_CFG1") (pintype "input+no_connect") (tstamp 656430eb-b130-41a3-a5a1-eedd12b70086))
-    (pad "6" smd roundrect (at -4.1625 -0.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "6" smd roundrect locked (at -4.1625 -0.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 20 "unconnected-(U401-NC-Pad6)") (pinfunction "NC") (pintype "no_connect") (tstamp d6f76ceb-1a57-43b1-ab96-9e2c1acce364))
-    (pad "7" smd roundrect (at -4.1625 0.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "7" smd roundrect locked (at -4.1625 0.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 24 "unconnected-(U401-SDO_NAO_CFG0-Pad7)") (pinfunction "SDO_NAO_CFG0") (pintype "bidirectional+no_connect") (tstamp 721ac315-edd0-498f-b6ba-9793d2a5aea3))
-    (pad "8" smd roundrect (at -4.1625 0.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "8" smd roundrect locked (at -4.1625 0.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 25 "unconnected-(U401-REFL_STEP-Pad8)") (pinfunction "REFL_STEP") (pintype "input+no_connect") (tstamp cd4d6948-ef23-415f-bff6-5bca7291a2ea))
-    (pad "9" smd roundrect (at -4.1625 1.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "9" smd roundrect locked (at -4.1625 1.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pinfunction "REFR_DIR") (pintype "input") (tstamp 5a275708-0d5b-4309-90da-e182c386ee1b))
-    (pad "10" smd roundrect (at -4.1625 1.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 23 "/VIO") (pinfunction "VCC_IO") (pintype "power_in") (tstamp b2556a4b-3ad2-459c-b5a1-9c53e6aae8ae))
-    (pad "11" smd roundrect (at -4.1625 2.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "10" smd roundrect locked (at -4.1625 1.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 23 "/+5V") (pinfunction "VCC_IO") (pintype "power_in") (tstamp b2556a4b-3ad2-459c-b5a1-9c53e6aae8ae))
+    (pad "11" smd roundrect locked (at -4.1625 2.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pinfunction "SD_MODE") (pintype "input") (tstamp 556113c1-a384-4d2d-8ad6-4e817cc83eda))
-    (pad "12" smd roundrect (at -4.1625 2.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 23 "/VIO") (pinfunction "SPI_MODE") (pintype "input") (tstamp 9e4f44dd-e6d3-4613-8fd9-30e8210380b6))
-    (pad "13" smd roundrect (at -2.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "12" smd roundrect locked (at -4.1625 2.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 23 "/+5V") (pinfunction "SPI_MODE") (pintype "input") (tstamp 9e4f44dd-e6d3-4613-8fd9-30e8210380b6))
+    (pad "13" smd roundrect locked (at -2.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pinfunction "GNDP") (pintype "power_in") (tstamp f2289fb9-8c26-4bf5-b0cb-075a5bfa8faa))
-    (pad "14" smd roundrect (at -2.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "14" smd roundrect locked (at -2.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "unconnected-(U401-DNC-Pad14)") (pinfunction "DNC") (pintype "no_connect") (tstamp 789eaa28-f3e2-4dac-9dec-2f245859bd2d))
-    (pad "15" smd roundrect (at -1.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "15" smd roundrect locked (at -1.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 10 "/tmc5130/BMB1") (pinfunction "OB1") (pintype "output") (tstamp d1bdf92a-9e37-41fc-9713-1abeb6806cf2))
-    (pad "16" smd roundrect (at -1.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "16" smd roundrect locked (at -1.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 27 "unconnected-(U401-DNC-Pad16)") (pinfunction "DNC") (pintype "no_connect") (tstamp 4de3a284-ba87-4fc1-a15d-dad72aa7703d))
-    (pad "17" smd roundrect (at -0.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "17" smd roundrect locked (at -0.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 12 "/tmc5130/BRB") (pinfunction "BRB") (pintype "passive") (tstamp 2f6dd201-8dc9-43d9-9a7d-5b5abc378a9a))
-    (pad "18" smd roundrect (at -0.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "18" smd roundrect locked (at -0.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 28 "unconnected-(U401-DNC-Pad18)") (pinfunction "DNC") (pintype "no_connect") (tstamp eca938f9-6d13-47f5-9b0e-20ad8d0c71e4))
-    (pad "19" smd roundrect (at 0.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "19" smd roundrect locked (at 0.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "/tmc5130/BMB2") (pinfunction "OB2") (pintype "output") (tstamp 19b09775-7874-4c85-99fc-9be4bf879d33))
-    (pad "20" smd roundrect (at 0.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "20" smd roundrect locked (at 0.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "unconnected-(U401-DNC-Pad20)") (pinfunction "DNC") (pintype "no_connect") (tstamp dd3bee70-31bc-47a3-86b1-fd87475a957b))
-    (pad "21" smd roundrect (at 1.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "/VM") (pinfunction "VS") (pintype "power_in") (tstamp e23dfd28-cfbc-4037-9e4f-f5aa4c80e37a))
-    (pad "22" smd roundrect (at 1.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "21" smd roundrect locked (at 1.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 22 "/VAA") (pinfunction "VS") (pintype "power_in") (tstamp e23dfd28-cfbc-4037-9e4f-f5aa4c80e37a))
+    (pad "22" smd roundrect locked (at 1.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 30 "unconnected-(U401-DNC-Pad22)") (pinfunction "DNC") (pintype "no_connect") (tstamp 1f18334c-eba9-4789-9d1a-12f63e8182d5))
-    (pad "23" smd roundrect (at 2.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "23" smd roundrect locked (at 2.25 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pinfunction "ENCN_DCO") (pintype "bidirectional") (tstamp aa5eb776-6118-497c-8be7-23d7ee59293b))
-    (pad "24" smd roundrect (at 2.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "24" smd roundrect locked (at 2.75 4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 31 "unconnected-(U401-ENCB_DCEN_CFG4-Pad24)") (pinfunction "ENCB_DCEN_CFG4") (pintype "input+no_connect") (tstamp 6138e429-cac4-4c07-beda-b564684f6044))
-    (pad "25" smd roundrect (at 4.1625 2.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "25" smd roundrect locked (at 4.1625 2.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 32 "unconnected-(U401-ENCA_DCIN_CFG5-Pad25)") (pinfunction "ENCA_DCIN_CFG5") (pintype "input+no_connect") (tstamp 6be36c65-10fd-4e5a-a3bb-50d8342167b6))
-    (pad "26" smd roundrect (at 4.1625 2.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "26" smd roundrect locked (at 4.1625 2.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 18 "/SWN") (pinfunction "SWN_DIAG0") (pintype "bidirectional") (tstamp fb9cb132-9500-445c-8e50-b4c7bf9e8b00))
-    (pad "27" smd roundrect (at 4.1625 1.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "27" smd roundrect locked (at 4.1625 1.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 19 "/SWP") (pinfunction "SWP_DIAG1") (pintype "bidirectional") (tstamp bd606fae-8c1b-454f-a79e-7605b179c2ea))
-    (pad "28" smd roundrect (at 4.1625 1.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 23 "/VIO") (pinfunction "SWSEL") (pintype "input") (tstamp 1610f4c4-ac22-47e1-80f4-e6307ea31d92))
-    (pad "29" smd roundrect (at 4.1625 0.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "28" smd roundrect locked (at 4.1625 1.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 23 "/+5V") (pinfunction "SWSEL") (pintype "input") (tstamp 1610f4c4-ac22-47e1-80f4-e6307ea31d92))
+    (pad "29" smd roundrect locked (at 4.1625 0.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pinfunction "~{DRV_EN}_CFG6") (pintype "input") (tstamp 1c4ecb27-965b-4b3a-971f-fb7129637431))
-    (pad "30" smd roundrect (at 4.1625 0.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "30" smd roundrect locked (at 4.1625 0.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pinfunction "AIN_IREF") (pintype "input") (tstamp 210933ce-fd86-463e-99ac-35f56d3ed4fd))
-    (pad "31" smd roundrect (at 4.1625 -0.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "31" smd roundrect locked (at 4.1625 -0.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 33 "unconnected-(U401-NC-Pad31)") (pinfunction "NC") (pintype "no_connect") (tstamp 961b5828-c9b2-46ad-b69a-924227318cea))
-    (pad "32" smd roundrect (at 4.1625 -0.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "32" smd roundrect locked (at 4.1625 -0.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pinfunction "GNDA") (pintype "power_in") (tstamp b011d61e-7934-40fe-b4b3-5daaab1f922d))
-    (pad "33" smd roundrect (at 4.1625 -1.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "33" smd roundrect locked (at 4.1625 -1.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "/tmc5130/5VOUT") (pinfunction "5VOUT") (pintype "power_out") (tstamp 08c1f71b-a610-48f2-8fc8-f68e821a48f4))
-    (pad "34" smd roundrect (at 4.1625 -1.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "34" smd roundrect locked (at 4.1625 -1.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "/tmc5130/VCC") (pinfunction "VCC") (pintype "power_in") (tstamp d9344562-d005-47db-94c8-313e44bf7fb6))
-    (pad "35" smd roundrect (at 4.1625 -2.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "35" smd roundrect locked (at 4.1625 -2.25) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "/tmc5130/CPO") (pinfunction "CP0") (pintype "passive") (tstamp 10afd6f4-d8d2-48d6-9c03-89cb0306b545))
-    (pad "36" smd roundrect (at 4.1625 -2.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "36" smd roundrect locked (at 4.1625 -2.75) (size 1.475 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 34 "unconnected-(U401-NC-Pad36)") (pinfunction "NC") (pintype "no_connect") (tstamp d22a1e10-353f-4405-95b7-d09911572eac))
-    (pad "37" smd roundrect (at 2.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "37" smd roundrect locked (at 2.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "/tmc5130/CPI") (pinfunction "CPI") (pintype "passive") (tstamp 3abf978b-c391-47c1-b44c-38d20083894e))
-    (pad "38" smd roundrect (at 2.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "38" smd roundrect locked (at 2.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/tmc5130/VCP") (pinfunction "VCP") (pintype "passive") (tstamp 71e6037c-1e80-4b02-af7c-6114864b05dd))
-    (pad "39" smd roundrect (at 1.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "/VM") (pinfunction "VSA") (pintype "power_in") (tstamp 36669446-623c-47e4-8a9d-9f9e1add23c5))
-    (pad "40" smd roundrect (at 1.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "/VM") (pinfunction "VS") (pintype "power_in") (tstamp 6b7fb22e-6883-4cf9-b426-c1df08966f5f))
-    (pad "41" smd roundrect (at 0.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "39" smd roundrect locked (at 1.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 22 "/VAA") (pinfunction "VSA") (pintype "power_in") (tstamp 36669446-623c-47e4-8a9d-9f9e1add23c5))
+    (pad "40" smd roundrect locked (at 1.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 22 "/VAA") (pinfunction "VS") (pintype "power_in") (tstamp 6b7fb22e-6883-4cf9-b426-c1df08966f5f))
+    (pad "41" smd roundrect locked (at 0.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 35 "unconnected-(U401-DNC-Pad41)") (pinfunction "DNC") (pintype "no_connect") (tstamp e6001f1e-06ca-4f6c-8863-4926f84e4385))
-    (pad "42" smd roundrect (at 0.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "42" smd roundrect locked (at 0.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "/tmc5130/BMA2") (pinfunction "OA2") (pintype "output") (tstamp 20dd4cf3-eb2c-45cc-83c9-f58fba2bb1dd))
-    (pad "43" smd roundrect (at -0.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "43" smd roundrect locked (at -0.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 36 "unconnected-(U401-DNC-Pad43)") (pinfunction "DNC") (pintype "no_connect") (tstamp 7e158f76-9afe-4d6e-82ef-5db1c4ccd1b0))
-    (pad "44" smd roundrect (at -0.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "44" smd roundrect locked (at -0.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 7 "/tmc5130/BRA") (pinfunction "BRA") (pintype "passive") (tstamp f6a2163d-6306-47a2-9947-b28bff00c381))
-    (pad "45" smd roundrect (at -1.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "45" smd roundrect locked (at -1.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 37 "unconnected-(U401-DNC-Pad45)") (pinfunction "DNC") (pintype "no_connect") (tstamp b6170789-2621-4f24-87a8-4a93f7933c02))
-    (pad "46" smd roundrect (at -1.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "46" smd roundrect locked (at -1.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 8 "/tmc5130/BMA1") (pinfunction "OA1") (pintype "output") (tstamp e6cd714d-81f0-4c21-b04b-0b55615e2248))
-    (pad "47" smd roundrect (at -2.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "47" smd roundrect locked (at -2.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 38 "unconnected-(U401-DNC-Pad47)") (pinfunction "DNC") (pintype "no_connect") (tstamp a74e1b87-4349-4cec-ba9c-7b6a9819a653))
-    (pad "48" smd roundrect (at -2.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "48" smd roundrect locked (at -2.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pinfunction "GNDP") (pintype "passive") (tstamp 78c49dac-14f0-4108-9812-e364b8587108))
-    (pad "49" thru_hole circle (at -2.25 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -2.25 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 7bef336e-55a6-416c-a50c-c0a312838f3e))
-    (pad "49" thru_hole circle (at -2.25 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -2.25 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp bff17c21-ba5f-4adf-bacd-453441c29832))
-    (pad "49" thru_hole circle (at -2.25 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -2.25 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 20f2e806-3f2a-4079-a0d0-7d843a5eeb4b))
-    (pad "49" thru_hole circle (at -2.25 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -2.25 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 54c1e9d5-4885-4221-bb58-95d314e467e7))
-    (pad "49" thru_hole circle (at -2.25 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -2.25 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 6cad9611-cfd1-4ecd-977d-3516ae6c5d82))
-    (pad "49" thru_hole circle (at -1.125 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -1.125 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 2c6450ee-dd51-47cd-8fce-e39fde3c9edb))
-    (pad "49" thru_hole circle (at -1.125 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -1.125 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp e188cc36-4077-4024-a60c-9206b9b88ccf))
-    (pad "49" thru_hole circle (at -1.125 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -1.125 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp ac0ab498-790a-4df9-a350-4a3043af4e21))
-    (pad "49" thru_hole circle (at -1.125 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -1.125 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp f8cd70b0-f1b0-4ab9-ab7d-9d70b32a16df))
-    (pad "49" thru_hole circle (at -1.125 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at -1.125 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 42e77744-3be7-4d64-aaa9-ec6c49e42594))
-    (pad "49" thru_hole circle (at 0 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 0 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp b2650f9a-181e-4063-aa75-c2b015452f34))
-    (pad "49" thru_hole circle (at 0 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 0 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 66d1d5e4-7563-4f57-a5bc-db515b0cbc8d))
-    (pad "49" thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 0 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 08603638-3be2-4fc9-94de-5ffc47d34e56))
-    (pad "49" smd rect (at 0 0) (size 5 5) (property pad_prop_heatsink) (layers "F.Cu" "F.Mask")
+    (pad "49" smd rect locked (at 0 0) (size 5 5) (property pad_prop_heatsink) (layers "F.Cu" "F.Mask")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (zone_connect 2) (tstamp d3f89d8b-2832-45d0-b303-fe7de8e6e2a4))
-    (pad "49" smd rect (at 0 0) (size 5 5) (property pad_prop_heatsink) (layers "B.Cu")
+    (pad "49" smd rect locked (at 0 0) (size 5 5) (property pad_prop_heatsink) (layers "B.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (zone_connect 2) (tstamp 79e3ffd2-77d9-4460-aa92-bd76ef61e089))
-    (pad "49" thru_hole circle (at 0 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 0 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 84dff3bd-4672-48ae-aff7-7f650b1811e8))
-    (pad "49" thru_hole circle (at 0 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 0 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 906f95b1-729c-4cb3-8451-ecf55665b39c))
-    (pad "49" thru_hole circle (at 1.125 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 1.125 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp efa79028-c8cd-4277-a9d0-f2e972b97cfd))
-    (pad "49" thru_hole circle (at 1.125 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 1.125 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp c2c7024d-9707-4d68-8a16-4cc643e80d49))
-    (pad "49" thru_hole circle (at 1.125 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 1.125 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 8e08e738-61c5-4de1-a4ba-6cb8f02d90e0))
-    (pad "49" thru_hole circle (at 1.125 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 1.125 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp a02f2b4f-78c2-4224-9f89-e4f3b77fe2c6))
-    (pad "49" thru_hole circle (at 1.125 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 1.125 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp b41075cb-1511-4176-96d4-16096060795d))
-    (pad "49" thru_hole circle (at 2.25 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 2.25 -2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 98baecf1-9eb3-4f7c-978d-92af9ce3adc4))
-    (pad "49" thru_hole circle (at 2.25 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 2.25 -1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 7b0dc88a-1e2e-486c-a9e3-f143799eed7f))
-    (pad "49" thru_hole circle (at 2.25 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 2.25 0) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 6b4b5b30-bcb6-4ac4-9fcf-79eb6edfa742))
-    (pad "49" thru_hole circle (at 2.25 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 2.25 1.125) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp e23146c8-383e-44a4-a4c5-b54b156e0277))
-    (pad "49" thru_hole circle (at 2.25 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
+    (pad "49" thru_hole circle locked (at 2.25 2.25) (size 0.5 0.5) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu")
       (net 1 "/GND") (pinfunction "EP") (pintype "power_in") (tstamp 976b3f0d-46d9-4bd8-af36-7f1dba339e3e))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm.step"
       (offset (xyz 0 0 0))
@@ -1481,7 +1616,7 @@
     )
   )
 
-  (footprint "Janelia:C_0402_1005Metric" (layer "F.Cu")
+  (footprint "Janelia:C_0402_1005Metric" locked (layer "F.Cu")
     (tstamp 79c27d2f-73ea-4a9d-aab2-cccd37e16c33)
     (at 154.4 108.6)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1530,9 +1665,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 22a5500a-df01-40de-8edc-b0e8e519b178))
     (fp_line (start 0.5 0.25) (end -0.5 0.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c3f91b55-b3a3-4192-b8c7-f9b5c3caec5f))
-    (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "/VM") (pintype "passive") (tstamp be919210-64c9-4be9-95c8-a9a0f7b33a78))
-    (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 22 "/VAA") (pintype "passive") (tstamp be919210-64c9-4be9-95c8-a9a0f7b33a78))
+    (pad "2" smd roundrect locked (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pintype "passive") (tstamp 5c279d08-3eb6-49c4-9b3a-8e42020d4938))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_0402_1005Metric.step"
       (offset (xyz 0 0 0))
@@ -1711,7 +1846,7 @@
     (fp_line (start 0.5 0.25) (end -0.5 0.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 27761888-374d-4cc0-9277-34b9a322ff81))
     (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 23 "/VIO") (pintype "passive") (tstamp 40fa78a5-9d5a-4ea9-80a8-67e0a62a1bd3))
+      (net 23 "/+5V") (pintype "passive") (tstamp 40fa78a5-9d5a-4ea9-80a8-67e0a62a1bd3))
     (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pintype "passive") (tstamp 53b1c706-aab7-4590-a314-6420e43a3ba4))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_0402_1005Metric.step"
@@ -1776,7 +1911,7 @@
     (pad "3" smd rect (at 0.925 -0.725 270) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 21 "/tmc5130/CLOCK") (pinfunction "OUT") (pintype "output") (solder_mask_margin 0.102) (tstamp d5518be5-d92f-42d0-9a06-5d3d2da694da))
     (pad "4" smd rect (at -0.925 -0.725 270) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 23 "/VIO") (pinfunction "VDD") (pintype "power_in") (solder_mask_margin 0.102) (tstamp 7a9c631f-ca9c-42d8-b626-b989e935c3a7))
+      (net 23 "/+5V") (pinfunction "VDD") (pintype "power_in") (solder_mask_margin 0.102) (tstamp 7a9c631f-ca9c-42d8-b626-b989e935c3a7))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/ECS-2520S33-160-FN-TR.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1786,7 +1921,7 @@
 
   (footprint "Janelia:C_0402_1005Metric" (layer "F.Cu")
     (tstamp a4dbd98f-520b-4729-aaa3-f6346245c53a)
-    (at 143.4 125.6 180)
+    (at 147.9 107.1)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C162178")
@@ -1833,9 +1968,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 0808b8e6-d9e1-4113-b988-4876003c8166))
     (fp_line (start 0.5 0.25) (end -0.5 0.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d4bcfe6a-d1df-49e8-94db-ba31d901e896))
-    (pad "1" smd roundrect (at -0.48 0 180) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "/VM") (pintype "passive") (tstamp 8561757b-31c1-4b16-ac1d-7d76e04f6cab))
-    (pad "2" smd roundrect (at 0.48 0 180) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 22 "/VAA") (pintype "passive") (tstamp 8561757b-31c1-4b16-ac1d-7d76e04f6cab))
+    (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pintype "passive") (tstamp e314bd9e-0869-4d2a-8fc7-deedd2a4a43e))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_0402_1005Metric.step"
       (offset (xyz 0 0 0))
@@ -1878,7 +2013,7 @@
       (net 1 "/GND") (pinfunction "1") (pintype "input") (tstamp 40d7b869-2c51-4b1d-9db8-0adc032b78c9))
   )
 
-  (footprint "Janelia:CAP_EEEFTH101XAV" (layer "F.Cu")
+  (footprint "Janelia:CAP_EEEFTH101XAV" locked (layer "F.Cu")
     (tstamp abdf9a01-4644-4669-af94-6834d05aa01e)
     (at 154.4 115.6)
     (property "LCSC" "C6942344")
@@ -2045,8 +2180,8 @@
       (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 57e5d2a6-6844-470a-8b65-d22779c99cb2))
     (fp_circle (center -4.15 -1.35) (end -3.9 -1.35)
       (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Fab") (tstamp fb1b75bf-71ef-416c-9d69-b1b212bca5e3))
-    (pad "1" smd custom (at -2.55 0) (size 1.8 1.8) (layers "F.Cu")
-      (net 22 "/VM") (pintype "passive")
+    (pad "1" smd custom locked (at -2.55 0) (size 1.8 1.8) (layers "F.Cu")
+      (net 22 "/VAA") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -2066,7 +2201,7 @@
           )
           (width 0.01) (fill yes))
       ) (tstamp 34a2bf14-7666-4b0d-8b44-84a81134627e))
-    (pad "2" smd custom (at 2.55 0 180) (size 1.8 1.8) (layers "F.Cu")
+    (pad "2" smd custom locked (at 2.55 0 180) (size 1.8 1.8) (layers "F.Cu")
       (net 1 "/GND") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2215,7 +2350,7 @@
 
   (footprint "Janelia:C_0402_1005Metric" (layer "F.Cu")
     (tstamp c00dbc5a-31b9-49ce-8a22-b3e80e6dd5d3)
-    (at 135.15 127.85 -90)
+    (at 141.4 108.1 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C711085")
@@ -2306,7 +2441,7 @@
 
   (footprint "Janelia:C_0402_1005Metric" (layer "F.Cu")
     (tstamp d3d58171-f783-4e86-a062-1aa125fd03de)
-    (at 128.15 127.85 -90)
+    (at 147.9 106.1)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C711085")
@@ -2321,15 +2456,15 @@
     (property "ki_description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)")
     (path "/c1dd8f61-494c-402f-8e59-08309c64fc3f/455a930b-8cf4-42af-b416-8e90691786c6")
     (attr smd)
-    (fp_text reference "C304" (at 0 -0.75 -90) (layer "F.SilkS")
+    (fp_text reference "C304" (at 0 -0.75) (layer "F.SilkS")
         (effects (font (size 0.5 0.5) (thickness 0.125) bold))
       (tstamp f5894d75-d256-410d-bceb-df6de44c1f98)
     )
-    (fp_text value "1uF_25V" (at 0 0.75 -90) (layer "F.Fab")
+    (fp_text value "1uF_25V" (at 0 0.75) (layer "F.Fab")
         (effects (font (size 0.5 0.5) (thickness 0.125) bold))
       (tstamp 61946392-89b6-4701-814b-bfe050fff34a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
         (effects (font (size 0.25 0.25) (thickness 0.0625) bold))
       (tstamp f0dbe920-36c1-4c20-997b-ed64d7f03131)
     )
@@ -2353,9 +2488,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 05e6cfc8-9e40-4e55-aaca-f7f1d3d3d8ad))
     (fp_line (start 0.5 0.25) (end -0.5 0.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 0a41dc33-c8f8-4097-a128-eb0e7ba421da))
-    (pad "1" smd roundrect (at -0.48 0 270) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 23 "/VIO") (pintype "passive") (tstamp 814be18e-5711-401a-af13-216c605577e4))
-    (pad "2" smd roundrect (at 0.48 0 270) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 23 "/+5V") (pintype "passive") (tstamp 814be18e-5711-401a-af13-216c605577e4))
+    (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "/GND") (pintype "passive") (tstamp 63410611-21c4-44cf-a50b-350434f21be5))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/C_0402_1005Metric.step"
       (offset (xyz 0 0 0))
@@ -2366,7 +2501,7 @@
 
   (footprint "Janelia:RDN0011A-MFG" (layer "F.Cu")
     (tstamp d4c37be9-f563-4d96-bbd8-2a9384e0762a)
-    (at 131.4 129.1 -90)
+    (at 144.4 106.1 180)
     (tags "TPSM365R6V5RDNR ")
     (property "LCSC" "C19078014")
     (property "Manufacturer" "Texas Instruments")
@@ -2380,21 +2515,21 @@
     (property "ki_keywords" "TPSM365R6V5RDNR")
     (path "/c1dd8f61-494c-402f-8e59-08309c64fc3f/4b82759e-720a-45a6-b75a-115229291672")
     (attr smd)
-    (fp_text reference "U301" (at 0 3.25 -90 unlocked) (layer "F.SilkS")
+    (fp_text reference "U301" (at 0 3.25 180 unlocked) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.25) bold))
-      (tstamp 99d2ecc1-dfe0-4437-9cde-d2a656efca8e)
+      (tstamp 6f0d603d-b93d-46c3-9e56-e84fba163e0e)
     )
-    (fp_text value "TPSM365R6V5RDNR" (at 0 0 -90 unlocked) (layer "F.Fab") hide
+    (fp_text value "TPSM365R6V5RDNR" (at 0 0 180 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 84faff91-3d02-4838-b06c-b578b5c18f8b)
+      (tstamp ea5b5e90-d6e1-4ec8-8692-62a456020660)
     )
-    (fp_text user "Designator402" (at -2.4892 -3.937 -90 unlocked) (layer "F.SilkS") hide
+    (fp_text user "Designator402" (at -2.4892 -3.937 180 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 8ed4d3a1-6d78-4c07-8b40-bf468edfbcaf)
+      (tstamp 993db0f5-d03e-4088-b757-09fd6fbd17a0)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 180 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 18d6ca8f-a5c3-48fc-8c3a-09f8adedbcc1)
+      (tstamp 6d4b4524-e340-4221-9a24-95882c6d30c4)
     )
     (fp_poly
       (pts
@@ -2416,7 +2551,7 @@
         (xy -0.2 -1.515001)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 1aea1e2b-4e62-46a3-a86b-3c7fa18a0fc6))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 1c423ddc-43a0-4f03-826a-821e5a43ee10))
     (fp_poly
       (pts
         (xy -1.950001 -2.0995)
@@ -2429,7 +2564,7 @@
         (xy -1.950001 -1.8245)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp d17d33ed-96ad-46d6-bce5-3a903dbd2115))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp c956b3d3-0be4-409b-8bfb-1277d1aa38ce))
     (fp_poly
       (pts
         (xy -1.899999 -1.024999)
@@ -2442,7 +2577,7 @@
         (xy -0.900001 -1.024999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp d455c7ff-4f3d-4c4e-8f4c-bf2bb1e77a1f))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp df6785cd-e829-4cb3-8310-e0e6f75424a7))
     (fp_poly
       (pts
         (xy -1.5745 0.225001)
@@ -2455,7 +2590,7 @@
         (xy -1.6245 0.175001)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 36f33583-053b-499b-9b10-0743be2ff5c7))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp bebd47c0-2f97-42e6-b64a-2035def034c2))
     (fp_poly
       (pts
         (xy -1.5745 0.725)
@@ -2468,7 +2603,7 @@
         (xy -1.6245 0.675)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 906e080d-6d4f-495a-8306-3a68715ff54b))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 5061c2e3-e6a6-4bc3-97af-579a39c5c57a))
     (fp_poly
       (pts
         (xy -1.5745 1.224999)
@@ -2481,7 +2616,7 @@
         (xy -1.6245 1.174999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp c486dc8f-29f0-4342-8531-7cedbc948ea4))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 33420b8c-1275-4c25-86f2-3e1b952bac39))
     (fp_poly
       (pts
         (xy -1.5745 1.725)
@@ -2494,7 +2629,7 @@
         (xy -1.6245 1.675)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 06cb1814-f0a5-43c9-9633-c2bb97dc0490))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 87be184a-9be6-4846-abc9-c34209c747dd))
     (fp_poly
       (pts
         (xy -1.38 0.442501)
@@ -2507,7 +2642,7 @@
         (xy -1.33 0.492501)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp b0e2475d-9afd-4b32-832f-1bb2b85108da))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp c4808b7d-41bf-462f-8a8c-acafaa5a5ab9))
     (fp_poly
       (pts
         (xy -1.33 1.31)
@@ -2520,7 +2655,7 @@
         (xy -0.499999 1.31)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp b23329ad-8a7a-4a6a-9a5a-ed085ca58d03))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 45ac54d5-8eaa-42ab-9183-87a2d2357f0e))
     (fp_poly
       (pts
         (xy -1.33 1.512499)
@@ -2533,7 +2668,7 @@
         (xy -1.38 1.562499)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp b6686120-81d2-4556-93e6-695b3d2ed8af))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 041bb4ab-6f1c-4b77-8fd2-1c886520657a))
     (fp_poly
       (pts
         (xy -0.900001 -0.775)
@@ -2546,7 +2681,7 @@
         (xy -1.899999 -0.775)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 245ac486-0f17-4111-8f2a-12cfc875fc03))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp b611f5ed-78fa-4617-b35c-5cc5195ecfc3))
     (fp_poly
       (pts
         (xy -0.425 -1.649999)
@@ -2559,7 +2694,7 @@
         (xy -0.375001 -1.699999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 0597dfa5-cdb8-4357-a0d1-1ebbc033c5b3))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp d9c0a0c0-7a99-4324-a150-c600d169aaa1))
     (fp_poly
       (pts
         (xy -0.15 -2.3995)
@@ -2572,7 +2707,7 @@
         (xy -0.15 -0.974499)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp d33fb19a-4db7-4afb-91e4-9536429c0b89))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp c80f3e48-4f5c-4889-91d9-b3fa6c090139))
     (fp_poly
       (pts
         (xy 0.449999 1.26)
@@ -2585,7 +2720,7 @@
         (xy 0.499999 1.31)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 14242c31-7809-4d89-96b6-26e28b71dddc))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 0ca42f3c-790f-43f2-8dca-24673ff6f5a0))
     (fp_poly
       (pts
         (xy 0.575 -1.649999)
@@ -2598,7 +2733,7 @@
         (xy 0.625 -1.699999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 2a0eaf2f-3efd-4981-8fbb-3e93ad2a924e))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 3e88260e-454f-4377-a8a0-9a9e887d23ca))
     (fp_poly
       (pts
         (xy 0.850001 -1.074999)
@@ -2611,7 +2746,7 @@
         (xy 0.900001 -1.024999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 3a01b07b-8b38-4f45-bd13-6233a5f0f167))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 14c25ca2-fbc4-4dc7-962c-a1cfbcd2544e))
     (fp_poly
       (pts
         (xy 0.850001 -0.725)
@@ -2624,7 +2759,7 @@
         (xy 0.850001 -0.575)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 4899bd13-71bd-446c-9a15-0c42fc3fcbd5))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 86ee00f9-4b7a-45ba-8e40-0b27af0da132))
     (fp_poly
       (pts
         (xy 1.33 0.492501)
@@ -2637,7 +2772,7 @@
         (xy 1.38 0.442501)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp b0ae9167-435f-4f04-8fc4-76d0eb4f30b4))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp ff195458-1845-47aa-b8ce-31ede46683ff))
     (fp_poly
       (pts
         (xy 1.38 1.562499)
@@ -2650,7 +2785,7 @@
         (xy 1.33 1.512499)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp d2d49ff4-7bb3-40ad-99ac-7b0373bcf141))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp eedfe0b4-a957-4008-b175-25fd663daac2))
     (fp_poly
       (pts
         (xy 1.949501 0.225001)
@@ -2663,7 +2798,7 @@
         (xy 1.899501 0.175001)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 7ba5d0ba-8eca-4023-b499-f982061c6cd9))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 91795037-8365-471d-942f-ab51dc47fc56))
     (fp_poly
       (pts
         (xy 1.949501 0.725)
@@ -2676,7 +2811,7 @@
         (xy 1.899501 0.675)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 0453a96d-1c0d-4a84-94f0-deef4b29fa92))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 92ce1093-e67c-4f1a-a93c-e71b532091da))
     (fp_poly
       (pts
         (xy 1.949501 1.224999)
@@ -2689,7 +2824,7 @@
         (xy 1.899501 1.174999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 7113a55b-1f43-4153-91b4-0feb45d328f7))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 774dad2b-0aa1-409f-a05e-57f338c47d8c))
     (fp_poly
       (pts
         (xy 1.949501 1.725)
@@ -2702,7 +2837,7 @@
         (xy 1.899501 1.675)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 046a217c-419a-4676-8134-745c93f5693f))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 8f260db3-84b8-4c01-bf2d-6c8b1c504a53))
     (fp_poly
       (pts
         (xy 1.950001 -2.0995)
@@ -2715,23 +2850,23 @@
         (xy 1.899999 -2.1495)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 851b7610-7c87-4ab9-948c-0bd6ecf3c145))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp f654ef95-bb4e-40f6-a545-f9aa14131a22))
     (fp_line (start -2.100001 -2.6) (end -1.05 -2.6)
-      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 63bca0d2-3d06-4108-bdf1-38b0f794cc41))
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 1b7a1363-2034-4e1e-b70d-b3905e4cb3ef))
     (fp_line (start -2.100001 -2.574501) (end -2.100001 -2.6)
-      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 69d4797d-025e-4fb6-9eed-d726e7c234ae))
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 8309b057-07a4-4151-89bc-f147ad687c28))
     (fp_line (start -2.100001 2.424999) (end -2.100001 2.274999)
-      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp eab4c128-c507-4f3b-9780-4a0db45a0e3c))
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 90532601-6d37-4e06-9eb9-b1d6ac283cb5))
     (fp_line (start -2.100001 2.424999) (end 2.100001 2.424999)
-      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp b90f56d0-f2a9-477d-be3d-aa622ea4037c))
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 01a59198-12f3-49cb-8615-10fe2ade7488))
     (fp_line (start 1.05 -2.6) (end 2.100001 -2.6)
-      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 2a8c3f93-6435-49a1-a3ba-ab63c395cb17))
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 4676b15f-2fe3-430d-adc0-a01797d27dfa))
     (fp_line (start 2.100001 -2.574501) (end 2.100001 -2.6)
-      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp a90f991a-dace-4d09-bf68-30450c19ada1))
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp ab12658f-0f61-485b-9362-7a796e339498))
     (fp_line (start 2.100001 2.424999) (end 2.100001 2.274999)
-      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp d80cdfe6-cce1-4cfd-9259-f0445f8a711e))
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 274e89de-aa1d-4e4c-8888-4d96cc1caea0))
     (fp_circle (center -2.5 -1.962) (end -2.25 -1.962)
-      (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 47376d6d-cf08-4e22-a3af-826d32bc9701))
+      (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 7efa2074-13de-4816-b703-7f54cbd27bd9))
     (fp_poly
       (pts
         (xy -1.950001 -2.0995)
@@ -2744,7 +2879,7 @@
         (xy -1.950001 -1.8245)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp be449c3e-1407-4155-b570-1d7b312283ef))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 7d38d91c-c19c-41fa-bf43-574bd9c2ce24))
     (fp_poly
       (pts
         (xy -1.899999 -1.024999)
@@ -2757,7 +2892,7 @@
         (xy -0.900001 -1.024999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp aa88cf25-6b97-4c72-ba07-79778b8f994e))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp d23acb6b-4985-4800-99e0-fe3489eb4773))
     (fp_poly
       (pts
         (xy -0.900001 -0.775)
@@ -2770,7 +2905,7 @@
         (xy -1.899999 -0.775)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 63d40e33-9897-4741-a3ab-5a4fe0665a6a))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 633c1581-76e6-41ce-9946-e97c781edf22))
     (fp_poly
       (pts
         (xy -0.425 -1.649999)
@@ -2783,7 +2918,7 @@
         (xy -0.375001 -1.699999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp c4207c4c-7439-4049-a945-0c473f6517a8))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp fd958b7c-77d9-444f-9853-23c686857bc3))
     (fp_poly
       (pts
         (xy -0.15 -2.3995)
@@ -2796,7 +2931,7 @@
         (xy -0.15 -0.974499)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 6bd5d724-b824-47d9-80ed-c91505e49f8d))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 9b5aaced-0ae2-4de9-a6f6-50e014a013f7))
     (fp_poly
       (pts
         (xy 0.575 -1.649999)
@@ -2809,7 +2944,7 @@
         (xy 0.625 -1.699999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 7e50a5f3-4441-4278-bf8b-c748e5002d2f))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 5a44ffcd-d4fb-4f4c-a913-7993d6ec610a))
     (fp_poly
       (pts
         (xy 0.850001 -1.074999)
@@ -2822,7 +2957,7 @@
         (xy 0.900001 -1.024999)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 378a684e-29a4-4ea0-bea4-2661b17b20bd))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 57b45c17-75fa-4145-9e41-a03944cfe4d0))
     (fp_poly
       (pts
         (xy 0.850001 -0.725)
@@ -2835,7 +2970,7 @@
         (xy 0.850001 -0.575)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 1909cba9-bcc3-4391-bd6b-9b04592d4a23))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 5dabd9d3-f7a3-4a0d-a07b-84fbcdead9fb))
     (fp_poly
       (pts
         (xy 1.950001 -2.0995)
@@ -2848,7 +2983,7 @@
         (xy 1.899999 -2.1495)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 067099c2-5d53-456f-a6eb-3d52d2f2d42b))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 2b992afa-5b9d-4d4a-8ace-4b6623c63bfd))
     (fp_poly
       (pts
         (xy -0.499996 2.025)
@@ -2893,7 +3028,7 @@
         (xy -1.524998 2.025)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp adf958a8-152e-405a-80b8-7f10e74b2245))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 39c94957-6df9-4d5a-b109-b1891249ea1e))
     (fp_poly
       (pts
         (xy 0.499999 2.025)
@@ -2938,63 +3073,67 @@
         (xy 1.525001 2.025)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 3b45677d-3ea2-4254-b9cf-3abee558edc4))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp f4a2fc6e-18dd-4318-ab48-ba9c438e90d7))
+    (fp_rect (start -2.1 -2.6) (end 2.1 2.2)
+      (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (tstamp f741ea2e-36ee-40bc-bbc8-a09c994f9815))
+    (fp_rect (start -2.1 -2.6) (end 2.1 2.2)
+      (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 489b4b00-acd4-4395-a0e1-40ee3788d353))
     (fp_line (start -1.799999 -2.3) (end 1.799999 -2.3)
-      (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 5af16c3b-19c9-458d-89c8-1a5e11766f79))
+      (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp dcc8dacc-70ae-4e13-acad-4a29d0c44a97))
     (fp_line (start -1.799999 2.3) (end -1.799999 -2.3)
-      (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 94aba14b-70e3-493b-b388-1b6d4156229a))
+      (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 02a7e56e-19b4-4779-a1c7-d62397ab96f6))
     (fp_line (start -1.799999 2.3) (end 1.799999 2.3)
-      (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 0b124fe3-25f2-4d46-984f-bff54d74d824))
+      (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 1fa1a885-4cf4-4d51-9c91-31114bf0d980))
     (fp_line (start 1.799999 2.3) (end 1.799999 -2.3)
-      (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 72ed3e1e-cf3b-41b6-8acc-7a71fc926f3f))
+      (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 1a88ef22-d3f0-40dd-9b3d-39b1ef34c051))
     (fp_circle (center -2.5 -1.962) (end -2.25 -1.962)
-      (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Fab") (tstamp 60647d32-26bc-45ff-9322-528e0b585de0))
-    (pad "1" smd rect (at -1.4 -1.962 270) (size 1.2 0.475) (layers "F.Cu")
-      (net 13 "unconnected-(U301-PGOOD-Pad1)") (pinfunction "PGOOD") (pintype "open_collector+no_connect") (tstamp ce9de32a-9ee9-40ca-9c1d-facc7d64dc1e))
-    (pad "2" smd rect (at -1.4 -1.15 270) (size 1.2 0.349999) (layers "F.Cu")
-      (net 22 "/VM") (pinfunction "EN") (pintype "input") (tstamp 177032d7-5964-4fec-b8a3-8ae78f9a3d9d))
-    (pad "3" thru_hole circle (at -1.729999 -0.650001 270) (size 0.349999 0.349999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 22 "/VM") (pinfunction "VIN") (pintype "power_in") (tstamp 0a99a9ac-5fd4-4e95-803a-ecb642507dcb))
-    (pad "3" smd rect (at -1.4 -0.650001 270) (size 1.2 0.349999) (layers "F.Cu")
-      (net 22 "/VM") (pinfunction "VIN") (pintype "power_in") (tstamp 224833f8-fc2e-41b3-ae45-38a599bd95f2))
-    (pad "3" thru_hole circle (at -1.05 -0.650001 270) (size 0.349999 0.349999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 22 "/VM") (pinfunction "VIN") (pintype "power_in") (tstamp 8bd4465c-f178-449e-bf3b-9859432af567))
-    (pad "4" thru_hole circle (at -1.729999 0.549999 270) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 23 "/VIO") (pinfunction "VOUT") (pintype "unspecified") (tstamp d840833e-e488-4bf5-a9f7-386f4af547cd))
-    (pad "4" thru_hole circle (at -1.729999 1.05 270) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 23 "/VIO") (pinfunction "VOUT") (pintype "unspecified") (tstamp 0ef189a8-b3f7-4ad8-b1df-f98a9a253ad5))
-    (pad "4" thru_hole circle (at -1.729999 1.549999 270) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 23 "/VIO") (pinfunction "VOUT") (pintype "unspecified") (tstamp 2805e67b-7416-40de-8349-57f736697939))
-    (pad "4" smd rect (at -1.2 1.000001 270) (size 1.599999 2.150001) (layers "F.Cu")
-      (net 23 "/VIO") (pinfunction "VOUT") (pintype "unspecified") (tstamp a2f30f71-5192-4170-b987-4cea9566f83e))
-    (pad "4" thru_hole circle (at -0.780001 0.589999 270) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 23 "/VIO") (pinfunction "VOUT") (pintype "unspecified") (tstamp d66736da-3a6a-49fe-be3d-39830da2167e))
-    (pad "4" thru_hole circle (at -0.780001 1.41 270) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 23 "/VIO") (pinfunction "VOUT") (pintype "unspecified") (tstamp 4335443f-0fa7-4f90-9787-b8b09218e51d))
-    (pad "5" smd rect (at 1.2 1.000001 270) (size 1.599999 2.150001) (layers "F.Cu")
-      (net 40 "unconnected-(U301-SW-Pad5)") (pinfunction "SW") (pintype "unspecified+no_connect") (tstamp 1b4d29b8-c4be-41da-9faf-79cb2172eabd))
-    (pad "6" smd rect (at 1.4 -0.650001 270) (size 1.2 0.349999) (layers "F.Cu")
-      (net 41 "unconnected-(U301-SW-Pad6)") (pinfunction "SW") (pintype "unspecified+no_connect") (tstamp 4c156b47-fb3d-4b53-a73e-7c2fb1b841af))
-    (pad "7" smd rect (at 1.4 -1.15 270) (size 1.2 0.349999) (layers "F.Cu")
-      (net 42 "unconnected-(U301-BOOT-Pad7)") (pinfunction "BOOT") (pintype "unspecified+no_connect") (tstamp 0cd00192-ed5e-465b-a003-70446fa6edc7))
-    (pad "8" smd rect (at 1.4 -1.962 270) (size 1.2 0.475) (layers "F.Cu")
-      (net 16 "/interface/VCC") (pinfunction "VCC") (pintype "unspecified") (tstamp e642d680-1c04-4a22-9f9e-6cd5122dc568))
-    (pad "9" smd rect (at 0.499999 -2.049998 270) (size 0.349999 0.900001) (layers "F.Cu")
-      (net 23 "/VIO") (pinfunction "BIAS") (pintype "unspecified") (tstamp 35f7e29a-8855-4898-91b7-e3e15d301157))
-    (pad "10" thru_hole circle (at 0 -2.230001 270) (size 0.399999 0.399999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp 418d7b6c-ee80-46f4-8efd-6b5d6ac56104))
-    (pad "10" thru_hole circle (at 0 -1.23 270) (size 0.399999 0.399999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp cab7bed5-e4e6-41b8-b2b1-668e0c6a6b03))
-    (pad "10" smd circle (at 0 -1.004999 270) (size 0.504 0.504) (layers "F.Cu")
-      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp c85d0041-066b-4320-a202-b6ca6f6be460))
-    (pad "10" thru_hole circle (at 0 -0.23 270) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp 823622d6-391f-47e0-ad1d-e75e0049565e))
-    (pad "10" thru_hole circle (at 0 0.770001 270) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp 93d96dc8-968f-45e3-850a-423068e10332))
-    (pad "10" thru_hole circle (at 0 1.769999 270) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
-      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp 041252f1-dc4d-4b52-b16a-f474bf0364de))
-    (pad "11" smd rect (at -0.499999 -2.049998 270) (size 0.349999 0.900001) (layers "F.Cu")
-      (net 16 "/interface/VCC") (pinfunction "MODE_SYNC") (pintype "unspecified") (tstamp 6a123a89-96d8-4615-b6de-7f73672b0ca2))
+      (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Fab") (tstamp e7fdeba1-a1d0-473d-b010-c2922ebb7aae))
+    (pad "1" smd rect (at -1.4 -1.962 180) (size 1.2 0.475) (layers "F.Cu")
+      (net 13 "unconnected-(U301-PGOOD-Pad1)") (pinfunction "PGOOD") (pintype "open_collector+no_connect") (tstamp 89d92108-fbac-4b1b-b76b-37df159952b4))
+    (pad "2" smd rect (at -1.4 -1.15 180) (size 1.2 0.349999) (layers "F.Cu")
+      (net 22 "/VAA") (pinfunction "EN") (pintype "input") (tstamp c6742d21-8da3-455c-a5fa-d5f0ceed17a9))
+    (pad "3" thru_hole circle (at -1.729999 -0.650001 180) (size 0.349999 0.349999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 22 "/VAA") (pinfunction "VIN") (pintype "power_in") (tstamp 5f219bcc-c1d5-4c56-8344-528164a90158))
+    (pad "3" smd rect (at -1.4 -0.650001 180) (size 1.2 0.349999) (layers "F.Cu")
+      (net 22 "/VAA") (pinfunction "VIN") (pintype "power_in") (tstamp f58e00ee-9c09-49bb-beaf-09373437c021))
+    (pad "3" thru_hole circle (at -1.05 -0.650001 180) (size 0.349999 0.349999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 22 "/VAA") (pinfunction "VIN") (pintype "power_in") (tstamp 7a98fb56-523a-4bf4-b141-bb33bb3e94ed))
+    (pad "4" thru_hole circle (at -1.729999 0.549999 180) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 23 "/+5V") (pinfunction "VOUT") (pintype "unspecified") (tstamp 6d8bfe5b-fc34-4b9b-968c-9c51b1cc5e07))
+    (pad "4" thru_hole circle (at -1.729999 1.05 180) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 23 "/+5V") (pinfunction "VOUT") (pintype "unspecified") (tstamp f3065bdb-9446-4370-949e-8410dbd00b2d))
+    (pad "4" thru_hole circle (at -1.729999 1.549999 180) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 23 "/+5V") (pinfunction "VOUT") (pintype "unspecified") (tstamp 54f12a42-8023-4d44-8e9f-1d99c5e4e88c))
+    (pad "4" smd rect (at -1.2 1.000001 180) (size 1.599999 2.150001) (layers "F.Cu")
+      (net 23 "/+5V") (pinfunction "VOUT") (pintype "unspecified") (tstamp 85d50702-f0fb-46ba-a9a5-195b5bca7b67))
+    (pad "4" thru_hole circle (at -0.780001 0.589999 180) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 23 "/+5V") (pinfunction "VOUT") (pintype "unspecified") (tstamp cde6d8c9-b4c8-49fa-b721-6b1a72bf876a))
+    (pad "4" thru_hole circle (at -0.780001 1.41 180) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 23 "/+5V") (pinfunction "VOUT") (pintype "unspecified") (tstamp 849e4562-4358-4625-8831-0a5efc930dde))
+    (pad "5" smd rect (at 1.2 1.000001 180) (size 1.599999 2.150001) (layers "F.Cu")
+      (net 40 "unconnected-(U301-SW-Pad5)") (pinfunction "SW") (pintype "unspecified+no_connect") (tstamp c0064404-9a0e-4bca-aca6-b1389aefc253))
+    (pad "6" smd rect (at 1.4 -0.650001 180) (size 1.2 0.349999) (layers "F.Cu")
+      (net 41 "unconnected-(U301-SW-Pad6)") (pinfunction "SW") (pintype "unspecified+no_connect") (tstamp 55c8d266-f4e4-495b-9d63-e2ca42771e4a))
+    (pad "7" smd rect (at 1.4 -1.15 180) (size 1.2 0.349999) (layers "F.Cu")
+      (net 42 "unconnected-(U301-BOOT-Pad7)") (pinfunction "BOOT") (pintype "unspecified+no_connect") (tstamp f818d355-b8f9-4315-bc16-e1ac11258af7))
+    (pad "8" smd rect (at 1.4 -1.962 180) (size 1.2 0.475) (layers "F.Cu")
+      (net 16 "/interface/VCC") (pinfunction "VCC") (pintype "unspecified") (tstamp f52e0aa3-818f-4ebd-8a13-5ae2caf33495))
+    (pad "9" smd rect (at 0.499999 -2.049998 180) (size 0.349999 0.900001) (layers "F.Cu")
+      (net 23 "/+5V") (pinfunction "BIAS") (pintype "unspecified") (tstamp 43e992f2-32be-48af-a654-8094d7d126a2))
+    (pad "10" thru_hole circle (at 0 -2.230001 180) (size 0.399999 0.399999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp 90bb68a8-8f62-4411-98b9-c0b25b9bcced))
+    (pad "10" thru_hole circle (at 0 -1.23 180) (size 0.399999 0.399999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp e99529ec-5b5e-47f7-963a-8b22137b270d))
+    (pad "10" smd circle (at 0 -1.004999 180) (size 0.504 0.504) (layers "F.Cu")
+      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp bab7e900-1061-4686-9cd5-2857c7f085a7))
+    (pad "10" thru_hole circle (at 0 -0.23 180) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp 032cd07a-2a51-4d49-a1d4-044dc7570ef1))
+    (pad "10" thru_hole circle (at 0 0.770001 180) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp de336947-db88-45a4-8a0c-adf2f7e16083))
+    (pad "10" thru_hole circle (at 0 1.769999 180) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "GND") (pintype "power_in") (tstamp 2cc43a85-1b18-437e-91d8-fdfdb74f6cdb))
+    (pad "11" smd rect (at -0.499999 -2.049998 180) (size 0.349999 0.900001) (layers "F.Cu")
+      (net 16 "/interface/VCC") (pinfunction "MODE_SYNC") (pintype "unspecified") (tstamp 4d0a835e-2447-4210-9b1e-a1379ce28055))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/TPSM365R6V5RDNR.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3127,7 +3266,7 @@
     )
   )
 
-  (footprint "Janelia:CAP_EEEFTH101XAV" (layer "F.Cu")
+  (footprint "Janelia:CAP_EEEFTH101XAV" locked (layer "F.Cu")
     (tstamp dc2e1eb0-41d1-4200-a944-05e55ad10629)
     (at 154.4 87.6)
     (property "LCSC" "C6942344")
@@ -3294,8 +3433,8 @@
       (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 5629b69b-1ba1-4e9d-b818-71680022bd9c))
     (fp_circle (center -4.15 -1.35) (end -3.9 -1.35)
       (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Fab") (tstamp a01b8919-a877-40a8-bee5-3dfc8ced0eb0))
-    (pad "1" smd custom (at -2.55 0) (size 1.8 1.8) (layers "F.Cu")
-      (net 22 "/VM") (pintype "passive")
+    (pad "1" smd custom locked (at -2.55 0) (size 1.8 1.8) (layers "F.Cu")
+      (net 22 "/VAA") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -3315,7 +3454,7 @@
           )
           (width 0.01) (fill yes))
       ) (tstamp 180aa57f-b096-409d-a120-f9b0bbd4d840))
-    (pad "2" smd custom (at 2.55 0 180) (size 1.8 1.8) (layers "F.Cu")
+    (pad "2" smd custom locked (at 2.55 0 180) (size 1.8 1.8) (layers "F.Cu")
       (net 1 "/GND") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
@@ -3443,7 +3582,7 @@
     (effects (font (size 1 0.6) (thickness 0.15) bold))
   )
 
-  (group "" (id 70dcb9ca-781f-4a97-8b49-ebb8d56ddce5)
+  (group "" locked (id 70dcb9ca-781f-4a97-8b49-ebb8d56ddce5)
     (members
       351d3dd8-aec6-4023-a9a6-753bce054656
       71024cb6-c89f-45fa-8490-96e063410a73
@@ -3456,7 +3595,7 @@
       a25bdc39-40d9-4e76-9fd8-15d4473251ac
     )
   )
-  (group "" (id e47ab43e-bf56-43ab-93e4-925afd30a5dd)
+  (group "" locked (id e47ab43e-bf56-43ab-93e4-925afd30a5dd)
     (members
       531bfc41-7ca1-499b-9377-337f444a998b
       79c27d2f-73ea-4a9d-aab2-cccd37e16c33
