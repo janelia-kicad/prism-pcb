@@ -427,7 +427,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.125,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -437,9 +437,9 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.3,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
@@ -468,11 +468,7 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "/VM"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/+5V"
+        "pattern": "/VAA"
       },
       {
         "netclass": "Power",
@@ -480,295 +476,15 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/VIO"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/ENABLE_VIO"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/ENABLE_FAN"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/MISO"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/DIAG0"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/DIAG1"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/~{CS}"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/SCK"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/MOSI"
+        "pattern": "/tmc5130/BM*"
       },
       {
         "netclass": "Power",
-        "pattern": "/power/SW"
+        "pattern": "/tmc5130/BR*"
       },
       {
-        "netclass": "Power",
-        "pattern": "/power/FAN-"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/power/LED_RED+"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/power/LED_GRN+"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/rp2040/VSYS"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/rp2040/VBUS"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/rp2040/+3.3V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/rp2040/+1.1V"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/CC1"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/CC2"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/D-"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/D+"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/USB_P"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/USB_N"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/5VOUT"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/VCC"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/12VOUT"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/BMA1"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/BMA2"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/BMB1"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/BMB2"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/SRA"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/SRB"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/VCP"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/CPO"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/CPI"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/CA1"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/CA2"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/CB1"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/CB2"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/tmc5160/REFL"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/power/LED_YEL+"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/XOUT"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/XIN"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/QSPI_SCLK"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/QSPI_SD3"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/QSPI_SD2"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/QSPI_SD1"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/QSPI_SD0"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/QSPI_SS"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/XOUTB"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/rp2040/~{USB_BOOT}"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/SRAH"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/SRAL"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/SRBH"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/SRBL"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/HA1"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/LA1"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/HA2"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/LA2"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/HB1"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/LB1"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/HB2"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/LB2"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/CLOCK"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/REFL_DEBOUNCED"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/mosfet1/GATEB"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/mosfet2/GATEB"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/mosfet3/GATEB"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/mosfet4/GATEB"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/mosfet5/GATEB"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/mosfet6/GATEB"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/mosfet7/GATEB"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/tmc5160/mosfet8/GATEB"
+        "netclass": "Default",
+        "pattern": "/+5V"
       }
     ]
   },
