@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/polidorop/Repositories/kicad/prism-pcb/prism-pcb/prism-pcb.kicad_sch</source>
+    <date>Sun 14 Jul 2024 01:36:41 PM EDT</date>
+    <tool>Eeschema 7.0.11</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>prism-pcb</title>
+        <company>Howard Hughes Medical Institute</company>
+        <rev>1.0</rev>
+        <date>2024-07-14</date>
+        <source>prism-pcb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/assembly/" tstamps="/0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e/">
+      <title_block>
+        <title>prism-pcb</title>
+        <company>Howard Hughes Medical Institute</company>
+        <rev>1.0</rev>
+        <date>2024-07-14</date>
+        <source>assembly.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/">
+      <title_block>
+        <title>prism-pcb</title>
+        <company>Howard Hughes Medical Institute</company>
+        <rev>1.0</rev>
+        <date>2024-07-14</date>
+        <source>interface.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/">
+      <title_block>
+        <title>prism-pcb</title>
+        <company>Howard Hughes Medical Institute</company>
+        <rev>1.0</rev>
+        <date>2024-07-14</date>
+        <source>tmc5130.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C301">
+      <value>3.3uF_50V</value>
+      <footprint>Janelia:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C1021610</field>
+        <field name="Manufacturer">PSA(Prosperity Dielectrics)</field>
+        <field name="Manufacturer Part Number">FS32X335K500EGG</field>
+        <field name="Package">1210</field>
+        <field name="Synopsis">50V 3.3uF</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C1021610</field>
+      </fields>
+      <libsource lib="Janelia" part="C_3.3uF_50V_1210" description="50V 3.3uF ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value="C1021610"/>
+      <property name="Synopsis" value="50V 3.3uF"/>
+      <property name="Package" value="1210"/>
+      <property name="Manufacturer" value="PSA(Prosperity Dielectrics)"/>
+      <property name="Manufacturer Part Number" value="FS32X335K500EGG"/>
+      <property name="LCSC" value="C1021610"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="50V 3.3uF ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>6658285b-26f4-4aa1-a330-4635b66c7256</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>0.1uF_100V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C162178</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM155R62A104KE14D</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 0.1UF 100V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-10458-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_100V_0402" description="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-10458-1-ND"/>
+      <property name="Synopsis" value="CAP CER 0.1UF 100V X5R"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM155R62A104KE14D"/>
+      <property name="Package" value="0402"/>
+      <property name="LCSC" value="C162178"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>c967a774-248c-4898-9951-6a5584dab749</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>1uF_25V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C711085</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRT155R61E105KE01D</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 1UF 25V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-12263-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_1uF_25V_0402" description="1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-12263-1-ND"/>
+      <property name="Synopsis" value="CAP CER 1UF 25V X5R"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRT155R61E105KE01D"/>
+      <property name="LCSC" value="C711085"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>6c20bcdc-ba9b-44b1-a1f5-bc33367d6724</tstamps>
+    </comp>
+    <comp ref="C304">
+      <value>1uF_25V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C711085</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRT155R61E105KE01D</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 1UF 25V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-12263-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_1uF_25V_0402" description="1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-12263-1-ND"/>
+      <property name="Synopsis" value="CAP CER 1UF 25V X5R"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRT155R61E105KE01D"/>
+      <property name="LCSC" value="C711085"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>455a930b-8cf4-42af-b416-8e90691786c6</tstamps>
+    </comp>
+    <comp ref="J301">
+      <value>FFC_P1mm_BOT_RA_SMD</value>
+      <footprint>Janelia:CONN_C2914097</footprint>
+      <fields>
+        <field name="LCSC">C2914097</field>
+        <field name="Manufacturer">HDGC</field>
+        <field name="Manufacturer Part Number">1.0K-FX-10PWBG</field>
+        <field name="Package">SMD P=1mm</field>
+        <field name="Synopsis">CONN FFC FPC BOTTOM 10POS 1MM RA</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C2914097</field>
+      </fields>
+      <libsource lib="Janelia" part="Conn_01x10_FFC_P1mm_BOT_RA_SMD" description="Slide Lock -20℃~+85℃ 10P Bottom Contact Surface Mount，Right Angle 1mm SMD,P=1mm,Surface Mount，Right Angle FFC/FPC Connectors ROHS"/>
+      <property name="Synopsis" value="CONN FFC FPC BOTTOM 10POS 1MM RA"/>
+      <property name="Package" value="SMD P=1mm"/>
+      <property name="Manufacturer" value="HDGC"/>
+      <property name="Manufacturer Part Number" value="1.0K-FX-10PWBG"/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value="C2914097"/>
+      <property name="LCSC" value="C2914097"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="Slide Lock -20℃~+85℃ 10P Bottom Contact Surface Mount，Right Angle 1mm SMD,P=1mm,Surface Mount，Right Angle FFC/FPC Connectors ROHS"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>6c80ecc3-25c4-4624-bfa3-3534249fb956</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>100</value>
+      <footprint>Janelia:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25076</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF1000TCE</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">RES SMD 100 OHM 1% 62.5mW</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C25076</field>
+      </fields>
+      <libsource lib="Janelia" part="R_100_0402" description=""/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value="C25076"/>
+      <property name="Synopsis" value="RES SMD 100 OHM 1% 62.5mW"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0402WGF1000TCE"/>
+      <property name="LCSC" value="C25076"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>3d57c178-6332-4a02-a343-72cb284f75cc</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>TPSM365R6V5RDNR</value>
+      <footprint>Janelia:RDN0011A-MFG</footprint>
+      <fields>
+        <field name="LCSC">C19078014</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">TPSM365R6V5RDNR</field>
+        <field name="Synopsis">3-V TO 65-V INPUT, 1-V TO 13-V O</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">296-TPSM365R6V5RDNRCT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="TPSM365R6V5RDNR" description="Non-Isolated PoL Module DC DC Converter 1 Output 5V 600mA 3V - 65V Input"/>
+      <property name="Synopsis" value="3-V TO 65-V INPUT, 1-V TO 13-V O"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer Part Number" value="TPSM365R6V5RDNR"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="296-TPSM365R6V5RDNRCT-ND"/>
+      <property name="LCSC" value="C19078014"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="Non-Isolated PoL Module DC DC Converter 1 Output 5V 600mA 3V - 65V Input"/>
+      <property name="ki_keywords" value="TPSM365R6V5RDNR"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>4b82759e-720a-45a6-b75a-115229291672</tstamps>
+    </comp>
+    <comp ref="C401">
+      <value>0.1uF_100V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C162178</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM155R62A104KE14D</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 0.1UF 100V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-10458-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_100V_0402" description="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-10458-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM155R62A104KE14D"/>
+      <property name="Package" value="0402"/>
+      <property name="Synopsis" value="CAP CER 0.1UF 100V X5R"/>
+      <property name="LCSC" value="C162178"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>32391be2-7a21-4415-9a91-52a0b0b5563b</tstamps>
+    </comp>
+    <comp ref="C402">
+      <value>22nF_100V</value>
+      <footprint>Janelia:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C161234</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM188R72A223KA37D</field>
+        <field name="Package">0603</field>
+        <field name="Synopsis">CAP CER 0.022UF 100V X7R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-4782-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_22nF_100V_0603" description="0.022 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-4782-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM188R72A223KA37D"/>
+      <property name="Package" value="0603"/>
+      <property name="Synopsis" value="CAP CER 0.022UF 100V X7R"/>
+      <property name="LCSC" value="C161234"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="0.022 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>5291deed-b6ac-4ca3-9f7d-8ec15fc39465</tstamps>
+    </comp>
+    <comp ref="C403">
+      <value>0.1uF_100V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C162178</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM155R62A104KE14D</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 0.1UF 100V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-10458-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_100V_0402" description="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-10458-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM155R62A104KE14D"/>
+      <property name="Package" value="0402"/>
+      <property name="Synopsis" value="CAP CER 0.1UF 100V X5R"/>
+      <property name="LCSC" value="C162178"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>f4c85327-639d-44df-9c98-6605799e9031</tstamps>
+    </comp>
+    <comp ref="C404">
+      <value>0.1uF_100V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C162178</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM155R62A104KE14D</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 0.1UF 100V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-10458-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_100V_0402" description="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-10458-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM155R62A104KE14D"/>
+      <property name="Package" value="0402"/>
+      <property name="Synopsis" value="CAP CER 0.1UF 100V X5R"/>
+      <property name="LCSC" value="C162178"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>cd7d3e3e-629f-4e99-973d-cd9deb7f530d</tstamps>
+    </comp>
+    <comp ref="C405">
+      <value>0.47uF_35V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C711580</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRT155R6YA474KE01D</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 0.47UF 35V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-12273-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.47uF_35V_0402" description="0.47 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-12273-1-ND"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRT155R6YA474KE01D"/>
+      <property name="Synopsis" value="CAP CER 0.47UF 35V X5R"/>
+      <property name="LCSC" value="C711580"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="0.47 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>865db556-e559-4ea5-9271-3ee863ec3f2c</tstamps>
+    </comp>
+    <comp ref="C406">
+      <value>2.2uF_35V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C2167643</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number">C1005X5R1V225K050BC</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 2.2UF 35V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">445-9028-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_2.2uF_35V_0402" description="2.2 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="445-9028-1-ND"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="Manufacturer Part Number" value="C1005X5R1V225K050BC"/>
+      <property name="Synopsis" value="CAP CER 2.2UF 35V X5R"/>
+      <property name="LCSC" value="C2167643"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="2.2 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>1db301e8-3fb0-4e09-b0b3-fb33785ebbd0</tstamps>
+    </comp>
+    <comp ref="C407">
+      <value>0.1uF_100V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C162178</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM155R62A104KE14D</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 0.1UF 100V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-10458-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_100V_0402" description="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-10458-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM155R62A104KE14D"/>
+      <property name="Package" value="0402"/>
+      <property name="Synopsis" value="CAP CER 0.1UF 100V X5R"/>
+      <property name="LCSC" value="C162178"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>0e754d29-a3a9-4216-ba99-7c6e6ec6d22b</tstamps>
+    </comp>
+    <comp ref="C408">
+      <value>2.2uF_100V</value>
+      <footprint>Janelia:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C2981733</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM21BD72A225KE01L</field>
+        <field name="Package">0805</field>
+        <field name="Synopsis">CAP CER 2.2UF 100V X7T 0805</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-GRM21BD72A225KE01LCT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_2.2uF_100V_0805" description="2.2 µF ±10% 100V Ceramic Capacitor X7T 0805 (2012 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-GRM21BD72A225KE01LCT-ND"/>
+      <property name="Package" value="0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM21BD72A225KE01L"/>
+      <property name="Synopsis" value="CAP CER 2.2UF 100V X7T 0805"/>
+      <property name="LCSC" value="C2981733"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="2.2 µF ±10% 100V Ceramic Capacitor X7T 0805 (2012 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>f00042f3-5269-4dd8-ad85-87a03feda42b</tstamps>
+    </comp>
+    <comp ref="C409">
+      <value>100uF_50V</value>
+      <footprint>Janelia:CAP_EEEFTH101XAV</footprint>
+      <fields>
+        <field name="LCSC">C6942344</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">EEE-FTH101XAV</field>
+        <field name="Package">SMD_D10xL16.8mm</field>
+        <field name="Synopsis">CAP ALUM 100UF 20% 50V SMD</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P124834CT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="CP_100uF_50V_6.3x8.3mm_Hybrid_Antivib" description="100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD,D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="P124834CT-ND"/>
+      <property name="Synopsis" value="CAP ALUM 100UF 20% 50V SMD"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="EEE-FTH101XAV"/>
+      <property name="LCSC" value="C6942344"/>
+      <property name="Package" value="SMD_D10xL16.8mm"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD,D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>33f08b92-e2c3-4fee-87f5-33c296feba30</tstamps>
+    </comp>
+    <comp ref="C410">
+      <value>0.1uF_100V</value>
+      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C162178</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM155R62A104KE14D</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">CAP CER 0.1UF 100V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-10458-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_100V_0402" description="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-10458-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM155R62A104KE14D"/>
+      <property name="Package" value="0402"/>
+      <property name="Synopsis" value="CAP CER 0.1UF 100V X5R"/>
+      <property name="LCSC" value="C162178"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>3a55f158-e4d0-4f5a-a4c6-183dc296f1b4</tstamps>
+    </comp>
+    <comp ref="C411">
+      <value>2.2uF_100V</value>
+      <footprint>Janelia:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C2981733</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM21BD72A225KE01L</field>
+        <field name="Package">0805</field>
+        <field name="Synopsis">CAP CER 2.2UF 100V X7T 0805</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-GRM21BD72A225KE01LCT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_2.2uF_100V_0805" description="2.2 µF ±10% 100V Ceramic Capacitor X7T 0805 (2012 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-GRM21BD72A225KE01LCT-ND"/>
+      <property name="Package" value="0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM21BD72A225KE01L"/>
+      <property name="Synopsis" value="CAP CER 2.2UF 100V X7T 0805"/>
+      <property name="LCSC" value="C2981733"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="2.2 µF ±10% 100V Ceramic Capacitor X7T 0805 (2012 Metric)"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>52cbeae6-5a85-451d-a277-65d796dd63d4</tstamps>
+    </comp>
+    <comp ref="C412">
+      <value>100uF_50V</value>
+      <footprint>Janelia:CAP_EEEFTH101XAV</footprint>
+      <fields>
+        <field name="LCSC">C6942344</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">EEE-FTH101XAV</field>
+        <field name="Package">SMD_D10xL16.8mm</field>
+        <field name="Synopsis">CAP ALUM 100UF 20% 50V SMD</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P124834CT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="CP_100uF_50V_6.3x8.3mm_Hybrid_Antivib" description="100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD,D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="P124834CT-ND"/>
+      <property name="Synopsis" value="CAP ALUM 100UF 20% 50V SMD"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="EEE-FTH101XAV"/>
+      <property name="LCSC" value="C6942344"/>
+      <property name="Package" value="SMD_D10xL16.8mm"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD,D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>2c9550e6-14d6-461f-93c7-b792d10ff144</tstamps>
+    </comp>
+    <comp ref="J401">
+      <value>Molex_Pico-SPOX_Horizontal</value>
+      <footprint>Janelia:Molex_Pico-SPOX-87438_1x04-P1.5mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C564208</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer Part Number">0874380443</field>
+        <field name="Package">SMD</field>
+        <field name="Synopsis">CONN HEADER SMD R/A 4POS 1.5MM</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">WM7648CT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="Conn_01x04_P1.5mm_Molex_Pico-SPOX-87438_Horizontal" description="Connector Header Surface Mount, Right Angle 4 position 0.059&quot; (1.50mm)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer Part Number" value="0874380443"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="WM7648CT-ND"/>
+      <property name="Synopsis" value="CONN HEADER SMD R/A 4POS 1.5MM"/>
+      <property name="LCSC" value="C564208"/>
+      <property name="Package" value="SMD"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="Connector Header Surface Mount, Right Angle 4 position 0.059&quot; (1.50mm)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>1f273c53-cdd2-43fd-a43c-f7c6d5c5f387</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>2.2</value>
+      <footprint>Janelia:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C412897</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-2GEJ2R2X</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">RES SMD 2.2 OHM 5% 1/10W</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P2.2JCT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="R_2.2_0402" description="2.2 Ohms ±5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="P2.2JCT-ND"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="ERJ-2GEJ2R2X"/>
+      <property name="Synopsis" value="RES SMD 2.2 OHM 5% 1/10W"/>
+      <property name="LCSC" value="C412897"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="2.2 Ohms ±5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>ca90f7b8-a133-4406-a298-b26f6e13f4eb</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>0.12</value>
+      <footprint>Janelia:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2076122</field>
+        <field name="Manufacturer">SUSUMU</field>
+        <field name="Manufacturer Part Number">KRL1632E-M-R120-F-T5</field>
+        <field name="Package">1206</field>
+        <field name="Synopsis">0.12 750mW Current Sense Resistor</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C2076122</field>
+      </fields>
+      <libsource lib="Janelia" part="R_0.12_750mW_1206_CS" description="750mW 120mΩ Surface Mount Current Sensing Resistors ±50ppm/℃ ±1% 1206 Current Sense Resistors/Shunt Resistors ROHS"/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value="C2076122"/>
+      <property name="Synopsis" value="0.12 750mW Current Sense Resistor"/>
+      <property name="Package" value="1206"/>
+      <property name="Manufacturer" value="SUSUMU"/>
+      <property name="Manufacturer Part Number" value="KRL1632E-M-R120-F-T5"/>
+      <property name="LCSC" value="C2076122"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="750mW 120mΩ Surface Mount Current Sensing Resistors ±50ppm/℃ ±1% 1206 Current Sense Resistors/Shunt Resistors ROHS"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>21115bd9-f9f2-4a04-b2ca-cec64f878a6c</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>0.12</value>
+      <footprint>Janelia:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2076122</field>
+        <field name="Manufacturer">SUSUMU</field>
+        <field name="Manufacturer Part Number">KRL1632E-M-R120-F-T5</field>
+        <field name="Package">1206</field>
+        <field name="Synopsis">0.12 750mW Current Sense Resistor</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C2076122</field>
+      </fields>
+      <libsource lib="Janelia" part="R_0.12_750mW_1206_CS" description="750mW 120mΩ Surface Mount Current Sensing Resistors ±50ppm/℃ ±1% 1206 Current Sense Resistors/Shunt Resistors ROHS"/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value="C2076122"/>
+      <property name="Synopsis" value="0.12 750mW Current Sense Resistor"/>
+      <property name="Package" value="1206"/>
+      <property name="Manufacturer" value="SUSUMU"/>
+      <property name="Manufacturer Part Number" value="KRL1632E-M-R120-F-T5"/>
+      <property name="LCSC" value="C2076122"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="750mW 120mΩ Surface Mount Current Sensing Resistors ±50ppm/℃ ±1% 1206 Current Sense Resistors/Shunt Resistors ROHS"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>db0249bd-fd4c-4e9e-bf7e-bad52786a6df</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>TMC5130A-TA</value>
+      <footprint>Janelia:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/TMC5130A_datasheet_rev1.20.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C188832</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Manufacturer Part Number">TMC5130A-TA</field>
+        <field name="Package">TQFP-48-EP(7x7)</field>
+        <field name="Synopsis">IC MTR DRV BIPOLAR 5.5-46V</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">175-TMC5130A-TA-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="TMC5130A-TA" description="Bipolar Motor Driver Power MOSFET SPI, Step/Direction, RS-232 48-TQFP-EP (7x7)"/>
+      <property name="Synopsis" value="IC MTR DRV BIPOLAR 5.5-46V"/>
+      <property name="Manufacturer" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="Manufacturer Part Number" value="TMC5130A-TA"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="175-TMC5130A-TA-ND"/>
+      <property name="LCSC" value="C188832"/>
+      <property name="Package" value="TQFP-48-EP(7x7)"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Motor Driver Power MOSFET SPI, Step/Direction, RS-232 48-TQFP-EP (7x7)"/>
+      <property name="ki_keywords" value="Standalone driver stepper motor"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>69b3c9ba-a7ce-4ae4-a624-3060111a40f8</tstamps>
+    </comp>
+    <comp ref="X401">
+      <value>16MHz</value>
+      <footprint>Janelia:OSC_ECS-2520S33-160-FN-TR</footprint>
+      <fields>
+        <field name="LCSC">C2451298</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="Manufacturer Part Number">ECS-2520S33-160-FN-TR</field>
+        <field name="Package">SMD2520-4P</field>
+        <field name="Synopsis">XTAL OSC XO 16.0000MHZ HCMOS SMD</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">XC2195CT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="Oscillator_16MHz_ECS-2520S33" description="16 MHz XO (Standard) HCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"/>
+      <property name="Manufacturer" value="ECS Inc."/>
+      <property name="Manufacturer Part Number" value="ECS-2520S33-160-FN-TR"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="XC2195CT-ND"/>
+      <property name="Synopsis" value="XTAL OSC XO 16.0000MHZ HCMOS SMD"/>
+      <property name="LCSC" value="C2451298"/>
+      <property name="Package" value="SMD2520-4P"/>
+      <property name="Sheetname" value="tmc5130"/>
+      <property name="Sheetfile" value="tmc5130.kicad_sch"/>
+      <property name="ki_description" value="16 MHz XO (Standard) HCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"/>
+      <property name="ki_keywords" value="Crystal Clock Oscillator ECS SMD"/>
+      <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
+      <tstamps>6fff31da-28cb-4e41-843c-aa71542d961d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Janelia" part="CP_100uF_50V_6.3x8.3mm_Hybrid_Antivib">
+      <description>100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD,D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100uF_50V</field>
+        <field name="Footprint">Janelia:CAP_EEEFTH101XAV</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P124834CT-ND</field>
+        <field name="Synopsis">CAP ALUM 100UF 20% 50V SMD</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">EEE-FTH101XAV</field>
+        <field name="LCSC">C6942344</field>
+        <field name="Package">SMD_D10xL16.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_0.1uF_100V_0402">
+      <description>0.1 µF ±10% 100V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uF_100V</field>
+        <field name="Footprint">Janelia:C_0402_1005Metric</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-10458-1-ND</field>
+        <field name="Synopsis">CAP CER 0.1UF 100V X5R</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM155R62A104KE14D</field>
+        <field name="Package">0402</field>
+        <field name="LCSC">C162178</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_0.47uF_35V_0402">
+      <description>0.47 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.47uF_35V</field>
+        <field name="Footprint">Janelia:C_0402_1005Metric</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-12273-1-ND</field>
+        <field name="Synopsis">CAP CER 0.47UF 35V X5R</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRT155R6YA474KE01D</field>
+        <field name="LCSC">C711580</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_1uF_25V_0402">
+      <description>1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF_25V</field>
+        <field name="Footprint">Janelia:C_0402_1005Metric</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-12263-1-ND</field>
+        <field name="Synopsis">CAP CER 1UF 25V X5R</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRT155R61E105KE01D</field>
+        <field name="LCSC">C711085</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_2.2uF_100V_0805">
+      <description>2.2 µF ±10% 100V Ceramic Capacitor X7T 0805 (2012 Metric)</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2.2uF_100V</field>
+        <field name="Footprint">Janelia:C_0805_2012Metric</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-GRM21BD72A225KE01LCT-ND</field>
+        <field name="Synopsis">CAP CER 2.2UF 100V X7T 0805</field>
+        <field name="Package">0805</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM21BD72A225KE01L</field>
+        <field name="LCSC">C2981733</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_2.2uF_35V_0402">
+      <description>2.2 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2.2uF_35V</field>
+        <field name="Footprint">Janelia:C_0402_1005Metric</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">445-9028-1-ND</field>
+        <field name="Synopsis">CAP CER 2.2UF 35V X5R</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number">C1005X5R1V225K050BC</field>
+        <field name="LCSC">C2167643</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_22nF_100V_0603">
+      <description>0.022 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22nF_100V</field>
+        <field name="Footprint">Janelia:C_0603_1608Metric</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-4782-1-ND</field>
+        <field name="Synopsis">CAP CER 0.022UF 100V X7R</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM188R72A223KA37D</field>
+        <field name="Package">0603</field>
+        <field name="LCSC">C161234</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_3.3uF_50V_1210">
+      <description>50V 3.3uF ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">3.3uF_50V</field>
+        <field name="Footprint">Janelia:C_1210_3225Metric</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C1021610</field>
+        <field name="Synopsis">50V 3.3uF</field>
+        <field name="Package">1210</field>
+        <field name="Manufacturer">PSA(Prosperity Dielectrics)</field>
+        <field name="Manufacturer Part Number">FS32X335K500EGG</field>
+        <field name="LCSC">C1021610</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="Conn_01x04_P1.5mm_Molex_Pico-SPOX-87438_Horizontal">
+      <description>Connector Header Surface Mount, Right Angle 4 position 0.059" (1.50mm)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Molex_Pico-SPOX_Horizontal</field>
+        <field name="Footprint">Janelia:Molex_Pico-SPOX-87438_1x04-P1.5mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Synopsis">CONN HEADER SMD R/A 4POS 1.5MM</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer Part Number">0874380443</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">WM7648CT-ND</field>
+        <field name="LCSC">C564208</field>
+        <field name="Package">SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="Conn_01x10_FFC_P1mm_BOT_RA_SMD">
+      <description>Slide Lock -20℃~+85℃ 10P Bottom Contact Surface Mount，Right Angle 1mm SMD,P=1mm,Surface Mount，Right Angle FFC/FPC Connectors ROHS</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FFC_P1mm_BOT_RA_SMD</field>
+        <field name="Footprint">Janelia:CONN_C2914097</field>
+        <field name="Datasheet">~</field>
+        <field name="Synopsis">CONN FFC FPC BOTTOM 10POS 1MM RA</field>
+        <field name="Package">SMD P=1mm</field>
+        <field name="Manufacturer">HDGC</field>
+        <field name="Manufacturer Part Number">1.0K-FX-10PWBG</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C2914097</field>
+        <field name="LCSC">C2914097</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="FIDUCIAL_0.5mm_MASK1mm">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL_0.5mm_MASK1mm</field>
+        <field name="Footprint">Janelia:FIDUCIAL_0.5mm_Mask1mm</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+    </libpart>
+    <libpart lib="Janelia" part="Fan_5VDC_25x25x8mm">
+      <description>Fan Tubeaxial 5VDC Square - 25mm L x 25mm H Sintec 1.2 CFM (0.034m³/min) 2 Wire Leads</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Fan_5VDC_25x25x8mm</field>
+        <field name="Footprint">Janelia:FAN_5VDC_25x25x8mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Synopsis">FAN AXIAL 25X8MM 5VDC WIRE</field>
+        <field name="Manufacturer">ebm-papst Inc.</field>
+        <field name="Manufacturer Part Number">255M</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">381-2353-ND</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="MH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="MountingHole_M3_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_M3_Pad</field>
+        <field name="Footprint">Janelia:MountingHole_3.2mm_M3_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="Oscillator_16MHz_ECS-2520S33">
+      <description>16 MHz XO (Standard) HCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead</description>
+      <footprints>
+        <fp>Oscillator*SMD*ECS*2520MV*2.5x2.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">16MHz</field>
+        <field name="Footprint">Janelia:OSC_ECS-2520S33-160-FN-TR</field>
+        <field name="Synopsis">XTAL OSC XO 16.0000MHZ HCMOS SMD</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="Manufacturer Part Number">ECS-2520S33-160-FN-TR</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">XC2195CT-ND</field>
+        <field name="LCSC">C2451298</field>
+        <field name="Package">SMD2520-4P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Tri-State" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="R_0.12_750mW_1206_CS">
+      <description>750mW 120mΩ Surface Mount Current Sensing Resistors ±50ppm/℃ ±1% 1206 Current Sense Resistors/Shunt Resistors ROHS</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0.12</field>
+        <field name="Footprint">Janelia:R_1206_3216Metric</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C2076122</field>
+        <field name="Synopsis">0.12 750mW Current Sense Resistor</field>
+        <field name="Package">1206</field>
+        <field name="Manufacturer">SUSUMU</field>
+        <field name="Manufacturer Part Number">KRL1632E-M-R120-F-T5</field>
+        <field name="LCSC">C2076122</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="R_100_0402">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100</field>
+        <field name="Footprint">Janelia:R_0402_1005Metric</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C25076</field>
+        <field name="Synopsis">RES SMD 100 OHM 1% 62.5mW</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part Number">0402WGF1000TCE</field>
+        <field name="LCSC">C25076</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="R_2.2_0402">
+      <description>2.2 Ohms ±5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2.2</field>
+        <field name="Footprint">Janelia:R_0402_1005Metric</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P2.2JCT-ND</field>
+        <field name="Synopsis">RES SMD 2.2 OHM 5% 1/10W</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-2GEJ2R2X</field>
+        <field name="LCSC">C412897</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="TMC5130A-TA">
+      <description>Bipolar Motor Driver Power MOSFET SPI, Step/Direction, RS-232 48-TQFP-EP (7x7)</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/TMC5130A_datasheet_rev1.20.pdf</docs>
+      <footprints>
+        <fp>TQFP*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMC5130A-TA</field>
+        <field name="Footprint">Janelia:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/TMC5130A_datasheet_rev1.20.pdf</field>
+        <field name="Synopsis">IC MTR DRV BIPOLAR 5.5-46V</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Manufacturer Part Number">TMC5130A-TA</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">175-TMC5130A-TA-ND</field>
+        <field name="LCSC">C188832</field>
+        <field name="Package">TQFP-48-EP(7x7)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TST_MODE" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="~{CS}_CFG3" type="input"/>
+        <pin num="4" name="SCK_CFG2" type="input"/>
+        <pin num="5" name="SDI_NAI_CFG1" type="input"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="SDO_NAO_CFG0" type="bidirectional"/>
+        <pin num="8" name="REFL_STEP" type="input"/>
+        <pin num="9" name="REFR_DIR" type="input"/>
+        <pin num="10" name="VCC_IO" type="power_in"/>
+        <pin num="11" name="SD_MODE" type="input"/>
+        <pin num="12" name="SPI_MODE" type="input"/>
+        <pin num="13" name="GNDP" type="power_in"/>
+        <pin num="14" name="DNC" type="no_connect"/>
+        <pin num="15" name="OB1" type="output"/>
+        <pin num="16" name="DNC" type="no_connect"/>
+        <pin num="17" name="BRB" type="passive"/>
+        <pin num="18" name="DNC" type="no_connect"/>
+        <pin num="19" name="OB2" type="output"/>
+        <pin num="20" name="DNC" type="no_connect"/>
+        <pin num="21" name="VS" type="power_in"/>
+        <pin num="22" name="DNC" type="no_connect"/>
+        <pin num="23" name="ENCN_DCO" type="bidirectional"/>
+        <pin num="24" name="ENCB_DCEN_CFG4" type="input"/>
+        <pin num="25" name="ENCA_DCIN_CFG5" type="input"/>
+        <pin num="26" name="SWN_DIAG0" type="bidirectional"/>
+        <pin num="27" name="SWP_DIAG1" type="bidirectional"/>
+        <pin num="28" name="SWSEL" type="input"/>
+        <pin num="29" name="~{DRV_EN}_CFG6" type="input"/>
+        <pin num="30" name="AIN_IREF" type="input"/>
+        <pin num="31" name="NC" type="no_connect"/>
+        <pin num="32" name="GNDA" type="power_in"/>
+        <pin num="33" name="5VOUT" type="power_out"/>
+        <pin num="34" name="VCC" type="power_in"/>
+        <pin num="35" name="CP0" type="passive"/>
+        <pin num="36" name="NC" type="no_connect"/>
+        <pin num="37" name="CPI" type="passive"/>
+        <pin num="38" name="VCP" type="passive"/>
+        <pin num="39" name="VSA" type="power_in"/>
+        <pin num="40" name="VS" type="power_in"/>
+        <pin num="41" name="DNC" type="no_connect"/>
+        <pin num="42" name="OA2" type="output"/>
+        <pin num="43" name="DNC" type="no_connect"/>
+        <pin num="44" name="BRA" type="passive"/>
+        <pin num="45" name="DNC" type="no_connect"/>
+        <pin num="46" name="OA1" type="output"/>
+        <pin num="47" name="DNC" type="no_connect"/>
+        <pin num="48" name="GNDP" type="passive"/>
+        <pin num="49" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="TPSM365R6V5RDNR">
+      <description>Non-Isolated PoL Module DC DC Converter 1 Output 5V 600mA 3V - 65V Input</description>
+      <footprints>
+        <fp>RDN0011A-MFG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPSM365R6V5RDNR</field>
+        <field name="Footprint">Janelia:RDN0011A-MFG</field>
+        <field name="Synopsis">3-V TO 65-V INPUT, 1-V TO 13-V O</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">TPSM365R6V5RDNR</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">296-TPSM365R6V5RDNRCT-ND</field>
+        <field name="LCSC">C19078014</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGOOD" type="open_collector"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="VOUT" type="unspecified"/>
+        <pin num="5" name="SW" type="unspecified"/>
+        <pin num="6" name="SW" type="unspecified"/>
+        <pin num="7" name="BOOT" type="unspecified"/>
+        <pin num="8" name="VCC" type="unspecified"/>
+        <pin num="9" name="BIAS" type="unspecified"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="MODE_SYNC" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Janelia">
+      <uri>/home/polidorop/Repositories/kicad/janelia-kicad-library/symbols/Janelia.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+5V">
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="C404" pin="1" pintype="passive"/>
+      <node ref="U301" pin="4" pinfunction="VOUT" pintype="unspecified"/>
+      <node ref="U301" pin="9" pinfunction="BIAS" pintype="unspecified"/>
+      <node ref="U401" pin="10" pinfunction="VCC_IO" pintype="power_in"/>
+      <node ref="U401" pin="12" pinfunction="SPI_MODE" pintype="input"/>
+      <node ref="U401" pin="28" pinfunction="SWSEL" pintype="input"/>
+      <node ref="X401" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/GND">
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C404" pin="2" pintype="passive"/>
+      <node ref="C405" pin="2" pintype="passive"/>
+      <node ref="C406" pin="2" pintype="passive"/>
+      <node ref="C407" pin="2" pintype="passive"/>
+      <node ref="C408" pin="2" pintype="passive"/>
+      <node ref="C409" pin="2" pintype="passive"/>
+      <node ref="C410" pin="2" pintype="passive"/>
+      <node ref="C411" pin="2" pintype="passive"/>
+      <node ref="C412" pin="2" pintype="passive"/>
+      <node ref="J301" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J301" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J301" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J301" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="U301" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U401" pin="1" pinfunction="TST_MODE" pintype="input"/>
+      <node ref="U401" pin="11" pinfunction="SD_MODE" pintype="input"/>
+      <node ref="U401" pin="13" pinfunction="GNDP" pintype="power_in"/>
+      <node ref="U401" pin="23" pinfunction="ENCN_DCO" pintype="bidirectional"/>
+      <node ref="U401" pin="29" pinfunction="~{DRV_EN}_CFG6" pintype="input"/>
+      <node ref="U401" pin="30" pinfunction="AIN_IREF" pintype="input"/>
+      <node ref="U401" pin="32" pinfunction="GNDA" pintype="power_in"/>
+      <node ref="U401" pin="48" pinfunction="GNDP" pintype="passive"/>
+      <node ref="U401" pin="49" pinfunction="EP" pintype="power_in"/>
+      <node ref="U401" pin="9" pinfunction="REFR_DIR" pintype="input"/>
+      <node ref="X401" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="/SWN">
+      <node ref="J301" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="U401" pin="26" pinfunction="SWN_DIAG0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/SWP">
+      <node ref="J301" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="U401" pin="27" pinfunction="SWP_DIAG1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/VAA">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="C403" pin="1" pintype="passive"/>
+      <node ref="C407" pin="1" pintype="passive"/>
+      <node ref="C408" pin="1" pintype="passive"/>
+      <node ref="C409" pin="1" pintype="passive"/>
+      <node ref="C410" pin="1" pintype="passive"/>
+      <node ref="C411" pin="1" pintype="passive"/>
+      <node ref="C412" pin="1" pintype="passive"/>
+      <node ref="J301" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J301" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J301" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J301" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U301" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U301" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U401" pin="21" pinfunction="VS" pintype="power_in"/>
+      <node ref="U401" pin="39" pinfunction="VSA" pintype="power_in"/>
+      <node ref="U401" pin="40" pinfunction="VS" pintype="power_in"/>
+    </net>
+    <net code="6" name="/interface/VCC">
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="U301" pin="11" pinfunction="MODE_SYNC" pintype="unspecified"/>
+      <node ref="U301" pin="8" pinfunction="VCC" pintype="unspecified"/>
+    </net>
+    <net code="7" name="/tmc5130/5VOUT">
+      <node ref="C406" pin="1" pintype="passive"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="U401" pin="33" pinfunction="5VOUT" pintype="power_out"/>
+    </net>
+    <net code="8" name="/tmc5130/BMA1">
+      <node ref="J401" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U401" pin="46" pinfunction="OA1" pintype="output"/>
+    </net>
+    <net code="9" name="/tmc5130/BMA2">
+      <node ref="J401" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U401" pin="42" pinfunction="OA2" pintype="output"/>
+    </net>
+    <net code="10" name="/tmc5130/BMB1">
+      <node ref="J401" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U401" pin="15" pinfunction="OB1" pintype="output"/>
+    </net>
+    <net code="11" name="/tmc5130/BMB2">
+      <node ref="J401" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U401" pin="19" pinfunction="OB2" pintype="output"/>
+    </net>
+    <net code="12" name="/tmc5130/BRA">
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="U401" pin="44" pinfunction="BRA" pintype="passive"/>
+    </net>
+    <net code="13" name="/tmc5130/BRB">
+      <node ref="R403" pin="1" pintype="passive"/>
+      <node ref="U401" pin="17" pinfunction="BRB" pintype="passive"/>
+    </net>
+    <net code="14" name="/tmc5130/CLOCK">
+      <node ref="U401" pin="2" pinfunction="CLK" pintype="input"/>
+      <node ref="X401" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="15" name="/tmc5130/CPI">
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="U401" pin="37" pinfunction="CPI" pintype="passive"/>
+    </net>
+    <net code="16" name="/tmc5130/CPO">
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="U401" pin="35" pinfunction="CP0" pintype="passive"/>
+    </net>
+    <net code="17" name="/tmc5130/VCC">
+      <node ref="C405" pin="1" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="U401" pin="34" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="18" name="/tmc5130/VCP">
+      <node ref="C403" pin="2" pintype="passive"/>
+      <node ref="U401" pin="38" pinfunction="VCP" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(U301-BOOT-Pad7)">
+      <node ref="U301" pin="7" pinfunction="BOOT" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U301-PGOOD-Pad1)">
+      <node ref="U301" pin="1" pinfunction="PGOOD" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U301-SW-Pad5)">
+      <node ref="U301" pin="5" pinfunction="SW" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U301-SW-Pad6)">
+      <node ref="U301" pin="6" pinfunction="SW" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U401-DNC-Pad14)">
+      <node ref="U401" pin="14" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U401-DNC-Pad16)">
+      <node ref="U401" pin="16" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U401-DNC-Pad18)">
+      <node ref="U401" pin="18" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U401-DNC-Pad20)">
+      <node ref="U401" pin="20" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U401-DNC-Pad22)">
+      <node ref="U401" pin="22" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U401-DNC-Pad41)">
+      <node ref="U401" pin="41" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U401-DNC-Pad43)">
+      <node ref="U401" pin="43" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U401-DNC-Pad45)">
+      <node ref="U401" pin="45" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U401-DNC-Pad47)">
+      <node ref="U401" pin="47" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U401-ENCA_DCIN_CFG5-Pad25)">
+      <node ref="U401" pin="25" pinfunction="ENCA_DCIN_CFG5" pintype="input+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U401-ENCB_DCEN_CFG4-Pad24)">
+      <node ref="U401" pin="24" pinfunction="ENCB_DCEN_CFG4" pintype="input+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U401-NC-Pad6)">
+      <node ref="U401" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U401-NC-Pad31)">
+      <node ref="U401" pin="31" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U401-NC-Pad36)">
+      <node ref="U401" pin="36" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U401-REFL_STEP-Pad8)">
+      <node ref="U401" pin="8" pinfunction="REFL_STEP" pintype="input+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U401-SCK_CFG2-Pad4)">
+      <node ref="U401" pin="4" pinfunction="SCK_CFG2" pintype="input+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U401-SDI_NAI_CFG1-Pad5)">
+      <node ref="U401" pin="5" pinfunction="SDI_NAI_CFG1" pintype="input+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U401-SDO_NAO_CFG0-Pad7)">
+      <node ref="U401" pin="7" pinfunction="SDO_NAO_CFG0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U401-~{CS}_CFG3-Pad3)">
+      <node ref="U401" pin="3" pinfunction="~{CS}_CFG3" pintype="input+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(X401-Tri-State-Pad1)">
+      <node ref="X401" pin="1" pinfunction="Tri-State" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

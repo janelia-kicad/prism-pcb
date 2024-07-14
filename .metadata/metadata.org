@@ -219,27 +219,26 @@ Hello $addressee
 - References:
   - <<references>>
 
-[[./<<pcb-dir>>/raytrace.png]]
+[[./<<pcb-dir>>/pcb.png]]
+[[./<<pcb-dir>>/pcb-fan.png]]
 
 <<description>>
 #+END_SRC
 
-# #+html: <img src="./<<pcb-dir>>/raytrace.png" width="<<image-width>>">
+# #+html: <img src="./<<pcb-dir>>/pcb.png" width="<<image-width>>">
+# #+html: <img src="./<<pcb-dir>>/pcb-fan.png" width="<<image-width>>">
 
 #+NAME: supplemental-bom
 #+BEGIN_SRC org :noweb yes
 | Item | Synopsis                                               | Manufacturer Part Number | Manufacturer        | Quantity |  Cost | Total |
 |------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
-|    1 | FAN AXIAL 25X8MM 5VDC WIRE                             |                     255M | ebm-papst Inc.      |        1 | 33.47 | 33.47 |
-|    2 | CONN RCPT HSG 2POS 1.25MM                              |               5055650201 | Molex               |        1 |  0.32 |  0.32 |
-|    3 | CONN SOCKET 26-30AWG CRIMP GOLD                        |               5054311100 | Molex               |        2 |  0.30 |  0.60 |
-|    4 | Hex Standoff Threaded M2 Brass 8.00mm                  |                970080244 | Würth Elektronik    |        3 |  0.65 |  1.95 |
-|    5 | MACH SCREW PAN HEAD PHILLIPS M2 12mm                   |         MPMS 002 0012 PH | B&F Fastener Supply |        3 |  0.32 |  0.96 |
-|    6 | MACH SCREW PAN HEAD PHILLIPS M2 5mm                    |         MPMS 002 0005 PH | B&F Fastener Supply |        3 |  0.17 |  0.51 |
-|    6 | CONN RCPT HSG 2POS 1.50MM                              |               0874390200 | Molex               |        1 |  0.22 |  0.22 |
-|    7 | PICO-SPOX 874210000, 24 AWG,UL10                       |               0797580016 | Molex               |        2 |  1.04 |  2.08 |
+|    1 | CABLE FFC/FPC 10POS 1MM 12IN                           | Molex                    | 0152670265          |        1 |  2.27 |  2.27 |
+|    1 | FAN AXIAL 25X8MM 5VDC WIRE                             | 255M                     | ebm-papst Inc.      |        1 | 33.47 | 33.47 |
+|    4 | Hex Standoff Threaded M2 Brass 8.00mm                  | 970100244                | Würth Elektronik    |        3 |  0.55 |  1.65 |
+|    5 | MACH SCREW PAN HEAD PHILLIPS M2 12mm                   | MPMS 002 0012 PH         | B&F Fastener Supply |        3 |  0.32 |  0.96 |
+|    6 | MACH SCREW PAN HEAD PHILLIPS M2 5mm                    | MPMS 002 0005 PH         | B&F Fastener Supply |        3 |  0.17 |  0.51 |
 |------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
-|      | Supplemental BOM Version: <<supplemental-bom-version>> |                          |                     |          | Total | 40.11 |
+|      | Supplemental BOM Version: <<supplemental-bom-version>> |                          |                     |          | Total | 38.86 |
 ,#+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
 #+END_SRC
 
@@ -355,6 +354,50 @@ make metadata
 make kicad-edits
 exit
 #+END_EXAMPLE
+
+** Documentation
+
+*** Images
+
+**** 3D Viewer
+
+ - pcb.png
+ - top.png
+ - bottom.png
+ - front.png
+ - back.png
+ - left.png
+ - right.png
+
+**** Trim
+
+#+BEGIN_EXAMPLE
+make trimmed-images
+#+END_EXAMPLE
+
+*** BOM
+
+Generate BOM from schematic editor using blank command line to create bom xml file.
+
+#+BEGIN_EXAMPLE
+make ipython-shell
+#+END_EXAMPLE
+
+#+BEGIN_SRC python
+from kicad_bom import KicadBom
+kb = KicadBom(netlist_path='.')
+
+input_fields = ['Synopsis',
+                'Reference',
+                'Package',
+                'LCSC']
+output_fields = ['Comment',
+                 'Designator',
+                 'Footprint',
+                 'LCSC']
+kb.save_bom_csv_file('jlcpcb-bom.csv', input_fields, output_fields)
+#+END_SRC
+
 
 * Tangled Files                                                    :noexport:
 
