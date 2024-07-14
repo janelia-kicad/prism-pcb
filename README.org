@@ -6,7 +6,7 @@
 - Pcb Version: 1.0
 - Enclosure Version: 1.0
 - Supplemental BOM Version: 1.0
-- Release Date: 2024-07-12
+- Release Date: 2024-07-14
 - Creation Date: 2024-06-27
 - Kicad Version: 7.0.11
 - License: BSD-3-Clause
@@ -17,4 +17,5 @@
 - References:
   - [[https://www.analog.com/en/products/tmc5130.html][TMC5130]]
 
-[[./documentation/pcb/raytrace.png]]
+[[./documentation/pcb/pcb.png]]
+[[./documentation/pcb/pcb-fan.png]]
