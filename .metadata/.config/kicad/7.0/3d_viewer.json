@@ -5,7 +5,7 @@
   "camera": {
     "animation_enabled": true,
     "moving_speed_multiplier": 3,
-    "projection_mode": 0,
+    "projection_mode": 1,
     "rotation_increment": 10.0
   },
   "color_picker": {
@@ -118,7 +118,7 @@
     "show_comments": false,
     "show_eco": false,
     "show_footprints_insert": true,
-    "show_footprints_normal": false,
+    "show_footprints_normal": true,
     "show_footprints_not_in_posfile": true,
     "show_footprints_virtual": false,
     "show_silkscreen": true,
