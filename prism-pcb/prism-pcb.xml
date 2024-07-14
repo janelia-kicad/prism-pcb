@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/polidorop/Repositories/kicad/prism-pcb/prism-pcb/prism-pcb.kicad_sch</source>
-    <date>Sun 14 Jul 2024 01:36:41 PM EDT</date>
+    <date>Sun 14 Jul 2024 02:51:29 PM EDT</date>
     <tool>Eeschema 7.0.11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -241,17 +241,19 @@
         <field name="LCSC">C19078014</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Manufacturer Part Number">TPSM365R6V5RDNR</field>
-        <field name="Synopsis">3-V TO 65-V INPUT, 1-V TO 13-V O</field>
+        <field name="Package">QFN-11(3.5x4.5)</field>
+        <field name="Synopsis">DC-DC 5V 600mA Output 3-65V Input</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">296-TPSM365R6V5RDNRCT-ND</field>
       </fields>
       <libsource lib="Janelia" part="TPSM365R6V5RDNR" description="Non-Isolated PoL Module DC DC Converter 1 Output 5V 600mA 3V - 65V Input"/>
-      <property name="Synopsis" value="3-V TO 65-V INPUT, 1-V TO 13-V O"/>
+      <property name="Synopsis" value="DC-DC 5V 600mA Output 3-65V Input"/>
       <property name="Manufacturer" value="Texas Instruments"/>
       <property name="Manufacturer Part Number" value="TPSM365R6V5RDNR"/>
       <property name="Vendor" value="Digi-Key"/>
       <property name="Vendor Part Number" value="296-TPSM365R6V5RDNRCT-ND"/>
       <property name="LCSC" value="C19078014"/>
+      <property name="Package" value="QFN-11(3.5x4.5)"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
       <property name="ki_description" value="Non-Isolated PoL Module DC DC Converter 1 Output 5V 600mA 3V - 65V Input"/>
@@ -1216,12 +1218,13 @@
         <field name="Reference">U</field>
         <field name="Value">TPSM365R6V5RDNR</field>
         <field name="Footprint">Janelia:RDN0011A-MFG</field>
-        <field name="Synopsis">3-V TO 65-V INPUT, 1-V TO 13-V O</field>
+        <field name="Synopsis">DC-DC 5V 600mA Output 3-65V Input</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Manufacturer Part Number">TPSM365R6V5RDNR</field>
         <field name="Vendor">Digi-Key</field>
         <field name="Vendor Part Number">296-TPSM365R6V5RDNRCT-ND</field>
         <field name="LCSC">C19078014</field>
+        <field name="Package">QFN-11(3.5x4.5)</field>
       </fields>
       <pins>
         <pin num="1" name="PGOOD" type="open_collector"/>
