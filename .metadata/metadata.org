@@ -315,10 +315,10 @@ from kicad_bom import KicadBom
 kb = KicadBom(netlist_path='../<<project-name>>/')
 
 fields = ['Item',
-          'Quantity',
-          'Manufacturer',
-          'Manufacturer Part Number',
           'Synopsis',
+          'Manufacturer Part Number',
+          'Manufacturer',
+          'Quantity',
           'Reference(s)',
           'Package']
 bom = kb.get_bom(input_fields=fields, output_fields=fields, format_for_org_table=True)
@@ -351,26 +351,8 @@ kb.save_bom_csv_file('../<<fabrication-dir>>/jlcpcb-bom.csv', input_fields, outp
 
 [[https://guix.gnu.org/manual/en/html_node/Binary-Installation.html][Install Guix]]
 
-** Edit metadata.org
 
-#+BEGIN_EXAMPLE
-make metadata-edits
-#+END_EXAMPLE
-
-** Tangle metadata.org
-
-#+BEGIN_EXAMPLE
-make metadata
-#+END_EXAMPLE
-
-** Edit project
-
-#+BEGIN_EXAMPLE
-make kicad-edits
-exit
-#+END_EXAMPLE
-
-** Documentation
+** Generate Output from KiCad
 
 *** Images
 
@@ -390,10 +372,89 @@ exit
 make trimmed-images
 #+END_EXAMPLE
 
+*** Gerber Files
+
+File -> Fabrication Outputs -> Gerbers (.gbr)
+
+Output directory: ../documentation/fabrication/gerbers
+
+Include Layers:
+- F.Cu
+- F.Paste
+- F.Silks
+- F.Mask
+- B.Cu
+- B.Paste
+- B.Silks
+- B.Mask
+- Edge.Cuts - (contain the board outline/cutouts.)
+- In1.Cu, In2.Cu … - (needed for 4/6 layer designs.)
+
+Options:
+- Select Plot reference designators, otherwise designators will not appear on silkscreen layers.
+- Select Check zone fills before plotting
+- Select Use Protel filename extensions, this is recommended as JLCPCB prefers Protel filename extensions.
+- Select Subtract soldermask from silkscreen, this ensures no silkscreen on pads.
+- Coordinate format 4.6 unit mm
+
+*** Drill and Map Files
+
+Options:
+- Excellon drill file format
+- Check Use alternate drill mode for "Oval Holes Drill Mode".
+- Check Absolute for "Drill Origin".
+- Check Millimeters for "Drill Units".
+- Check Decimal format for "Zeros Format".
+- Gerber X2 map file format
+
+
+Zip gerber files
+
+#+BEGIN_EXAMPLE
+zip gerbers.zip gerbers/*
+#+END_EXAMPLE
+
 *** BOM
 
 Generate BOM from schematic editor using blank command line to create bom xml file.
 
+*** POS
+
+File -> Fabrication Outputs -> Component Placement (.pos)
+
+Output directory: ../documentation/fabrication/
+
+Settings:
+- Format = CSV
+- Units = Millimeters
+- Files = Separate files for front, back
+- Do not use drill/place file origin
+
+Modify pos files:
+- Ref -> Designator
+- PosX -> Mid X
+- PosY -> Mid Y
+- Rot -> Rotation
+- Side -> Layer
+
+** Edit metadata.org
+
+#+BEGIN_EXAMPLE
+make metadata-edits
+#+END_EXAMPLE
+
+** Tangle metadata.org
+
+#+BEGIN_EXAMPLE
+make metadata
+#+END_EXAMPLE
+
+** Edit project
+
+#+BEGIN_EXAMPLE
+make kicad-edits
+exit
+#+END_EXAMPLE
 
 * Tangled Files                                                    :noexport:
 
