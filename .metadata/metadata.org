@@ -417,6 +417,7 @@ Output directory: ../documentation/pcb
   - B.Fab
 - Plot on All Layers
   - Edge.Cuts
+- Plot footprint values
 - Plot reference designators
 - SVG Options
   - Precision = 4

@@ -1,15 +1,15 @@
-- [Repository Info](#orgccda2f4)
-- [Images](#org3fc1071)
-- [Schematic](#orgabc3876)
-- [PCB](#org9d1c87e)
-- [Bill of Materials](#org4580f16)
-- [Development](#orge307833)
+- [Repository Info](#org8a56754)
+- [Images](#org0e8ffe5)
+- [Schematic](#org7060801)
+- [PCB](#org381583c)
+- [Bill of Materials](#orgf1b71a8)
+- [Development](#org49bc506)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgccda2f4"></a>
+<a id="org8a56754"></a>
 
 # Repository Info
 
@@ -33,7 +33,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="org3fc1071"></a>
+<a id="org0e8ffe5"></a>
 
 # Images
 
@@ -50,7 +50,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="orgabc3876"></a>
+<a id="org7060801"></a>
 
 # Schematic
 
@@ -65,7 +65,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="org9d1c87e"></a>
+<a id="org381583c"></a>
 
 # PCB
 
@@ -80,7 +80,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org4580f16"></a>
+<a id="orgf1b71a8"></a>
 
 # Bill of Materials
 
@@ -119,7 +119,7 @@
 |      | Supplemental BOM Version: 1.0         |                          |                     |          | Total | 38.86 |
 
 
-<a id="orge307833"></a>
+<a id="org49bc506"></a>
 
 # Development
 
@@ -193,6 +193,7 @@
         -   B.Fab
     -   Plot on All Layers
         -   Edge.Cuts
+    -   Plot footprint values
     -   Plot reference designators
     -   SVG Options
         -   Precision = 4
