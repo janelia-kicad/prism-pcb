@@ -427,7 +427,7 @@ Output directory: ../documentation/fabrication/
 Settings:
 - Format = CSV
 - Units = Millimeters
-- Files = Separate files for front, back
+- Files = Single file for board
 - Do not use drill/place file origin
 
 Modify pos files:
