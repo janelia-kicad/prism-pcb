@@ -1,15 +1,15 @@
-- [Repository Info](#org51a0e26)
-- [Images](#orga5c3645)
-- [Schematic](#orgd921d2b)
-- [PCB](#org8ecf8de)
-- [Bill of Materials](#orgc8783e7)
-- [Development](#org17e29e0)
+- [Repository Info](#orgccda2f4)
+- [Images](#org3fc1071)
+- [Schematic](#orgabc3876)
+- [PCB](#org9d1c87e)
+- [Bill of Materials](#org4580f16)
+- [Development](#orge307833)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org51a0e26"></a>
+<a id="orgccda2f4"></a>
 
 # Repository Info
 
@@ -33,7 +33,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="orga5c3645"></a>
+<a id="org3fc1071"></a>
 
 # Images
 
@@ -50,17 +50,37 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="orgd921d2b"></a>
+<a id="orgabc3876"></a>
 
 # Schematic
 
+[./documentation/schematic/prism-pcb.pdf](./documentation/schematic/prism-pcb.pdf)
 
-<a id="org8ecf8de"></a>
+<img src="./documentation/schematic/prism-pcb.svg" width="1920">
+
+<img src="./documentation/schematic/prism-pcb-assembly.svg" width="1920">
+
+<img src="./documentation/schematic/prism-pcb-interface.svg" width="1920">
+
+<img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
+
+
+<a id="org9d1c87e"></a>
 
 # PCB
 
+<img src="./documentation/pcb/prism-pcb-User_Drawings.svg" width="1920">
 
-<a id="orgc8783e7"></a>
+<img src="./documentation/pcb/prism-pcb-F_Silkscreen.svg" width="1920">
+
+<img src="./documentation/pcb/prism-pcb-B_Silkscreen.svg" width="1920">
+
+<img src="./documentation/pcb/prism-pcb-F_Fab.svg" width="1920">
+
+<img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
+
+
+<a id="org4580f16"></a>
 
 # Bill of Materials
 
@@ -99,7 +119,7 @@
 |      | Supplemental BOM Version: 1.0         |                          |                     |          | Total | 38.86 |
 
 
-<a id="org17e29e0"></a>
+<a id="orge307833"></a>
 
 # Development
 
@@ -116,6 +136,8 @@
 
 1.  3D Viewer
 
+    Output directory: ../documentation/fabrication/gerbers
+    
     -   pcb.png
     -   top.png
     -   bottom.png
@@ -127,6 +149,56 @@
 2.  Trim
 
         make trimmed-images
+
+3.  Schematic PDF
+
+    File -> Plot
+    
+    Output directory: ../documentation/schematic
+    
+    -   Output format PDF
+    -   Page Size = Schematic size
+    -   Plot drawing sheet
+    -   Output mode = Color
+    -   Color theme = KiCad Default
+    -   Default line width = 0.006 in
+
+4.  Schematic SVG
+
+    File -> Plot
+    
+    Output directory: ../documentation/schematic
+    
+    -   Output format SVG
+    -   Page Size = Schematic size
+    -   Plot drawing sheet
+    -   Output mode = Color
+    -   Color theme = Solarized Light
+    -   Default line width = 0.012 in
+
+5.  PCB SVG
+
+    Add Edge.Cuts, holes, and dimensions to User.Drawings
+    
+    File -> Plot
+    
+    Output directory: ../documentation/pcb
+    
+    -   Plot format SVG
+    -   Include Layers
+        -   User.Drawings
+        -   F.Silkscreen
+        -   B.Silkscreen
+        -   F.Fab
+        -   B.Fab
+    -   Plot on All Layers
+        -   Edge.Cuts
+    -   Plot reference designators
+    -   SVG Options
+        -   Precision = 4
+        -   Output mode = color
+    
+        make cropped-svg
 
 
 ### Gerber Files
@@ -188,7 +260,7 @@ Settings:
 
 -   Format = CSV
 -   Units = Millimeters
--   Files = Separate files for front, back
+-   Files = Single file for board
 -   Do not use drill/place file origin
 
 Modify pos files:

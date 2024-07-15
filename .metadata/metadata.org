@@ -358,6 +358,8 @@ kb.save_bom_csv_file('../<<fabrication-dir>>/jlcpcb-bom.csv', input_fields, outp
 
 **** 3D Viewer
 
+Output directory: ../documentation/fabrication/gerbers
+
  - pcb.png
  - top.png
  - bottom.png
@@ -370,6 +372,58 @@ kb.save_bom_csv_file('../<<fabrication-dir>>/jlcpcb-bom.csv', input_fields, outp
 
 #+BEGIN_EXAMPLE
 make trimmed-images
+#+END_EXAMPLE
+
+**** Schematic PDF
+
+File -> Plot
+
+Output directory: ../documentation/schematic
+
+- Output format PDF
+- Page Size = Schematic size
+- Plot drawing sheet
+- Output mode = Color
+- Color theme = KiCad Default
+- Default line width = 0.006 in
+
+**** Schematic SVG
+
+File -> Plot
+
+Output directory: ../documentation/schematic
+
+- Output format SVG
+- Page Size = Schematic size
+- Plot drawing sheet
+- Output mode = Color
+- Color theme = Solarized Light
+- Default line width = 0.012 in
+
+**** PCB SVG
+
+Add Edge.Cuts, holes, and dimensions to User.Drawings
+
+File -> Plot
+
+Output directory: ../documentation/pcb
+
+- Plot format SVG
+- Include Layers
+  - User.Drawings
+  - F.Silkscreen
+  - B.Silkscreen
+  - F.Fab
+  - B.Fab
+- Plot on All Layers
+  - Edge.Cuts
+- Plot reference designators
+- SVG Options
+  - Precision = 4
+  - Output mode = color
+
+#+BEGIN_EXAMPLE
+make cropped-svg
 #+END_EXAMPLE
 
 *** Gerber Files
@@ -587,10 +641,10 @@ no-skip-worktree-config:
 ls-files-config:
 	git ls-files .metadata/.config/ -v
 
-.PHONY: cropped
-cropped:
+.PHONY: cropped-svg
+cropped-svg:
 	# $(GUIX-SHELL) -- inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg
-	inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg
+	inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg && inkscape -D --export-overwrite --export-plain-svg documentation/schematic/*.svg
 
 .PHONY: trimmed-images
 trimmed-images:
