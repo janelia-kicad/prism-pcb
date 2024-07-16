@@ -1,15 +1,15 @@
-- [Repository Info](#org8a56754)
-- [Images](#org0e8ffe5)
-- [Schematic](#org7060801)
-- [PCB](#org381583c)
-- [Bill of Materials](#orgf1b71a8)
-- [Development](#org49bc506)
+- [Repository Info](#orgaf0d9af)
+- [Images](#org935729b)
+- [Schematic](#org0cb8d72)
+- [PCB](#org7a1ab8b)
+- [Bill of Materials](#orgaa01f08)
+- [Development](#org56a3d11)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org8a56754"></a>
+<a id="orgaf0d9af"></a>
 
 # Repository Info
 
@@ -19,7 +19,7 @@
 -   Pcb Version: 1.0
 -   Enclosure Version: 1.0
 -   Supplemental BOM Version: 1.0
--   Release Date: 2024-07-15
+-   Release Date: 2024-07-16
 -   Creation Date: 2024-06-27
 -   Kicad Version: 7.0.11
 -   License: BSD-3-Clause
@@ -33,7 +33,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="org0e8ffe5"></a>
+<a id="org935729b"></a>
 
 # Images
 
@@ -50,7 +50,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org7060801"></a>
+<a id="org0cb8d72"></a>
 
 # Schematic
 
@@ -65,7 +65,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="org381583c"></a>
+<a id="org7a1ab8b"></a>
 
 # PCB
 
@@ -80,7 +80,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="orgf1b71a8"></a>
+<a id="orgaa01f08"></a>
 
 # Bill of Materials
 
@@ -112,14 +112,14 @@
 | Item | Synopsis                              | Manufacturer Part Number | Manufacturer        | Quantity | Cost  | Total |
 |---- |------------------------------------- |------------------------ |------------------- |-------- |----- |----- |
 | 1    | CABLE FFC/FPC 10POS 1MM 12IN          | Molex                    | 0152670265          | 1        | 2.27  | 2.27  |
-| 1    | FAN AXIAL 25X8MM 5VDC WIRE            | 255M                     | ebm-papst Inc.      | 1        | 33.47 | 33.47 |
-| 4    | Hex Standoff Threaded M2 Brass 8.00mm | 970100244                | Würth Elektronik    | 3        | 0.55  | 1.65  |
-| 5    | MACH SCREW PAN HEAD PHILLIPS M2 12mm  | MPMS 002 0012 PH         | B&F Fastener Supply | 3        | 0.32  | 0.96  |
-| 6    | MACH SCREW PAN HEAD PHILLIPS M2 5mm   | MPMS 002 0005 PH         | B&F Fastener Supply | 3        | 0.17  | 0.51  |
+| 2    | FAN AXIAL 25X8MM 5VDC WIRE            | 255M                     | ebm-papst Inc.      | 1        | 33.47 | 33.47 |
+| 3    | Hex Standoff Threaded M2 Brass 8.00mm | 970100244                | Würth Elektronik    | 3        | 0.55  | 1.65  |
+| 4    | MACH SCREW PAN HEAD PHILLIPS M2 12mm  | MPMS 002 0012 PH         | B&F Fastener Supply | 3        | 0.32  | 0.96  |
+| 5    | MACH SCREW PAN HEAD PHILLIPS M2 5mm   | MPMS 002 0005 PH         | B&F Fastener Supply | 3        | 0.17  | 0.51  |
 |      | Supplemental BOM Version: 1.0         |                          |                     |          | Total | 38.86 |
 
 
-<a id="org49bc506"></a>
+<a id="org56a3d11"></a>
 
 # Development
 

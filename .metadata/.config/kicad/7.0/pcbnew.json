@@ -69,7 +69,7 @@
   },
   "export_step": {
     "no_virtual": false,
-    "origin_mode": 2,
+    "origin_mode": 1,
     "origin_units": 0,
     "origin_x": 0.0,
     "origin_y": 0.0,

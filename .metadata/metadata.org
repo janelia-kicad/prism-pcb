@@ -233,10 +233,10 @@ Hello $addressee
 | Item | Synopsis                                               | Manufacturer Part Number | Manufacturer        | Quantity |  Cost | Total |
 |------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
 |    1 | CABLE FFC/FPC 10POS 1MM 12IN                           | Molex                    | 0152670265          |        1 |  2.27 |  2.27 |
-|    1 | FAN AXIAL 25X8MM 5VDC WIRE                             | 255M                     | ebm-papst Inc.      |        1 | 33.47 | 33.47 |
-|    4 | Hex Standoff Threaded M2 Brass 8.00mm                  | 970100244                | Würth Elektronik    |        3 |  0.55 |  1.65 |
-|    5 | MACH SCREW PAN HEAD PHILLIPS M2 12mm                   | MPMS 002 0012 PH         | B&F Fastener Supply |        3 |  0.32 |  0.96 |
-|    6 | MACH SCREW PAN HEAD PHILLIPS M2 5mm                    | MPMS 002 0005 PH         | B&F Fastener Supply |        3 |  0.17 |  0.51 |
+|    2 | FAN AXIAL 25X8MM 5VDC WIRE                             | 255M                     | ebm-papst Inc.      |        1 | 33.47 | 33.47 |
+|    3 | Hex Standoff Threaded M2 Brass 8.00mm                  | 970100244                | Würth Elektronik    |        3 |  0.55 |  1.65 |
+|    4 | MACH SCREW PAN HEAD PHILLIPS M2 12mm                   | MPMS 002 0012 PH         | B&F Fastener Supply |        3 |  0.32 |  0.96 |
+|    5 | MACH SCREW PAN HEAD PHILLIPS M2 5mm                    | MPMS 002 0005 PH         | B&F Fastener Supply |        3 |  0.17 |  0.51 |
 |------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
 |      | Supplemental BOM Version: <<supplemental-bom-version>> |                          |                     |          | Total | 38.86 |
 ,#+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
@@ -340,7 +340,6 @@ output_fields = ['Comment',
 kb.save_bom_csv_file('../<<fabrication-dir>>/jlcpcb-bom.csv', input_fields, output_fields)
 #+END_SRC
 
-
 ** Supplemental
 
 #+call: print-org(x=supplemental-bom[:results raw]()):results raw
@@ -350,7 +349,6 @@ kb.save_bom_csv_file('../<<fabrication-dir>>/jlcpcb-bom.csv', input_fields, outp
 ** Install Guix
 
 [[https://guix.gnu.org/manual/en/html_node/Binary-Installation.html][Install Guix]]
-
 
 ** Generate Output from KiCad
 
@@ -461,7 +459,6 @@ Options:
 - Check Millimeters for "Drill Units".
 - Check Decimal format for "Zeros Format".
 - Gerber X2 map file format
-
 
 Zip gerber files
 
