@@ -41,7 +41,7 @@ prism-pcb
 
 #+NAME: synopsis
 #+BEGIN_SRC text :exports none :noweb yes
-PCB for each tessellated maze prism.
+PCB for each prism in the Voigts Lab honeycomb maze.
 #+END_SRC
 
 #+NAME: references

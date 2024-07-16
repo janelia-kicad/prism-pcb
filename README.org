@@ -1,7 +1,7 @@
 # This file is generated automatically from metadata
 # File edits may be overwritten!
 - Project Name: prism-pcb
-- Synopsis: PCB for each tessellated maze prism.
+- Synopsis: PCB for each prism in the Voigts Lab honeycomb maze.
 - Documentation Version: 1.0.0
 - Pcb Version: 1.0
 - Enclosure Version: 1.0

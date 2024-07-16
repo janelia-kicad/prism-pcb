@@ -7,7 +7,7 @@
     "dateModified": "2024-07-16",
     "name": "prism-pcb",
     "version": "1.0",
-    "description": "PCB for each tessellated maze prism.",
+    "description": "PCB for each prism in the Voigts Lab honeycomb maze.",
     "programmingLanguage": [
         "KiCad"
     ],

@@ -3,7 +3,7 @@
 #+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
 * Supplemental BOM
 - Project Name: prism-pcb
-- Synopsis: PCB for each tessellated maze prism.
+- Synopsis: PCB for each prism in the Voigts Lab honeycomb maze.
 - Release Date: 2024-07-16
 - URL: https://github.com/janelia-kicad/prism-pcb
 - Author: Peter Polidoro

@@ -1,20 +1,20 @@
-- [Repository Info](#orgaf0d9af)
-- [Images](#org935729b)
-- [Schematic](#org0cb8d72)
-- [PCB](#org7a1ab8b)
-- [Bill of Materials](#orgaa01f08)
-- [Development](#org56a3d11)
+- [Repository Info](#org5fe8248)
+- [Images](#org1e0da82)
+- [Schematic](#org9680e45)
+- [PCB](#orge3add2a)
+- [Bill of Materials](#orgff85e3f)
+- [Development](#org7871d02)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgaf0d9af"></a>
+<a id="org5fe8248"></a>
 
 # Repository Info
 
 -   Project Name: prism-pcb
--   Synopsis: PCB for each tessellated maze prism.
+-   Synopsis: PCB for each prism in the Voigts Lab honeycomb maze.
 -   Documentation Version: 1.0.0
 -   Pcb Version: 1.0
 -   Enclosure Version: 1.0
@@ -33,7 +33,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="org935729b"></a>
+<a id="org1e0da82"></a>
 
 # Images
 
@@ -50,7 +50,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org0cb8d72"></a>
+<a id="org9680e45"></a>
 
 # Schematic
 
@@ -65,7 +65,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="org7a1ab8b"></a>
+<a id="orge3add2a"></a>
 
 # PCB
 
@@ -80,7 +80,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="orgaa01f08"></a>
+<a id="orgff85e3f"></a>
 
 # Bill of Materials
 
@@ -119,7 +119,7 @@
 |      | Supplemental BOM Version: 1.0         |                          |                     |          | Total | 38.86 |
 
 
-<a id="org56a3d11"></a>
+<a id="org7871d02"></a>
 
 # Development
 
