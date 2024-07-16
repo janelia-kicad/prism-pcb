@@ -1,15 +1,15 @@
-- [Repository Info](#org5fe8248)
-- [Images](#org1e0da82)
-- [Schematic](#org9680e45)
-- [PCB](#orge3add2a)
-- [Bill of Materials](#orgff85e3f)
-- [Development](#org7871d02)
+- [Repository Info](#org546b2bf)
+- [Images](#org06d6753)
+- [Schematic](#org853bf71)
+- [PCB](#org2aa116d)
+- [Bill of Materials](#org951062d)
+- [Development](#org349bcc6)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org5fe8248"></a>
+<a id="org546b2bf"></a>
 
 # Repository Info
 
@@ -28,12 +28,13 @@
 -   Email: peter@polidoro.io
 -   Copyright: 2024 Howard Hughes Medical Institute
 -   References:
+    -   [cluster-pcb](https://github.com/janelia-kicad/cluster-pcb)
     -   [TMC5130](https://www.analog.com/en/products/tmc5130.html)
 
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="org1e0da82"></a>
+<a id="org06d6753"></a>
 
 # Images
 
@@ -50,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org9680e45"></a>
+<a id="org853bf71"></a>
 
 # Schematic
 
@@ -65,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="orge3add2a"></a>
+<a id="org2aa116d"></a>
 
 # PCB
 
@@ -80,7 +81,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="orgff85e3f"></a>
+<a id="org951062d"></a>
 
 # Bill of Materials
 
@@ -119,7 +120,7 @@
 |      | Supplemental BOM Version: 1.0         |                          |                     |          | Total | 38.86 |
 
 
-<a id="org7871d02"></a>
+<a id="org349bcc6"></a>
 
 # Development
 

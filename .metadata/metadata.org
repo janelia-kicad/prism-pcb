@@ -46,6 +46,7 @@ PCB for each prism in the Voigts Lab honeycomb maze.
 
 #+NAME: references
 #+BEGIN_SRC text :exports none :noweb yes
+[[https://github.com/janelia-kicad/cluster-pcb][cluster-pcb]]
 [[https://www.analog.com/en/products/tmc5130.html][TMC5130]]
 #+END_SRC
 

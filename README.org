@@ -15,6 +15,7 @@
 - Email: peter@polidoro.io
 - Copyright: 2024 Howard Hughes Medical Institute
 - References:
+  - [[https://github.com/janelia-kicad/cluster-pcb][cluster-pcb]]
   - [[https://www.analog.com/en/products/tmc5130.html][TMC5130]]
 
 [[./documentation/pcb/pcb.png]]
