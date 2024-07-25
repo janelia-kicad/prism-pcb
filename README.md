@@ -1,15 +1,15 @@
-- [Repository Info](#org546b2bf)
-- [Images](#org06d6753)
-- [Schematic](#org853bf71)
-- [PCB](#org2aa116d)
-- [Bill of Materials](#org951062d)
-- [Development](#org349bcc6)
+- [Repository Info](#org0da667d)
+- [Images](#org15b3e34)
+- [Schematic](#org1291c79)
+- [PCB](#org78132e3)
+- [Bill of Materials](#org1cc50fb)
+- [Development](#orge37266f)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org546b2bf"></a>
+<a id="org0da667d"></a>
 
 # Repository Info
 
@@ -19,7 +19,7 @@
 -   Pcb Version: 1.0
 -   Enclosure Version: 1.0
 -   Supplemental BOM Version: 1.0
--   Release Date: 2024-07-16
+-   Release Date: 2024-07-25
 -   Creation Date: 2024-06-27
 -   Kicad Version: 7.0.11
 -   License: BSD-3-Clause
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="org06d6753"></a>
+<a id="org15b3e34"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org853bf71"></a>
+<a id="org1291c79"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="org2aa116d"></a>
+<a id="org78132e3"></a>
 
 # PCB
 
@@ -81,31 +81,31 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org951062d"></a>
+<a id="org1cc50fb"></a>
 
 # Bill of Materials
 
 
 ## Board
 
-| Item | Synopsis                          | Manufacturer Part Number | Manufacturer                         | Quantity | Reference(s)                  | Package          |
-|---- |--------------------------------- |------------------------ |------------------------------------ |-------- |----------------------------- |---------------- |
-| 1    | 50V 3.3uF                         | FS32X335K500EGG          | PSA(Prosperity Dielectrics)          | 1        | C301                          | 1210             |
-| 2    | CAP CER 0.1UF 100V X5R            | GRM155R62A104KE14D       | Murata Electronics                   | 6        | C302 C401 C403 C404 C407 C410 | 0402             |
-| 3    | CAP CER 1UF 25V X5R               | GRT155R61E105KE01D       | Murata Electronics                   | 2        | C303 C304                     | 0402             |
-| 4    | CAP CER 0.022UF 100V X7R          | GCM188R72A223KA37D       | Murata Electronics                   | 1        | C402                          | 0603             |
-| 5    | CAP CER 0.47UF 35V X5R            | GRT155R6YA474KE01D       | Murata Electronics                   | 1        | C405                          | 0402             |
-| 6    | CAP CER 2.2UF 35V X5R             | C1005X5R1V225K050BC      | TDK Corporation                      | 1        | C406                          | 0402             |
-| 7    | CAP CER 2.2UF 100V X7T 0805       | GRM21BD72A225KE01L       | Murata Electronics                   | 2        | C408 C411                     | 0805             |
-| 8    | CAP ALUM 100UF 20% 50V SMD        | EEE-FTH101XAV            | Panasonic Electronic Components      | 2        | C409 C412                     | SMD\_D10xL16.8mm |
-| 9    | CONN FFC FPC BOTTOM 10POS 1MM RA  | 1.0K-FX-10PWBG           | HDGC                                 | 1        | J301                          | SMD P=1mm        |
-| 10   | CONN HEADER SMD R/A 4POS 1.5MM    | 0874380443               | Molex                                | 1        | J401                          | SMD              |
-| 11   | RES SMD 100 OHM 1% 62.5mW         | 0402WGF1000TCE           | UNI-ROYAL(Uniroyal Elec)             | 1        | R301                          | 0402             |
-| 12   | RES SMD 2.2 OHM 5% 1/10W          | ERJ-2GEJ2R2X             | Panasonic Electronic Components      | 1        | R401                          | 0402             |
-| 13   | 0.12 750mW Current Sense Resistor | KRL1632E-M-R120-F-T5     | SUSUMU                               | 2        | R402 R403                     | 1206             |
-| 14   | DC-DC 5V 600mA Output 3-65V Input | TPSM365R6V5RDNR          | Texas Instruments                    | 1        | U301                          | QFN-11(3.5x4.5)  |
-| 15   | IC MTR DRV BIPOLAR 5.5-46V        | TMC5130A-TA              | Analog Devices Inc./Maxim Integrated | 1        | U401                          | TQFP-48-EP(7x7)  |
-| 16   | XTAL OSC XO 16.0000MHZ HCMOS SMD  | ECS-2520S33-160-FN-TR    | ECS Inc.                             | 1        | X401                          | SMD2520-4P       |
+| Item | Synopsis                          | Manufacturer Part Number | Manufacturer                         | Quantity | Reference(s)                  | Package         |
+|---- |--------------------------------- |------------------------ |------------------------------------ |-------- |----------------------------- |--------------- |
+| 1    | 50V 3.3uF                         | FS32X335K500EGG          | PSA(Prosperity Dielectrics)          | 1        | C301                          | 1210            |
+| 2    | CAP CER 0.1UF 100V X5R            | GRM155R62A104KE14D       | Murata Electronics                   | 6        | C302 C401 C403 C404 C407 C410 | 0402            |
+| 3    | CAP CER 1UF 25V X5R               | GRT155R61E105KE01D       | Murata Electronics                   | 2        | C303 C304                     | 0402            |
+| 4    | CAP CER 0.022UF 100V X7R          | GCM188R72A223KA37D       | Murata Electronics                   | 1        | C402                          | 0603            |
+| 5    | CAP CER 0.47UF 35V X5R            | GRT155R6YA474KE01D       | Murata Electronics                   | 1        | C405                          | 0402            |
+| 6    | CAP CER 2.2UF 35V X5R             | C1005X5R1V225K050BC      | TDK Corporation                      | 1        | C406                          | 0402            |
+| 7    | CAP CER 2.2UF 100V X7T 0805       | GRM21BD72A225KE01L       | Murata Electronics                   | 2        | C408 C411                     | 0805            |
+| 8    | CAP ALUM 100UF 20% 50V SMD        | EEE-FTH101XAV            | Panasonic Electronic Components      | 2        | C409 C412                     | SMD D6.3xL8.3mm |
+| 9    | CONN FFC FPC BOTTOM 10POS 1MM RA  | 1.0K-FX-10PWBG           | HDGC                                 | 1        | J301                          | SMD P=1mm       |
+| 10   | CONN HEADER SMD R/A 4POS 1.5MM    | 0874380443               | Molex                                | 1        | J401                          | SMD             |
+| 11   | RES SMD 100 OHM 1% 62.5mW         | 0402WGF1000TCE           | UNI-ROYAL(Uniroyal Elec)             | 1        | R301                          | 0402            |
+| 12   | RES SMD 2.2 OHM 5% 1/10W          | ERJ-2GEJ2R2X             | Panasonic Electronic Components      | 1        | R401                          | 0402            |
+| 13   | 0.12 750mW Current Sense Resistor | KRL1632E-M-R120-F-T5     | SUSUMU                               | 2        | R402 R403                     | 1206            |
+| 14   | DC-DC 5V 600mA Output 3-65V Input | TPSM365R6V5RDNR          | Texas Instruments                    | 1        | U301                          | QFN-11(3.5x4.5) |
+| 15   | IC MTR DRV BIPOLAR 5.5-46V        | TMC5130A-TA              | Analog Devices Inc./Maxim Integrated | 1        | U401                          | TQFP-48-EP(7x7) |
+| 16   | XTAL OSC XO 16.0000MHZ HCMOS SMD  | ECS-2520S33-160-FN-TR    | ECS Inc.                             | 1        | X401                          | SMD2520-4P      |
 
 
 ## Supplemental
@@ -120,7 +120,7 @@
 |      | Supplemental BOM Version: 1.0         |                          |                     |          | Total | 38.86 |
 
 
-<a id="org349bcc6"></a>
+<a id="orge37266f"></a>
 
 # Development
 
