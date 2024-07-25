@@ -1,22 +1,22 @@
-- [Repository Info](#orgd71b569)
-- [Images](#org1905299)
-- [Schematic](#org394e7dc)
-- [PCB](#orgc50441d)
-- [Bill of Materials](#org4ef8161)
-- [Development](#org227fd69)
+- [Repository Info](#orgfa29e8b)
+- [Images](#org87bca47)
+- [Schematic](#orga941c6a)
+- [PCB](#org5756f3e)
+- [Bill of Materials](#org830ff0e)
+- [Development](#org77581ca)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgd71b569"></a>
+<a id="orgfa29e8b"></a>
 
 # Repository Info
 
 -   Project Name: prism-pcb
 -   Synopsis: PCB for each prism in the Voigts Lab honeycomb maze.
 -   Documentation Version: 1.0.0
--   Pcb Version: 1.0
+-   Pcb Version: 1.1
 -   Enclosure Version: 1.0
 -   Supplemental BOM Version: 1.0
 -   Release Date: 2024-07-25
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="org1905299"></a>
+<a id="org87bca47"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org394e7dc"></a>
+<a id="orga941c6a"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="orgc50441d"></a>
+<a id="org5756f3e"></a>
 
 # PCB
 
@@ -81,7 +81,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org4ef8161"></a>
+<a id="org830ff0e"></a>
 
 # Bill of Materials
 
@@ -120,7 +120,7 @@
 |      | Supplemental BOM Version: 1.0          |                          |                     |          | Total | 39.34 |
 
 
-<a id="org227fd69"></a>
+<a id="org77581ca"></a>
 
 # Development
 
@@ -209,77 +209,86 @@
 
 ### Fabrication Files
 
-File -> Fabrication Outputs -> Gerbers (.gbr)
+1.  Gerbers
 
-Output directory: ../documentation/fabrication/gerbers
+    File -> Fabrication Outputs -> Gerbers (.gbr)
+    
+    Output directory: ../documentation/fabrication/gerbers
+    
+    Include Layers:
+    
+    -   F.Cu
+    -   F.Paste
+    -   F.Silks
+    -   F.Mask
+    -   F.Fab
+    -   B.Cu
+    -   B.Paste
+    -   B.Silks
+    -   B.Mask
+    -   B.Fab
+    -   Edge.Cuts - (contain the board outline/cutouts.)
+    -   In1.Cu, In2.Cu … - (needed for 4/6 layer designs.)
+    
+    Options:
+    
+    -   Select Plot reference designators, otherwise designators will not appear on silkscreen layers.
+    -   Select Check zone fills before plotting
+    -   Select Use Protel filename extensions, this is recommended as JLCPCB prefers Protel filename extensions.
+    -   Select Subtract soldermask from silkscreen, this ensures no silkscreen on pads.
+    -   Coordinate format 4.6 unit mm
 
-Include Layers:
+2.  Drill and Map Files
 
--   F.Cu
--   F.Paste
--   F.Silks
--   F.Mask
--   F.Fab
--   B.Cu
--   B.Paste
--   B.Silks
--   B.Mask
--   B.Fab
--   Edge.Cuts - (contain the board outline/cutouts.)
--   In1.Cu, In2.Cu … - (needed for 4/6 layer designs.)
+    Output directory: ../documentation/fabrication/gerbers
+    
+    Options:
+    
+    -   Excellon drill file format
+    -   Check Use alternate drill mode for "Oval Holes Drill Mode".
+    -   Check Absolute for "Drill Origin".
+    -   Check Millimeters for "Drill Units".
+    -   Check Decimal format for "Zeros Format".
+    -   Gerber X2 map file format
+    
+    Zip gerber files
+    
+        zip gerbers.zip gerbers/*
 
-Options:
+3.  BOM
 
--   Select Plot reference designators, otherwise designators will not appear on silkscreen layers.
--   Select Check zone fills before plotting
--   Select Use Protel filename extensions, this is recommended as JLCPCB prefers Protel filename extensions.
--   Select Subtract soldermask from silkscreen, this ensures no silkscreen on pads.
--   Coordinate format 4.6 unit mm
+    Generate BOM from schematic editor using blank command line to create bom xml file.
 
+4.  POS
 
-### Drill and Map Files
+    File -> Fabrication Outputs -> Component Placement (.pos)
+    
+    Output directory: ../documentation/fabrication/
+    
+    Settings:
+    
+    -   Format = CSV
+    -   Units = Millimeters
+    -   Files = Single file for board
+    -   Do not use drill/place file origin
+    
+    Modify pos files:
+    
+    -   Ref -> Designator
+    -   PosX -> Mid X
+    -   PosY -> Mid Y
+    -   Rot -> Rotation
+    -   Side -> Layer
 
-Output directory: ../documentation/fabrication/gerbers
+5.  Step
 
-Options:
-
--   Excellon drill file format
--   Check Use alternate drill mode for "Oval Holes Drill Mode".
--   Check Absolute for "Drill Origin".
--   Check Millimeters for "Drill Units".
--   Check Decimal format for "Zeros Format".
--   Gerber X2 map file format
-
-Zip gerber files
-
-    zip gerbers.zip gerbers/*
-
-
-### BOM
-
-Generate BOM from schematic editor using blank command line to create bom xml file.
-
-
-### POS
-
-File -> Fabrication Outputs -> Component Placement (.pos)
-
-Output directory: ../documentation/fabrication/
-
-Settings:
-
--   Format = CSV
--   Units = Millimeters
--   Files = Single file for board
--   Do not use drill/place file origin
-
-Modify pos files:
-
--   Ref -> Designator
--   PosX -> Mid X
--   PosY -> Mid Y
--   Rot -> Rotation
--   Side -> Layer
+    File -> Export -> Step
+    
+    Output directory: ../documentation/3dmodels/pcb.step
+    
+    -   Drill/place file origin
+    -   Overwrite old file
+    -   Standard Board outline chaining tolerance
 
 
 ## Edit metadata.org
