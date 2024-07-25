@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/polidorop/Repositories/kicad/prism-pcb/prism-pcb/prism-pcb.kicad_sch</source>
-    <date>Thu 25 Jul 2024 02:55:52 PM EDT</date>
+    <date>Thu 25 Jul 2024 04:32:29 PM EDT</date>
     <tool>Eeschema 7.0.11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>1.0</rev>
-        <date>2024-07-14</date>
+        <rev>1.1</rev>
+        <date>2024-07-25</date>
         <source>prism-pcb.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>1.0</rev>
-        <date>2024-07-14</date>
+        <rev>1.1</rev>
+        <date>2024-07-25</date>
         <source>assembly.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>1.0</rev>
-        <date>2024-07-14</date>
+        <rev>1.1</rev>
+        <date>2024-07-25</date>
         <source>interface.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>1.0</rev>
-        <date>2024-07-14</date>
+        <rev>1.1</rev>
+        <date>2024-07-25</date>
         <source>tmc5130.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -471,29 +471,29 @@
     </comp>
     <comp ref="C409">
       <value>100uF_50V</value>
-      <footprint>Janelia:CAP_EEEFTH101XAV</footprint>
+      <footprint>Janelia:CAP_EEEHAH101UAP</footprint>
       <fields>
-        <field name="LCSC">C6942344</field>
+        <field name="LCSC">C336425</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">EEE-FTH101XAV</field>
-        <field name="Package">SMD D6.3xL8.3mm</field>
+        <field name="Manufacturer Part Number">EEEHAH101UAP</field>
+        <field name="Package">SMD D8xL10.2mm</field>
         <field name="Synopsis">CAP ALUM 100UF 20% 50V SMD</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P124834CT-ND</field>
+        <field name="Vendor Part Number">PCE4713CT-ND</field>
       </fields>
-      <libsource lib="Janelia" part="CP_100uF_50V_6.3x8.3mm_Hybrid_Antivib" description="100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <libsource lib="Janelia" part="CP_100uF_50V_8x10.2mm" description="100uF 50V 110mA@120Hz ±20% SMD D8xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
       <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P124834CT-ND"/>
+      <property name="Vendor Part Number" value="PCE4713CT-ND"/>
       <property name="Synopsis" value="CAP ALUM 100UF 20% 50V SMD"/>
       <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="EEE-FTH101XAV"/>
-      <property name="LCSC" value="C6942344"/>
-      <property name="Package" value="SMD D6.3xL8.3mm"/>
+      <property name="Manufacturer Part Number" value="EEEHAH101UAP"/>
+      <property name="LCSC" value="C336425"/>
+      <property name="Package" value="SMD D8xL10.2mm"/>
       <property name="Sheetname" value="tmc5130"/>
       <property name="Sheetfile" value="tmc5130.kicad_sch"/>
-      <property name="ki_description" value="100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <property name="ki_description" value="100uF 50V 110mA@120Hz ±20% SMD D8xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
       <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
-      <tstamps>33f08b92-e2c3-4fee-87f5-33c296feba30</tstamps>
+      <tstamps>9a12a27e-bad8-427c-8b34-eb7dc988ca75</tstamps>
     </comp>
     <comp ref="C410">
       <value>0.1uF_100V</value>
@@ -549,29 +549,29 @@
     </comp>
     <comp ref="C412">
       <value>100uF_50V</value>
-      <footprint>Janelia:CAP_EEEFTH101XAV</footprint>
+      <footprint>Janelia:CAP_EEEHAH101UAP</footprint>
       <fields>
-        <field name="LCSC">C6942344</field>
+        <field name="LCSC">C336425</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">EEE-FTH101XAV</field>
-        <field name="Package">SMD D6.3xL8.3mm</field>
+        <field name="Manufacturer Part Number">EEEHAH101UAP</field>
+        <field name="Package">SMD D8xL10.2mm</field>
         <field name="Synopsis">CAP ALUM 100UF 20% 50V SMD</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P124834CT-ND</field>
+        <field name="Vendor Part Number">PCE4713CT-ND</field>
       </fields>
-      <libsource lib="Janelia" part="CP_100uF_50V_6.3x8.3mm_Hybrid_Antivib" description="100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <libsource lib="Janelia" part="CP_100uF_50V_8x10.2mm" description="100uF 50V 110mA@120Hz ±20% SMD D8xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
       <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P124834CT-ND"/>
+      <property name="Vendor Part Number" value="PCE4713CT-ND"/>
       <property name="Synopsis" value="CAP ALUM 100UF 20% 50V SMD"/>
       <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="EEE-FTH101XAV"/>
-      <property name="LCSC" value="C6942344"/>
-      <property name="Package" value="SMD D6.3xL8.3mm"/>
+      <property name="Manufacturer Part Number" value="EEEHAH101UAP"/>
+      <property name="LCSC" value="C336425"/>
+      <property name="Package" value="SMD D8xL10.2mm"/>
       <property name="Sheetname" value="tmc5130"/>
       <property name="Sheetfile" value="tmc5130.kicad_sch"/>
-      <property name="ki_description" value="100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <property name="ki_description" value="100uF 50V 110mA@120Hz ±20% SMD D8xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
       <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
-      <tstamps>2c9550e6-14d6-461f-93c7-b792d10ff144</tstamps>
+      <tstamps>4215195e-98bd-4561-bcf1-976f2c320afa</tstamps>
     </comp>
     <comp ref="J401">
       <value>Molex_Pico-SPOX_Horizontal</value>
@@ -735,8 +735,8 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="Janelia" part="CP_100uF_50V_6.3x8.3mm_Hybrid_Antivib">
-      <description>100uF 50V 227.5mA@120Hz 340mΩ@100kHz ±20% SMD D6.3xL8.3mm Aluminum Electrolytic Capacitors - SMD ROHS</description>
+    <libpart lib="Janelia" part="CP_100uF_50V_8x10.2mm">
+      <description>100uF 50V 110mA@120Hz ±20% SMD D8xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS</description>
       <footprints>
         <fp>CP*</fp>
         <fp>Elko*</fp>
@@ -748,14 +748,14 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100uF_50V</field>
-        <field name="Footprint">Janelia:CAP_EEEFTH101XAV</field>
+        <field name="Footprint">Janelia:CAP_EEEHAH101UAP</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P124834CT-ND</field>
+        <field name="Vendor Part Number">PCE4713CT-ND</field>
         <field name="Synopsis">CAP ALUM 100UF 20% 50V SMD</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">EEE-FTH101XAV</field>
-        <field name="LCSC">C6942344</field>
-        <field name="Package">SMD D6.3xL8.3mm</field>
+        <field name="Manufacturer Part Number">EEEHAH101UAP</field>
+        <field name="LCSC">C336425</field>
+        <field name="Package">SMD D8xL10.2mm</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>

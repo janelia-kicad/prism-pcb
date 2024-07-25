@@ -1,15 +1,15 @@
-- [Repository Info](#org0da667d)
-- [Images](#org15b3e34)
-- [Schematic](#org1291c79)
-- [PCB](#org78132e3)
-- [Bill of Materials](#org1cc50fb)
-- [Development](#orge37266f)
+- [Repository Info](#orgd71b569)
+- [Images](#org1905299)
+- [Schematic](#org394e7dc)
+- [PCB](#orgc50441d)
+- [Bill of Materials](#org4ef8161)
+- [Development](#org227fd69)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org0da667d"></a>
+<a id="orgd71b569"></a>
 
 # Repository Info
 
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="org15b3e34"></a>
+<a id="org1905299"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org1291c79"></a>
+<a id="org394e7dc"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="org78132e3"></a>
+<a id="orgc50441d"></a>
 
 # PCB
 
@@ -81,7 +81,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org1cc50fb"></a>
+<a id="org4ef8161"></a>
 
 # Bill of Materials
 
@@ -97,7 +97,7 @@
 | 5    | CAP CER 0.47UF 35V X5R            | GRT155R6YA474KE01D       | Murata Electronics                   | 1        | C405                          | 0402            |
 | 6    | CAP CER 2.2UF 35V X5R             | C1005X5R1V225K050BC      | TDK Corporation                      | 1        | C406                          | 0402            |
 | 7    | CAP CER 2.2UF 100V X7T 0805       | GRM21BD72A225KE01L       | Murata Electronics                   | 2        | C408 C411                     | 0805            |
-| 8    | CAP ALUM 100UF 20% 50V SMD        | EEE-FTH101XAV            | Panasonic Electronic Components      | 2        | C409 C412                     | SMD D6.3xL8.3mm |
+| 8    | CAP ALUM 100UF 20% 50V SMD        | EEEHAH101UAP             | Panasonic Electronic Components      | 2        | C409 C412                     | SMD D8xL10.2mm  |
 | 9    | CONN FFC FPC BOTTOM 10POS 1MM RA  | 1.0K-FX-10PWBG           | HDGC                                 | 1        | J301                          | SMD P=1mm       |
 | 10   | CONN HEADER SMD R/A 4POS 1.5MM    | 0874380443               | Molex                                | 1        | J401                          | SMD             |
 | 11   | RES SMD 100 OHM 1% 62.5mW         | 0402WGF1000TCE           | UNI-ROYAL(Uniroyal Elec)             | 1        | R301                          | 0402            |
@@ -110,17 +110,17 @@
 
 ## Supplemental
 
-| Item | Synopsis                              | Manufacturer Part Number | Manufacturer        | Quantity | Cost  | Total |
-|---- |------------------------------------- |------------------------ |------------------- |-------- |----- |----- |
-| 1    | CABLE FFC/FPC 10POS 1MM 12IN          | Molex                    | 0152670265          | 1        | 2.27  | 2.27  |
-| 2    | FAN AXIAL 25X8MM 5VDC WIRE            | 255M                     | ebm-papst Inc.      | 1        | 33.47 | 33.47 |
-| 3    | Hex Standoff Threaded M2 Brass 8.00mm | 970100244                | Würth Elektronik    | 3        | 0.55  | 1.65  |
-| 4    | MACH SCREW PAN HEAD PHILLIPS M2 12mm  | MPMS 002 0012 PH         | B&F Fastener Supply | 3        | 0.32  | 0.96  |
-| 5    | MACH SCREW PAN HEAD PHILLIPS M2 5mm   | MPMS 002 0005 PH         | B&F Fastener Supply | 3        | 0.17  | 0.51  |
-|      | Supplemental BOM Version: 1.0         |                          |                     |          | Total | 38.86 |
+| Item | Synopsis                               | Manufacturer Part Number | Manufacturer        | Quantity | Cost  | Total |
+|---- |-------------------------------------- |------------------------ |------------------- |-------- |----- |----- |
+| 1    | CABLE FFC/FPC 10POS 1MM 12IN           | Molex                    | 0152670265          | 1        | 2.27  | 2.27  |
+| 2    | FAN AXIAL 25X8MM 5VDC WIRE             | 255M                     | ebm-papst Inc.      | 1        | 33.47 | 33.47 |
+| 3    | Hex Standoff Threaded M2 Brass 12.00mm | 970120244                | Würth Elektronik    | 3        | 0.71  | 2.13  |
+| 4    | MACH SCREW PAN HEAD PHILLIPS M2 12mm   | MPMS 002 0012 PH         | B&F Fastener Supply | 3        | 0.32  | 0.96  |
+| 5    | MACH SCREW PAN HEAD PHILLIPS M2 5mm    | MPMS 002 0005 PH         | B&F Fastener Supply | 3        | 0.17  | 0.51  |
+|      | Supplemental BOM Version: 1.0          |                          |                     |          | Total | 39.34 |
 
 
-<a id="orge37266f"></a>
+<a id="org227fd69"></a>
 
 # Development
 
@@ -137,7 +137,7 @@
 
 1.  3D Viewer
 
-    Output directory: ../documentation/fabrication/gerbers
+    Output directory: ../documentation/pcb
     
     -   pcb.png
     -   top.png
@@ -157,6 +157,8 @@
     
     Output directory: ../documentation/schematic
     
+    Plot All Pages
+    
     -   Output format PDF
     -   Page Size = Schematic size
     -   Plot drawing sheet
@@ -169,6 +171,8 @@
     File -> Plot
     
     Output directory: ../documentation/schematic
+    
+    Plot All Pages
     
     -   Output format SVG
     -   Page Size = Schematic size
@@ -203,7 +207,7 @@
         make cropped-svg
 
 
-### Gerber Files
+### Fabrication Files
 
 File -> Fabrication Outputs -> Gerbers (.gbr)
 
@@ -215,10 +219,12 @@ Include Layers:
 -   F.Paste
 -   F.Silks
 -   F.Mask
+-   F.Fab
 -   B.Cu
 -   B.Paste
 -   B.Silks
 -   B.Mask
+-   B.Fab
 -   Edge.Cuts - (contain the board outline/cutouts.)
 -   In1.Cu, In2.Cu … - (needed for 4/6 layer designs.)
 
@@ -232,6 +238,8 @@ Options:
 
 
 ### Drill and Map Files
+
+Output directory: ../documentation/fabrication/gerbers
 
 Options:
 

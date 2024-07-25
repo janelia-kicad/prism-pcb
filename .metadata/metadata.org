@@ -235,11 +235,11 @@ Hello $addressee
 |------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
 |    1 | CABLE FFC/FPC 10POS 1MM 12IN                           | Molex                    | 0152670265          |        1 |  2.27 |  2.27 |
 |    2 | FAN AXIAL 25X8MM 5VDC WIRE                             | 255M                     | ebm-papst Inc.      |        1 | 33.47 | 33.47 |
-|    3 | Hex Standoff Threaded M2 Brass 8.00mm                  | 970100244                | Würth Elektronik    |        3 |  0.55 |  1.65 |
+|    3 | Hex Standoff Threaded M2 Brass 12.00mm                 | 970120244                | Würth Elektronik    |        3 |  0.71 |  2.13 |
 |    4 | MACH SCREW PAN HEAD PHILLIPS M2 12mm                   | MPMS 002 0012 PH         | B&F Fastener Supply |        3 |  0.32 |  0.96 |
 |    5 | MACH SCREW PAN HEAD PHILLIPS M2 5mm                    | MPMS 002 0005 PH         | B&F Fastener Supply |        3 |  0.17 |  0.51 |
 |------+--------------------------------------------------------+--------------------------+---------------------+----------+-------+-------|
-|      | Supplemental BOM Version: <<supplemental-bom-version>> |                          |                     |          | Total | 38.86 |
+|      | Supplemental BOM Version: <<supplemental-bom-version>> |                          |                     |          | Total | 39.34 |
 ,#+TBLFM: $7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
 #+END_SRC
 
@@ -357,7 +357,7 @@ kb.save_bom_csv_file('../<<fabrication-dir>>/jlcpcb-bom.csv', input_fields, outp
 
 **** 3D Viewer
 
-Output directory: ../documentation/fabrication/gerbers
+Output directory: ../documentation/pcb
 
  - pcb.png
  - top.png
@@ -379,6 +379,8 @@ File -> Plot
 
 Output directory: ../documentation/schematic
 
+Plot All Pages
+
 - Output format PDF
 - Page Size = Schematic size
 - Plot drawing sheet
@@ -391,6 +393,8 @@ Output directory: ../documentation/schematic
 File -> Plot
 
 Output directory: ../documentation/schematic
+
+Plot All Pages
 
 - Output format SVG
 - Page Size = Schematic size
@@ -426,7 +430,7 @@ Output directory: ../documentation/pcb
 make cropped-svg
 #+END_EXAMPLE
 
-*** Gerber Files
+*** Fabrication Files
 
 File -> Fabrication Outputs -> Gerbers (.gbr)
 
@@ -437,10 +441,12 @@ Include Layers:
 - F.Paste
 - F.Silks
 - F.Mask
+- F.Fab
 - B.Cu
 - B.Paste
 - B.Silks
 - B.Mask
+- B.Fab
 - Edge.Cuts - (contain the board outline/cutouts.)
 - In1.Cu, In2.Cu … - (needed for 4/6 layer designs.)
 
@@ -452,6 +458,8 @@ Options:
 - Coordinate format 4.6 unit mm
 
 *** Drill and Map Files
+
+Output directory: ../documentation/fabrication/gerbers
 
 Options:
 - Excellon drill file format
