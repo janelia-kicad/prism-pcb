@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/polidorop/Repositories/kicad/prism-pcb/prism-pcb/prism-pcb.kicad_sch</source>
-    <date>Thu 25 Jul 2024 04:32:29 PM EDT</date>
+    <date>Thu 22 Aug 2024 03:25:16 PM EDT</date>
     <tool>Eeschema 7.0.11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>1.1</rev>
-        <date>2024-07-25</date>
+        <rev>1.2</rev>
+        <date>2024-08-22</date>
         <source>prism-pcb.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>1.1</rev>
-        <date>2024-07-25</date>
+        <rev>1.2</rev>
+        <date>2024-08-22</date>
         <source>assembly.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>1.1</rev>
-        <date>2024-07-25</date>
+        <rev>1.2</rev>
+        <date>2024-08-22</date>
         <source>interface.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>1.1</rev>
-        <date>2024-07-25</date>
+        <rev>1.2</rev>
+        <date>2024-08-22</date>
         <source>tmc5130.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -182,6 +182,59 @@
       <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
       <tstamps>455a930b-8cf4-42af-b416-8e90691786c6</tstamps>
     </comp>
+    <comp ref="C305">
+      <value>47uF_10V</value>
+      <footprint>Janelia:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C2182652</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number">C2012X5R1A476M125AC</field>
+        <field name="Package">0805</field>
+        <field name="Synopsis">CAP CER 47UF 10V X5R</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">445-8239-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_47uF_10V_0805" description="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="445-8239-1-ND"/>
+      <property name="Package" value="0805"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="Manufacturer Part Number" value="C2012X5R1A476M125AC"/>
+      <property name="Synopsis" value="CAP CER 47UF 10V X5R"/>
+      <property name="LCSC" value="C2182652"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>2eb2db28-00d3-4067-a9fd-49ea0463fd09</tstamps>
+    </comp>
+    <comp ref="D301">
+      <value>LED_RED</value>
+      <footprint>Janelia:LED_0402-1005_KNB</footprint>
+      <fields>
+        <field name="LCSC">C2852592</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer Part Number">APHHS1005SURCK</field>
+        <field name="Package">0402</field>
+        <field name="Synopsis">LED RED CLEAR CHIP SMD</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">754-1104-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="LED_KNB_20mA_RED_1.95V_0402" description="Red 630nm LED Indication - Discrete 1.95V 0402 (1005 Metric)"/>
+      <property name="Synopsis" value="LED RED CLEAR CHIP SMD"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Kingbright"/>
+      <property name="Manufacturer Part Number" value="APHHS1005SURCK"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="754-1104-1-ND"/>
+      <property name="LCSC" value="C2852592"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="Red 630nm LED Indication - Discrete 1.95V 0402 (1005 Metric)"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>d78368f9-c25b-488b-bd08-d9a789b41793</tstamps>
+    </comp>
     <comp ref="J301">
       <value>FFC_P1mm_BOT_RA_SMD</value>
       <footprint>Janelia:CONN_C2914097</footprint>
@@ -233,6 +286,32 @@
       <property name="Sheetfile" value="interface.kicad_sch"/>
       <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
       <tstamps>3d57c178-6332-4a02-a343-72cb284f75cc</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>2.32k</value>
+      <footprint>Janelia:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C3961061</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="Manufacturer Part Number">RA73F2A2K32BTD</field>
+        <field name="Package">0805</field>
+        <field name="Synopsis">RA73F 2A 2K32 0.1% 5K RL</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1712-RA73F2A2K32BTDCT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="R_2.32k_1W_0805" description="2.32 kOhms ±0.1% 1W Chip Resistor 0805 (2012 Metric) Thin Film"/>
+      <property name="Package" value="0805"/>
+      <property name="Manufacturer" value="TE Connectivity Passive Product"/>
+      <property name="Manufacturer Part Number" value="RA73F2A2K32BTD"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="1712-RA73F2A2K32BTDCT-ND"/>
+      <property name="Synopsis" value="RA73F 2A 2K32 0.1% 5K RL"/>
+      <property name="LCSC" value="C3961061"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="2.32 kOhms ±0.1% 1W Chip Resistor 0805 (2012 Metric) Thin Film"/>
+      <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
+      <tstamps>999eff82-cd07-4e5c-a79d-8579b2c2240d</tstamps>
     </comp>
     <comp ref="U301">
       <value>TPSM365R6V5RDNR</value>
@@ -392,30 +471,30 @@
       <tstamps>865db556-e559-4ea5-9271-3ee863ec3f2c</tstamps>
     </comp>
     <comp ref="C406">
-      <value>2.2uF_35V</value>
-      <footprint>Janelia:C_0402_1005Metric</footprint>
+      <value>47uF_10V</value>
+      <footprint>Janelia:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C2167643</field>
+        <field name="LCSC">C2182652</field>
         <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C1005X5R1V225K050BC</field>
-        <field name="Package">0402</field>
-        <field name="Synopsis">CAP CER 2.2UF 35V X5R</field>
+        <field name="Manufacturer Part Number">C2012X5R1A476M125AC</field>
+        <field name="Package">0805</field>
+        <field name="Synopsis">CAP CER 47UF 10V X5R</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-9028-1-ND</field>
+        <field name="Vendor Part Number">445-8239-1-ND</field>
       </fields>
-      <libsource lib="Janelia" part="C_2.2uF_35V_0402" description="2.2 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <libsource lib="Janelia" part="C_47uF_10V_0805" description="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
       <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="445-9028-1-ND"/>
-      <property name="Package" value="0402"/>
+      <property name="Vendor Part Number" value="445-8239-1-ND"/>
+      <property name="Package" value="0805"/>
       <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C1005X5R1V225K050BC"/>
-      <property name="Synopsis" value="CAP CER 2.2UF 35V X5R"/>
-      <property name="LCSC" value="C2167643"/>
+      <property name="Manufacturer Part Number" value="C2012X5R1A476M125AC"/>
+      <property name="Synopsis" value="CAP CER 47UF 10V X5R"/>
+      <property name="LCSC" value="C2182652"/>
       <property name="Sheetname" value="tmc5130"/>
       <property name="Sheetfile" value="tmc5130.kicad_sch"/>
-      <property name="ki_description" value="2.2 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="ki_description" value="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
       <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
-      <tstamps>1db301e8-3fb0-4e09-b0b3-fb33785ebbd0</tstamps>
+      <tstamps>45f6c2ef-ef01-4cf9-8044-d130b9c6959a</tstamps>
     </comp>
     <comp ref="C407">
       <value>0.1uF_100V</value>
@@ -601,30 +680,29 @@
       <tstamps>1f273c53-cdd2-43fd-a43c-f7c6d5c5f387</tstamps>
     </comp>
     <comp ref="R401">
-      <value>2.2</value>
+      <value>10</value>
       <footprint>Janelia:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C412897</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2GEJ2R2X</field>
+        <field name="LCSC">C138066</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710RL</field>
         <field name="Package">0402</field>
-        <field name="Synopsis">RES SMD 2.2 OHM 5% 1/10W</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P2.2JCT-ND</field>
+        <field name="Synopsis">RES SMD 10 OHM 1% 62.5mW</field>
+        <field name="Vendor">JLCPCB</field>
       </fields>
-      <libsource lib="Janelia" part="R_2.2_0402" description="2.2 Ohms ±5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="P2.2JCT-ND"/>
+      <libsource lib="Janelia" part="R_10_62.5mW_0402" description="62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 10Ω 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value=""/>
+      <property name="Synopsis" value="RES SMD 10 OHM 1% 62.5mW"/>
       <property name="Package" value="0402"/>
-      <property name="Manufacturer" value="Panasonic Electronic Components"/>
-      <property name="Manufacturer Part Number" value="ERJ-2GEJ2R2X"/>
-      <property name="Synopsis" value="RES SMD 2.2 OHM 5% 1/10W"/>
-      <property name="LCSC" value="C412897"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0710RL"/>
+      <property name="LCSC" value="C138066"/>
       <property name="Sheetname" value="tmc5130"/>
       <property name="Sheetfile" value="tmc5130.kicad_sch"/>
-      <property name="ki_description" value="2.2 Ohms ±5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 10Ω 0402 Chip Resistor - Surface Mount ROHS"/>
       <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
-      <tstamps>ca90f7b8-a133-4406-a298-b26f6e13f4eb</tstamps>
+      <tstamps>2905d57d-c0c4-4d0a-9f53-6cced0e87f89</tstamps>
     </comp>
     <comp ref="R402">
       <value>0.12</value>
@@ -708,30 +786,30 @@
     </comp>
     <comp ref="X401">
       <value>16MHz</value>
-      <footprint>Janelia:OSC_ECS-2520S33-160-FN-TR</footprint>
+      <footprint>Janelia:Oscillator_SMD_4Pin_5.0x3.2mm</footprint>
       <fields>
-        <field name="LCSC">C2451298</field>
-        <field name="Manufacturer">ECS Inc.</field>
-        <field name="Manufacturer Part Number">ECS-2520S33-160-FN-TR</field>
-        <field name="Package">SMD2520-4P</field>
-        <field name="Synopsis">XTAL OSC XO 16.0000MHZ HCMOS SMD</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">XC2195CT-ND</field>
+        <field name="LCSC">C387234</field>
+        <field name="Manufacturer">Shenzhen SCTF Elec</field>
+        <field name="Manufacturer Part Number">S5D16.000000A20F30T</field>
+        <field name="Package">SMD5032-4P</field>
+        <field name="Synopsis">XTAL OSC XO 16MHZ 5V SMD</field>
+        <field name="Vendor">jlcpcb</field>
+        <field name="Vendor Part Number">C387234</field>
       </fields>
-      <libsource lib="Janelia" part="Oscillator_16MHz_ECS-2520S33" description="16 MHz XO (Standard) HCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"/>
-      <property name="Manufacturer" value="ECS Inc."/>
-      <property name="Manufacturer Part Number" value="ECS-2520S33-160-FN-TR"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="XC2195CT-ND"/>
-      <property name="Synopsis" value="XTAL OSC XO 16.0000MHZ HCMOS SMD"/>
-      <property name="LCSC" value="C2451298"/>
-      <property name="Package" value="SMD2520-4P"/>
+      <libsource lib="Janelia" part="Oscillator_16MHz_5V" description="5V ±20ppm 10mA ±30ppm CMOS 16MHz SMD5032-4P Crystal Oscillators ROHS"/>
+      <property name="Synopsis" value="XTAL OSC XO 16MHZ 5V SMD"/>
+      <property name="Manufacturer" value="Shenzhen SCTF Elec"/>
+      <property name="Manufacturer Part Number" value="S5D16.000000A20F30T"/>
+      <property name="Vendor" value="jlcpcb"/>
+      <property name="Vendor Part Number" value="C387234"/>
+      <property name="LCSC" value="C387234"/>
+      <property name="Package" value="SMD5032-4P"/>
       <property name="Sheetname" value="tmc5130"/>
       <property name="Sheetfile" value="tmc5130.kicad_sch"/>
-      <property name="ki_description" value="16 MHz XO (Standard) HCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"/>
-      <property name="ki_keywords" value="Crystal Clock Oscillator ECS SMD"/>
+      <property name="ki_description" value="5V ±20ppm 10mA ±30ppm CMOS 16MHz SMD5032-4P Crystal Oscillators ROHS"/>
+      <property name="ki_keywords" value="Crystal Clock Oscillator SMD"/>
       <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
-      <tstamps>6fff31da-28cb-4e41-843c-aa71542d961d</tstamps>
+      <tstamps>c5503706-1d24-459c-8211-ea22a5dfc446</tstamps>
     </comp>
   </components>
   <libparts>
@@ -858,30 +936,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="C_2.2uF_35V_0402">
-      <description>2.2 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
-      <footprints>
-        <fp>SM*</fp>
-        <fp>C?</fp>
-        <fp>C1-1</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">2.2uF_35V</field>
-        <field name="Footprint">Janelia:C_0402_1005Metric</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-9028-1-ND</field>
-        <field name="Synopsis">CAP CER 2.2UF 35V X5R</field>
-        <field name="Package">0402</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C1005X5R1V225K050BC</field>
-        <field name="LCSC">C2167643</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Janelia" part="C_22nF_100V_0603">
       <description>0.022 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
       <footprints>
@@ -924,6 +978,30 @@
         <field name="Manufacturer">PSA(Prosperity Dielectrics)</field>
         <field name="Manufacturer Part Number">FS32X335K500EGG</field>
         <field name="LCSC">C1021610</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_47uF_10V_0805">
+      <description>47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47uF_10V</field>
+        <field name="Footprint">Janelia:C_0805_2012Metric</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">445-8239-1-ND</field>
+        <field name="Synopsis">CAP CER 47UF 10V X5R</field>
+        <field name="Package">0805</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number">C2012X5R1A476M125AC</field>
+        <field name="LCSC">C2182652</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1021,6 +1099,32 @@
         <pin num="3" name="MH" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Janelia" part="LED_KNB_20mA_RED_1.95V_0402">
+      <description>Red 630nm LED Indication - Discrete 1.95V 0402 (1005 Metric)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RED</field>
+        <field name="Footprint">Janelia:LED_0402-1005_KNB</field>
+        <field name="Datasheet">~</field>
+        <field name="Synopsis">LED RED CLEAR CHIP SMD</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer Part Number">APHHS1005SURCK</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">754-1104-1-ND</field>
+        <field name="LCSC">C2852592</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Janelia" part="MountingHole_M3_Pad">
       <description>Mounting Hole with connection</description>
       <docs>~</docs>
@@ -1037,22 +1141,22 @@
         <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="Oscillator_16MHz_ECS-2520S33">
-      <description>16 MHz XO (Standard) HCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead</description>
+    <libpart lib="Janelia" part="Oscillator_16MHz_5V">
+      <description>5V ±20ppm 10mA ±30ppm CMOS 16MHz SMD5032-4P Crystal Oscillators ROHS</description>
       <footprints>
         <fp>Oscillator*SMD*ECS*2520MV*2.5x2.0mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">X</field>
         <field name="Value">16MHz</field>
-        <field name="Footprint">Janelia:OSC_ECS-2520S33-160-FN-TR</field>
-        <field name="Synopsis">XTAL OSC XO 16.0000MHZ HCMOS SMD</field>
-        <field name="Manufacturer">ECS Inc.</field>
-        <field name="Manufacturer Part Number">ECS-2520S33-160-FN-TR</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">XC2195CT-ND</field>
-        <field name="LCSC">C2451298</field>
-        <field name="Package">SMD2520-4P</field>
+        <field name="Footprint">Janelia:Oscillator_SMD_4Pin_5.0x3.2mm</field>
+        <field name="Synopsis">XTAL OSC XO 16MHZ 5V SMD</field>
+        <field name="Manufacturer">Shenzhen SCTF Elec</field>
+        <field name="Manufacturer Part Number">S5D16.000000A20F30T</field>
+        <field name="Vendor">jlcpcb</field>
+        <field name="Vendor Part Number">C387234</field>
+        <field name="LCSC">C387234</field>
+        <field name="Package">SMD5032-4P</field>
       </fields>
       <pins>
         <pin num="1" name="Tri-State" type="input"/>
@@ -1112,8 +1216,8 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="R_2.2_0402">
-      <description>2.2 Ohms ±5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film</description>
+    <libpart lib="Janelia" part="R_10_62.5mW_0402">
+      <description>62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 10Ω 0402 Chip Resistor - Surface Mount ROHS</description>
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -1123,15 +1227,40 @@
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">2.2</field>
+        <field name="Value">10</field>
         <field name="Footprint">Janelia:R_0402_1005Metric</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">P2.2JCT-ND</field>
-        <field name="Synopsis">RES SMD 2.2 OHM 5% 1/10W</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Synopsis">RES SMD 10 OHM 1% 62.5mW</field>
         <field name="Package">0402</field>
-        <field name="Manufacturer">Panasonic Electronic Components</field>
-        <field name="Manufacturer Part Number">ERJ-2GEJ2R2X</field>
-        <field name="LCSC">C412897</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0402FR-0710RL</field>
+        <field name="LCSC">C138066</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="R_2.32k_1W_0805">
+      <description>2.32 kOhms ±0.1% 1W Chip Resistor 0805 (2012 Metric) Thin Film</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2.32k</field>
+        <field name="Footprint">Janelia:R_0805_2012Metric</field>
+        <field name="Synopsis">RA73F 2A 2K32 0.1% 5K RL</field>
+        <field name="Package">0805</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="Manufacturer Part Number">RA73F2A2K32BTD</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1712-RA73F2A2K32BTDCT-ND</field>
+        <field name="LCSC">C3961061</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1249,13 +1378,18 @@
   <nets>
     <net code="1" name="/+5V">
       <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="C305" pin="1" pintype="passive"/>
       <node ref="C401" pin="1" pintype="passive"/>
       <node ref="C404" pin="1" pintype="passive"/>
+      <node ref="C405" pin="1" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
       <node ref="U301" pin="4" pinfunction="VOUT" pintype="unspecified"/>
       <node ref="U301" pin="9" pinfunction="BIAS" pintype="unspecified"/>
       <node ref="U401" pin="10" pinfunction="VCC_IO" pintype="power_in"/>
       <node ref="U401" pin="12" pinfunction="SPI_MODE" pintype="input"/>
       <node ref="U401" pin="28" pinfunction="SWSEL" pintype="input"/>
+      <node ref="U401" pin="34" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U401" pin="39" pinfunction="VSA" pintype="power_in"/>
       <node ref="X401" pin="4" pinfunction="VDD" pintype="power_in"/>
     </net>
     <net code="2" name="/GND">
@@ -1263,6 +1397,7 @@
       <node ref="C302" pin="2" pintype="passive"/>
       <node ref="C303" pin="2" pintype="passive"/>
       <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="C305" pin="2" pintype="passive"/>
       <node ref="C401" pin="2" pintype="passive"/>
       <node ref="C404" pin="2" pintype="passive"/>
       <node ref="C405" pin="2" pintype="passive"/>
@@ -1273,6 +1408,7 @@
       <node ref="C410" pin="2" pintype="passive"/>
       <node ref="C411" pin="2" pintype="passive"/>
       <node ref="C412" pin="2" pintype="passive"/>
+      <node ref="D301" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J301" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J301" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J301" pin="5" pinfunction="Pin_5" pintype="passive"/>
@@ -1316,62 +1452,61 @@
       <node ref="J301" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J301" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J301" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
       <node ref="U301" pin="2" pinfunction="EN" pintype="input"/>
       <node ref="U301" pin="3" pinfunction="VIN" pintype="power_in"/>
       <node ref="U401" pin="21" pinfunction="VS" pintype="power_in"/>
-      <node ref="U401" pin="39" pinfunction="VSA" pintype="power_in"/>
       <node ref="U401" pin="40" pinfunction="VS" pintype="power_in"/>
     </net>
-    <net code="6" name="/interface/VCC">
+    <net code="6" name="/interface/LED_RED+">
+      <node ref="D301" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R302" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/interface/VCC">
       <node ref="C303" pin="1" pintype="passive"/>
       <node ref="U301" pin="11" pinfunction="MODE_SYNC" pintype="unspecified"/>
       <node ref="U301" pin="8" pinfunction="VCC" pintype="unspecified"/>
     </net>
-    <net code="7" name="/tmc5130/5VOUT">
+    <net code="8" name="/tmc5130/5VOUT">
       <node ref="C406" pin="1" pintype="passive"/>
       <node ref="R401" pin="2" pintype="passive"/>
       <node ref="U401" pin="33" pinfunction="5VOUT" pintype="power_out"/>
     </net>
-    <net code="8" name="/tmc5130/BMA1">
+    <net code="9" name="/tmc5130/BMA1">
       <node ref="J401" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U401" pin="46" pinfunction="OA1" pintype="output"/>
     </net>
-    <net code="9" name="/tmc5130/BMA2">
+    <net code="10" name="/tmc5130/BMA2">
       <node ref="J401" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U401" pin="42" pinfunction="OA2" pintype="output"/>
     </net>
-    <net code="10" name="/tmc5130/BMB1">
+    <net code="11" name="/tmc5130/BMB1">
       <node ref="J401" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U401" pin="15" pinfunction="OB1" pintype="output"/>
     </net>
-    <net code="11" name="/tmc5130/BMB2">
+    <net code="12" name="/tmc5130/BMB2">
       <node ref="J401" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U401" pin="19" pinfunction="OB2" pintype="output"/>
     </net>
-    <net code="12" name="/tmc5130/BRA">
+    <net code="13" name="/tmc5130/BRA">
       <node ref="R402" pin="1" pintype="passive"/>
       <node ref="U401" pin="44" pinfunction="BRA" pintype="passive"/>
     </net>
-    <net code="13" name="/tmc5130/BRB">
+    <net code="14" name="/tmc5130/BRB">
       <node ref="R403" pin="1" pintype="passive"/>
       <node ref="U401" pin="17" pinfunction="BRB" pintype="passive"/>
     </net>
-    <net code="14" name="/tmc5130/CLOCK">
+    <net code="15" name="/tmc5130/CLOCK">
       <node ref="U401" pin="2" pinfunction="CLK" pintype="input"/>
       <node ref="X401" pin="3" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="15" name="/tmc5130/CPI">
+    <net code="16" name="/tmc5130/CPI">
       <node ref="C402" pin="2" pintype="passive"/>
       <node ref="U401" pin="37" pinfunction="CPI" pintype="passive"/>
     </net>
-    <net code="16" name="/tmc5130/CPO">
+    <net code="17" name="/tmc5130/CPO">
       <node ref="C402" pin="1" pintype="passive"/>
       <node ref="U401" pin="35" pinfunction="CP0" pintype="passive"/>
-    </net>
-    <net code="17" name="/tmc5130/VCC">
-      <node ref="C405" pin="1" pintype="passive"/>
-      <node ref="R401" pin="1" pintype="passive"/>
-      <node ref="U401" pin="34" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="18" name="/tmc5130/VCP">
       <node ref="C403" pin="2" pintype="passive"/>

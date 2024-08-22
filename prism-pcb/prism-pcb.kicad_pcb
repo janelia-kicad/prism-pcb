@@ -1813,9 +1813,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 16f8b9ef-cf6f-42a5-8aca-d306534cbc13))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8e27d92e-d621-4d6f-a90e-c3826cfac934))
-    (pad "1" smd roundrect (at -0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "1" smd roundrect (at -0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 22 "/VAA") (pintype "passive") (tstamp 8415eae8-688d-4fc5-abef-a16b4dd00d30))
-    (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
+    (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 5 "/interface/LED_RED+") (pintype "passive") (tstamp 6f292e59-a4b1-4b0c-8004-288b265bdf38))
     (model "${KICAD_JANELIA_LIBRARY}/3dmodels/Janelia.3dshapes/R_0805_2012Metric.step"
       (offset (xyz 0 0 0))
