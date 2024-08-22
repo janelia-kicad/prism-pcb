@@ -1,4 +1,4 @@
-Designator,Val,Package,Mid X,PosY,Rotation,Layer
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C301","3.3uF_50V","C_1210_3225Metric",145.650000,-115.600000,180.000000,top
 "C302","0.1uF_100V","C_0402_1005Metric",147.900000,-107.100000,0.000000,top
 "C303","1uF_25V","C_0402_1005Metric",141.400000,-108.100000,-90.000000,top
