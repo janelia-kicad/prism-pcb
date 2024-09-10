@@ -1,24 +1,24 @@
-- [Repository Info](#org1a14bf7)
-- [Images](#orga7181bc)
-- [Schematic](#org4853557)
-- [PCB](#orgddde34c)
-- [Bill of Materials](#org8e5dba3)
-- [Development](#org5d365d3)
+- [Repository Info](#org98c80e3)
+- [Images](#org0412d8d)
+- [Schematic](#org5b535b6)
+- [PCB](#org7532652)
+- [Bill of Materials](#org4a77ef2)
+- [Development](#org1ff9d22)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org1a14bf7"></a>
+<a id="org98c80e3"></a>
 
 # Repository Info
 
 -   Project Name: prism-pcb
 -   Synopsis: PCB for each prism in the Voigts Lab honeycomb maze.
--   Documentation Version: 1.0.0
--   Pcb Version: 1.2
+-   Documentation Version: 1.3.1
+-   Pcb Version: 1.3
 -   Enclosure Version: 1.0
--   Supplemental BOM Version: 1.0
+-   Supplemental BOM Version: 1.3
 -   Release Date: 2024-09-10
 -   Creation Date: 2024-06-27
 -   Kicad Version: 7.0.11
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="orga7181bc"></a>
+<a id="org0412d8d"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org4853557"></a>
+<a id="org5b535b6"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="orgddde34c"></a>
+<a id="org7532652"></a>
 
 # PCB
 
@@ -81,7 +81,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org8e5dba3"></a>
+<a id="org4a77ef2"></a>
 
 # Bill of Materials
 
@@ -116,15 +116,15 @@
 
 | Item | Synopsis                               | Manufacturer Part Number | Manufacturer        | Quantity | Cost  | Total |
 |---- |-------------------------------------- |------------------------ |------------------- |-------- |----- |----- |
-| 1    | CABLE FFC/FPC 10POS 1MM 12IN           | Molex                    | 0152670265          | 1        | 2.27  | 2.27  |
+| 1    | TERM BLOCK PLUG 4POS STR 3.5MM         | 277-2418-ND              | Phoenix Contact     | 1        | 3.77  | 3.77  |
 | 2    | FAN AXIAL 25X8MM 5VDC WIRE             | 255M                     | ebm-papst Inc.      | 1        | 33.47 | 33.47 |
 | 3    | Hex Standoff Threaded M2 Brass 12.00mm | 970120244                | Würth Elektronik    | 3        | 0.71  | 2.13  |
 | 4    | MACH SCREW PAN HEAD PHILLIPS M2 12mm   | MPMS 002 0012 PH         | B&F Fastener Supply | 3        | 0.32  | 0.96  |
 | 5    | MACH SCREW PAN HEAD PHILLIPS M2 5mm    | MPMS 002 0005 PH         | B&F Fastener Supply | 3        | 0.17  | 0.51  |
-|      | Supplemental BOM Version: 1.0          |                          |                     |          | Total | 39.34 |
+| 6    | Supplemental BOM Version: 1.3          |                          |                     |          | Total | 40.84 |
 
 
-<a id="org5d365d3"></a>
+<a id="org1ff9d22"></a>
 
 # Development
 
