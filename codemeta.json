@@ -4,7 +4,7 @@
     "license": "https://spdx.org/licenses/BSD-3-Clause",
     "codeRepository": "https://github.com/janelia-kicad/prism-pcb",
     "dateCreated": "2024-06-27",
-    "dateModified": "2024-08-22",
+    "dateModified": "2024-09-10",
     "name": "prism-pcb",
     "version": "1.2",
     "description": "PCB for each prism in the Voigts Lab honeycomb maze.",

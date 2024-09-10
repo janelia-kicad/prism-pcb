@@ -502,6 +502,14 @@
       {
         "netclass": "Power",
         "pattern": "/+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/SWP"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/SWN"
       }
     ]
   },

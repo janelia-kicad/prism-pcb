@@ -353,6 +353,16 @@ kb.save_bom_csv_file('../<<fabrication-dir>>/jlcpcb-bom.csv', input_fields, outp
 
 ** Generate Output from KiCad
 
+*** Remove previous versions
+
+#+BEGIN_SRC sh
+rm -rf ./documentation/3dmodels/*
+rm -rf ./documentation/bom/*
+rm -rf ./documentation/fabrication/*
+rm -rf ./documentation/pcb/*
+rm -rf ./documentation/schematic/*
+#+END_SRC
+
 *** Images
 
 **** 3D Viewer
