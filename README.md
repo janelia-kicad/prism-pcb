@@ -1,15 +1,15 @@
-- [Repository Info](#org98c80e3)
-- [Images](#org0412d8d)
-- [Schematic](#org5b535b6)
-- [PCB](#org7532652)
-- [Bill of Materials](#org4a77ef2)
-- [Development](#org1ff9d22)
+- [Repository Info](#orgd4b252c)
+- [Images](#orgc5332f0)
+- [Schematic](#org764a4a6)
+- [PCB](#org8b3a90c)
+- [Bill of Materials](#org29bb9be)
+- [Development](#org5027774)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org98c80e3"></a>
+<a id="orgd4b252c"></a>
 
 # Repository Info
 
@@ -18,8 +18,8 @@
 -   Documentation Version: 1.3.1
 -   Pcb Version: 1.3
 -   Enclosure Version: 1.0
--   Supplemental BOM Version: 1.3
--   Release Date: 2024-09-10
+-   Supplemental BOM Version: 1.3.1
+-   Release Date: 2024-09-16
 -   Creation Date: 2024-06-27
 -   Kicad Version: 7.0.11
 -   License: BSD-3-Clause
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="org0412d8d"></a>
+<a id="orgc5332f0"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org5b535b6"></a>
+<a id="org764a4a6"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="org7532652"></a>
+<a id="org8b3a90c"></a>
 
 # PCB
 
@@ -81,7 +81,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org4a77ef2"></a>
+<a id="org29bb9be"></a>
 
 # Bill of Materials
 
@@ -116,15 +116,18 @@
 
 | Item | Synopsis                               | Manufacturer Part Number | Manufacturer        | Quantity | Cost  | Total |
 |---- |-------------------------------------- |------------------------ |------------------- |-------- |----- |----- |
-| 1    | TERM BLOCK PLUG 4POS STR 3.5MM         | 277-2418-ND              | Phoenix Contact     | 1        | 3.77  | 3.77  |
-| 2    | FAN AXIAL 25X8MM 5VDC WIRE             | 255M                     | ebm-papst Inc.      | 1        | 33.47 | 33.47 |
-| 3    | Hex Standoff Threaded M2 Brass 12.00mm | 970120244                | Würth Elektronik    | 3        | 0.71  | 2.13  |
-| 4    | MACH SCREW PAN HEAD PHILLIPS M2 12mm   | MPMS 002 0012 PH         | B&F Fastener Supply | 3        | 0.32  | 0.96  |
-| 5    | MACH SCREW PAN HEAD PHILLIPS M2 5mm    | MPMS 002 0005 PH         | B&F Fastener Supply | 3        | 0.17  | 0.51  |
-| 6    | Supplemental BOM Version: 1.3          |                          |                     |          | Total | 40.84 |
+| 1    | TERM BLOCK PLUG 4POS STR 3.5MM         | 1840382                  | Phoenix Contact     | 1        | 3.77  | 3.77  |
+| 2    | CBL RIBN 10COND TWIST PAIR 300'        | 1700/10 300              | 3M                  | 1        | 0.75  | 0.75  |
+| 3    | CONN FERRULE 24AWG YELLOW              | 3203024                  | Phoenix Contact     | 2        | 0.36  | 0.72  |
+| 4    | CONN FERRULE DIN 18AWG GRAY            | 3200519                  | Phoenix Contact     | 2        | 0.23  | 0.46  |
+| 5    | FAN AXIAL 25X8MM 5VDC WIRE             | 255M                     | ebm-papst Inc.      | 1        | 33.47 | 33.47 |
+| 6    | Hex Standoff Threaded M2 Brass 12.00mm | 970120244                | Würth Elektronik    | 3        | 0.71  | 2.13  |
+| 7    | MACH SCREW PAN HEAD PHILLIPS M2 12mm   | MPMS 002 0012 PH         | B&F Fastener Supply | 3        | 0.32  | 0.96  |
+| 8    | MACH SCREW PAN HEAD PHILLIPS M2 5mm    | MPMS 002 0005 PH         | B&F Fastener Supply | 3        | 0.17  | 0.51  |
+| 9    | Supplemental BOM Version: 1.3.1        |                          |                     |          | Total | 42.77 |
 
 
-<a id="org1ff9d22"></a>
+<a id="org5027774"></a>
 
 # Development
 
@@ -140,11 +143,7 @@
 ### Remove previous versions
 
 ```sh
-rm -rf ./documentation/3dmodels/*
-rm -rf ./documentation/bom/*
-rm -rf ./documentation/fabrication/*
-rm -rf ./documentation/pcb/*
-rm -rf ./documentation/schematic/*
+rm -rf ./documentation/3dmodels/* && rm -rf ./documentation/bom/* && rm -rf ./documentation/fabrication/* && rm -rf ./documentation/pcb/* && rm -rf ./documentation/schematic/*pcb
 ```
 
 
