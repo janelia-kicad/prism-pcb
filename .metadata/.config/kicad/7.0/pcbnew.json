@@ -110,10 +110,10 @@
     "search_and_replace": false
   },
   "footprint_chooser": {
-    "height": 680,
+    "height": 690,
     "sash_h": 461,
     "sash_v": 460,
-    "width": 880
+    "width": 890
   },
   "footprint_viewer": {
     "autozoom": true,
@@ -254,7 +254,7 @@
   },
   "lib_tree": {
     "column_widths": {
-      "Description": 688,
+      "Description": 686,
       "Item": 687
     },
     "columns": [
