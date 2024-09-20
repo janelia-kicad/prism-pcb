@@ -70,6 +70,6 @@
     "pdf_viewer_name": "",
     "text_editor": "emacs",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/polidorop/Repositories/kicad/prism-pcb"
+    "working_dir": "/home/polidorop/tmp/Hardware-Files-of-WIZnet/02_iEthernet/W5500/W5500-EVB-Pico2_V100/Gerber/Single/W5500-EVB-Pico2-V100-Gerber/Gerber"
   }
 }
