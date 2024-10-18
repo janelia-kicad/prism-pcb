@@ -136,7 +136,7 @@
   },
   "lib_tree": {
     "column_widths": {
-      "Description": 358,
+      "Description": 360,
       "Item": 359
     },
     "columns": [
@@ -224,12 +224,12 @@
     }
   },
   "symbol_chooser": {
-    "height": 713,
+    "height": 723,
     "keep_symbol": false,
     "place_all_units": true,
     "sash_pos_h": 491,
     "sash_pos_v": 546,
-    "width": 780
+    "width": 790
   },
   "system": {
     "file_history": [
