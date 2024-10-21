@@ -6,7 +6,7 @@
 
   (title_block
     (title "prism-pcb")
-    (date "2024-10-18")
+    (date "2024-10-21")
     (rev "1.4")
     (company "Howard Hughes Medical Institute")
   )
@@ -1076,6 +1076,7 @@
     (uuid cf115d88-6273-42bd-9a23-88a4ed0e473d)
   )
 
+  (no_connect (at 39.37 129.54) (uuid 071404c0-00eb-4a33-9005-36cf34f1aaa6))
   (no_connect (at 62.23 121.92) (uuid 220e6495-e3ba-4f6a-8de9-e29941c1fd03))
   (no_connect (at 62.23 99.06) (uuid 4e8dd1c5-fbbb-405a-8afc-c5c37579c274))
   (no_connect (at 62.23 119.38) (uuid 5d59b615-8fc2-498e-a73f-577484d037df))
@@ -1192,10 +1193,6 @@
   (wire (pts (xy 64.77 109.22) (xy 64.77 110.49))
     (stroke (width 0) (type default))
     (uuid 7f679662-2c6f-4e1e-ae4a-9e29c2c6dca0)
-  )
-  (wire (pts (xy 39.37 129.54) (xy 39.37 132.08))
-    (stroke (width 0) (type default))
-    (uuid 8f88a592-00d1-41f3-bf32-ac689114f229)
   )
   (wire (pts (xy 59.69 58.42) (xy 57.15 58.42))
     (stroke (width 0) (type default))
@@ -1397,10 +1394,6 @@
   (label "VCC" (at 166.37 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fcbe7c79-aa27-4884-a7e6-cf18196b7dd6)
-  )
-  (label "GND" (at 39.37 132.08 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ff9610ea-7169-474a-9145-cd54aab429ca)
   )
   (label "VAA" (at 115.57 30.48 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
