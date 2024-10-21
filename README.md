@@ -1,15 +1,15 @@
-- [Repository Info](#orgf6d8c2c)
-- [Images](#org6ba92ed)
-- [Schematic](#orgcfae4c7)
-- [PCB](#org8a3028d)
-- [Bill of Materials](#orgb4f0186)
-- [Development](#org235803b)
+- [Repository Info](#org8287472)
+- [Images](#orgc60ae9b)
+- [Schematic](#org9a50f84)
+- [PCB](#orgca3da20)
+- [Bill of Materials](#org8d7443c)
+- [Development](#orgc2eb798)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgf6d8c2c"></a>
+<a id="org8287472"></a>
 
 # Repository Info
 
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="org6ba92ed"></a>
+<a id="orgc60ae9b"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="orgcfae4c7"></a>
+<a id="org9a50f84"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="org8a3028d"></a>
+<a id="orgca3da20"></a>
 
 # PCB
 
@@ -81,7 +81,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="orgb4f0186"></a>
+<a id="org8d7443c"></a>
 
 # Bill of Materials
 
@@ -93,7 +93,7 @@
 | 1    | 50V 3.3uF                         | FS32X335K500EGG          | PSA(Prosperity Dielectrics)          | 1        | C301                          | 1210            |
 | 2    | CAP CER 0.1UF 100V X5R            | GRM155R62A104KE14D       | Murata Electronics                   | 6        | C302 C401 C403 C404 C407 C410 | 0402            |
 | 3    | CAP CER 1UF 25V X5R               | GRT155R61E105KE01D       | Murata Electronics                   | 2        | C303 C304                     | 0402            |
-| 4    | CAP CER 47UF 10V X5R              | C2012X5R1A476M125AC      | TDK Corporation                      | 2        | C305 C406                     | 0805            |
+| 4    | CAP CER 47UF 10V X5R              | CGA0805X5R476M100MT      | HRE                                  | 2        | C305 C406                     | 0805            |
 | 5    | CAP CER 0.022UF 100V X7R          | GCM188R72A223KA37D       | Murata Electronics                   | 1        | C402                          | 0603            |
 | 6    | CAP CER 0.47UF 35V X5R            | GRT155R6YA474KE01D       | Murata Electronics                   | 1        | C405                          | 0402            |
 | 7    | CAP CER 2.2UF 100V X7T 0805       | GRM21BD72A225KE01L       | Murata Electronics                   | 2        | C408 C411                     | 0805            |
@@ -122,7 +122,7 @@
 | 4    | Supplemental BOM Version: 1.4.0        |                          |                     |          | Total | 3.60  |
 
 
-<a id="org235803b"></a>
+<a id="orgc2eb798"></a>
 
 # Development
 

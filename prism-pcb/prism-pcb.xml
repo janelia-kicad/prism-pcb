@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/polidorop/Repositories/kicad/prism-pcb/prism-pcb/prism-pcb.kicad_sch</source>
-    <date>Mon 21 Oct 2024 01:13:38 PM EDT</date>
+    <date>Mon 21 Oct 2024 01:53:46 PM EDT</date>
     <tool>Eeschema 7.0.11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -186,27 +186,27 @@
       <value>47uF_10V</value>
       <footprint>Janelia:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C2182652</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C2012X5R1A476M125AC</field>
+        <field name="LCSC">C6119904</field>
+        <field name="Manufacturer">HRE</field>
+        <field name="Manufacturer Part Number">CGA0805X5R476M100MT</field>
         <field name="Package">0805</field>
         <field name="Synopsis">CAP CER 47UF 10V X5R</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-8239-1-ND</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C6119904</field>
       </fields>
-      <libsource lib="Janelia" part="C_47uF_10V_0805" description="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="445-8239-1-ND"/>
-      <property name="Package" value="0805"/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C2012X5R1A476M125AC"/>
+      <libsource lib="Janelia" part="C_47uF_10V_0805" description="10V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value="C6119904"/>
       <property name="Synopsis" value="CAP CER 47UF 10V X5R"/>
-      <property name="LCSC" value="C2182652"/>
+      <property name="Package" value="0805"/>
+      <property name="Manufacturer" value="HRE"/>
+      <property name="Manufacturer Part Number" value="CGA0805X5R476M100MT"/>
+      <property name="LCSC" value="C6119904"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
-      <property name="ki_description" value="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_description" value="10V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
       <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
-      <tstamps>2eb2db28-00d3-4067-a9fd-49ea0463fd09</tstamps>
+      <tstamps>937ed9df-c7a1-4e52-85e9-133b5fba2dcd</tstamps>
     </comp>
     <comp ref="D301">
       <value>LED_RED</value>
@@ -1042,7 +1042,7 @@
       </pins>
     </libpart>
     <libpart lib="Janelia" part="C_47uF_10V_0805">
-      <description>47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)</description>
+      <description>10V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -1052,13 +1052,13 @@
         <field name="Reference">C</field>
         <field name="Value">47uF_10V</field>
         <field name="Footprint">Janelia:C_0805_2012Metric</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-8239-1-ND</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C6119904</field>
         <field name="Synopsis">CAP CER 47UF 10V X5R</field>
         <field name="Package">0805</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C2012X5R1A476M125AC</field>
-        <field name="LCSC">C2182652</field>
+        <field name="Manufacturer">HRE</field>
+        <field name="Manufacturer Part Number">CGA0805X5R476M100MT</field>
+        <field name="LCSC">C6119904</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
