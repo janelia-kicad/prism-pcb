@@ -1,25 +1,25 @@
-- [Repository Info](#orgd4b252c)
-- [Images](#orgc5332f0)
-- [Schematic](#org764a4a6)
-- [PCB](#org8b3a90c)
-- [Bill of Materials](#org29bb9be)
-- [Development](#org5027774)
+- [Repository Info](#orgf6d8c2c)
+- [Images](#org6ba92ed)
+- [Schematic](#orgcfae4c7)
+- [PCB](#org8a3028d)
+- [Bill of Materials](#orgb4f0186)
+- [Development](#org235803b)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgd4b252c"></a>
+<a id="orgf6d8c2c"></a>
 
 # Repository Info
 
 -   Project Name: prism-pcb
 -   Synopsis: PCB for each prism in the Voigts Lab honeycomb maze.
--   Documentation Version: 1.3.1
--   Pcb Version: 1.3
+-   Documentation Version: 1.4.0
+-   Pcb Version: 1.4
 -   Enclosure Version: 1.0
--   Supplemental BOM Version: 1.3.1
--   Release Date: 2024-09-16
+-   Supplemental BOM Version: 1.4.0
+-   Release Date: 2024-10-21
 -   Creation Date: 2024-06-27
 -   Kicad Version: 7.0.11
 -   License: BSD-3-Clause
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png) ![img](./documentation/pcb/pcb-fan.png)
 
 
-<a id="orgc5332f0"></a>
+<a id="org6ba92ed"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org764a4a6"></a>
+<a id="orgcfae4c7"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="org8b3a90c"></a>
+<a id="org8a3028d"></a>
 
 # PCB
 
@@ -81,53 +81,48 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org29bb9be"></a>
+<a id="orgb4f0186"></a>
 
 # Bill of Materials
 
 
 ## Board
 
-| Item | Synopsis                          | Manufacturer Part Number | Manufacturer                         | Quantity | Reference(s)                  | Package           |
-|---- |--------------------------------- |------------------------ |------------------------------------ |-------- |----------------------------- |----------------- |
-| 1    | 50V 3.3uF                         | FS32X335K500EGG          | PSA(Prosperity Dielectrics)          | 1        | C301                          | 1210              |
-| 2    | CAP CER 0.1UF 100V X5R            | GRM155R62A104KE14D       | Murata Electronics                   | 6        | C302 C401 C403 C404 C407 C410 | 0402              |
-| 3    | CAP CER 1UF 25V X5R               | GRT155R61E105KE01D       | Murata Electronics                   | 2        | C303 C304                     | 0402              |
-| 4    | CAP CER 47UF 10V X5R              | C2012X5R1A476M125AC      | TDK Corporation                      | 2        | C305 C406                     | 0805              |
-| 5    | CAP CER 0.022UF 100V X7R          | GCM188R72A223KA37D       | Murata Electronics                   | 1        | C402                          | 0603              |
-| 6    | CAP CER 0.47UF 35V X5R            | GRT155R6YA474KE01D       | Murata Electronics                   | 1        | C405                          | 0402              |
-| 7    | CAP CER 2.2UF 100V X7T 0805       | GRM21BD72A225KE01L       | Murata Electronics                   | 2        | C408 C411                     | 0805              |
-| 8    | CAP ALUM 100UF 20% 50V SMD        | EEEHAH101UAP             | Panasonic Electronic Components      | 2        | C409 C412                     | SMD D8xL10.2mm    |
-| 9    | LED RED CLEAR CHIP SMD            | APHHS1005SURCK           | Kingbright                           | 1        | D301                          | 0402              |
-| 10   | DIODE GEN PURP 200V 2A            | ES2D                     | GOODWORK                             | 1        | D302                          | SMA(DO-214AC)     |
-| 11   | TERM BLOCK HDR 4POS 90DEG 3.5MM   | 1844236                  | Phoenix Contact                      | 1        | J301                          | Push-Pull P=3.5mm |
-| 12   | CONN HEADER SMD R/A 4POS 1.5MM    | 0874380443               | Molex                                | 1        | J401                          | SMD               |
-| 13   | RES SMD 120 OHM 1% 62.5mW         | RC0402FR-07120RL         | YAGEO                                | 1        | R301                          | 0402              |
-| 14   | RA73F 2A 2K32 0.1% 5K RL          | RA73F2A2K32BTD           | TE Connectivity Passive Product      | 1        | R302                          | 0805              |
-| 15   | RES SMD 1K OHM 1% 1/16W           | RC0402FR-071KL           | YAGEO                                | 1        | R303                          | 0402              |
-| 16   | RES SMD 10 OHM 1% 62.5mW          | RC0402FR-0710RL          | YAGEO                                | 1        | R401                          | 0402              |
-| 17   | 0.12 750mW Current Sense Resistor | KRL1632E-M-R120-F-T5     | SUSUMU                               | 2        | R402 R403                     | 1206              |
-| 18   | DC-DC 5V 600mA Output 3-65V Input | TPSM365R6V5RDNR          | Texas Instruments                    | 1        | U301                          | QFN-11(3.5x4.5)   |
-| 19   | IC MTR DRV BIPOLAR 5.5-46V        | TMC5130A-TA              | Analog Devices Inc./Maxim Integrated | 1        | U401                          | TQFP-48-EP(7x7)   |
-| 20   | XTAL OSC XO 16MHZ 5V SMD          | S5D16.000000A20F30T      | Shenzhen SCTF Elec                   | 1        | X401                          | SMD5032-4P        |
+| Item | Synopsis                          | Manufacturer Part Number | Manufacturer                         | Quantity | Reference(s)                  | Package         |
+|---- |--------------------------------- |------------------------ |------------------------------------ |-------- |----------------------------- |--------------- |
+| 1    | 50V 3.3uF                         | FS32X335K500EGG          | PSA(Prosperity Dielectrics)          | 1        | C301                          | 1210            |
+| 2    | CAP CER 0.1UF 100V X5R            | GRM155R62A104KE14D       | Murata Electronics                   | 6        | C302 C401 C403 C404 C407 C410 | 0402            |
+| 3    | CAP CER 1UF 25V X5R               | GRT155R61E105KE01D       | Murata Electronics                   | 2        | C303 C304                     | 0402            |
+| 4    | CAP CER 47UF 10V X5R              | C2012X5R1A476M125AC      | TDK Corporation                      | 2        | C305 C406                     | 0805            |
+| 5    | CAP CER 0.022UF 100V X7R          | GCM188R72A223KA37D       | Murata Electronics                   | 1        | C402                          | 0603            |
+| 6    | CAP CER 0.47UF 35V X5R            | GRT155R6YA474KE01D       | Murata Electronics                   | 1        | C405                          | 0402            |
+| 7    | CAP CER 2.2UF 100V X7T 0805       | GRM21BD72A225KE01L       | Murata Electronics                   | 2        | C408 C411                     | 0805            |
+| 8    | CAP ALUM 100UF 20% 50V SMD        | EEEHAH101UAP             | Panasonic Electronic Components      | 2        | C409 C412                     | SMD D8xL10.2mm  |
+| 9    | LED RED CLEAR CHIP SMD            | APHHS1005SURCK           | Kingbright                           | 1        | D301                          | 0402            |
+| 10   | DIODE GEN PURP 200V 2A            | ES2D                     | GOODWORK                             | 1        | D302                          | SMA(DO-214AC)   |
+| 11   | USB Type-C 2.0 16P 5A             | GT-USB-7047C             | G-Switch                             | 1        | J301                          | SMD             |
+| 12   | CONN HEADER SMD R/A 4POS 1.5MM    | 0874380443               | Molex                                | 1        | J401                          | SMD             |
+| 13   | RES SMD 100 OHM 1% 62.5mW         | 0402WGF1000TCE           | UNI-ROYAL(Uniroyal Elec)             | 1        | R301                          | 0402            |
+| 14   | RA73F 2A 2K32 0.1% 5K RL          | RA73F2A2K32BTD           | TE Connectivity Passive Product      | 1        | R302                          | 0805            |
+| 15   | RES SMD 1K OHM 1% 1/16W           | RC0402FR-071KL           | YAGEO                                | 1        | R303                          | 0402            |
+| 16   | RES SMD 10 OHM 1% 62.5mW          | RC0402FR-0710RL          | YAGEO                                | 1        | R401                          | 0402            |
+| 17   | 0.12 750mW Current Sense Resistor | KRL1632E-M-R120-F-T5     | SUSUMU                               | 2        | R402 R403                     | 1206            |
+| 18   | DC-DC 5V 600mA Output 3-65V Input | TPSM365R6V5RDNR          | Texas Instruments                    | 1        | U301                          | QFN-11(3.5x4.5) |
+| 19   | IC MTR DRV BIPOLAR 5.5-46V        | TMC5130A-TA              | Analog Devices Inc./Maxim Integrated | 1        | U401                          | TQFP-48-EP(7x7) |
+| 20   | XTAL OSC XO 16MHZ 5V SMD          | S5D16.000000A20F30T      | Shenzhen SCTF Elec                   | 1        | X401                          | SMD5032-4P      |
 
 
 ## Supplemental
 
 | Item | Synopsis                               | Manufacturer Part Number | Manufacturer        | Quantity | Cost  | Total |
 |---- |-------------------------------------- |------------------------ |------------------- |-------- |----- |----- |
-| 1    | TERM BLOCK PLUG 4POS STR 3.5MM         | 1840382                  | Phoenix Contact     | 1        | 3.77  | 3.77  |
-| 2    | CBL RIBN 10COND TWIST PAIR 300'        | 1700/10 300              | 3M                  | 1        | 0.75  | 0.75  |
-| 3    | CONN FERRULE 24AWG YELLOW              | 3203024                  | Phoenix Contact     | 2        | 0.36  | 0.72  |
-| 4    | CONN FERRULE DIN 18AWG GRAY            | 3200519                  | Phoenix Contact     | 2        | 0.23  | 0.46  |
-| 5    | FAN AXIAL 25X8MM 5VDC WIRE             | 255M                     | ebm-papst Inc.      | 1        | 33.47 | 33.47 |
-| 6    | Hex Standoff Threaded M2 Brass 12.00mm | 970120244                | Würth Elektronik    | 3        | 0.71  | 2.13  |
-| 7    | MACH SCREW PAN HEAD PHILLIPS M2 12mm   | MPMS 002 0012 PH         | B&F Fastener Supply | 3        | 0.32  | 0.96  |
-| 8    | MACH SCREW PAN HEAD PHILLIPS M2 5mm    | MPMS 002 0005 PH         | B&F Fastener Supply | 3        | 0.17  | 0.51  |
-| 9    | Supplemental BOM Version: 1.3.1        |                          |                     |          | Total | 42.77 |
+| 1    | Hex Standoff Threaded M2 Brass 12.00mm | 970120244                | Würth Elektronik    | 3        | 0.71  | 2.13  |
+| 2    | MACH SCREW PAN HEAD PHILLIPS M2 12mm   | MPMS 002 0012 PH         | B&F Fastener Supply | 3        | 0.32  | 0.96  |
+| 3    | MACH SCREW PAN HEAD PHILLIPS M2 5mm    | MPMS 002 0005 PH         | B&F Fastener Supply | 3        | 0.17  | 0.51  |
+| 4    | Supplemental BOM Version: 1.4.0        |                          |                     |          | Total | 3.60  |
 
 
-<a id="org5027774"></a>
+<a id="org235803b"></a>
 
 # Development
 
@@ -267,7 +262,7 @@ rm -rf ./documentation/3dmodels/* && rm -rf ./documentation/bom/* && rm -rf ./do
     
     Zip gerber files
     
-        zip gerbers.zip gerbers/*
+        zip ./documentation/fabrication/gerbers.zip ./documentation/fabrication/gerbers/*
 
 3.  BOM
 
