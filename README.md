@@ -1,15 +1,15 @@
-- [Repository Info](#orge3f8260)
-- [Images](#orgc35410e)
-- [Schematic](#org449eacb)
-- [PCB](#orgbe61fab)
-- [Bill of Materials](#org78cae9a)
-- [Development](#org99d90c3)
+- [Repository Info](#org9a47e60)
+- [Images](#org7683498)
+- [Schematic](#org6dff99d)
+- [PCB](#orgb7668de)
+- [Bill of Materials](#org63d661a)
+- [Development](#org2a5e112)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orge3f8260"></a>
+<a id="org9a47e60"></a>
 
 # Repository Info
 
@@ -19,7 +19,7 @@
 -   Pcb Version: 2.0
 -   Enclosure Version: 1.0
 -   Supplemental BOM Version: 2.0.0
--   Release Date: 2024-09-26
+-   Release Date: 2024-10-22
 -   Creation Date: 2024-06-27
 -   Kicad Version: 7.0.11
 -   License: BSD-3-Clause
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png)
 
 
-<a id="orgc35410e"></a>
+<a id="org7683498"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org449eacb"></a>
+<a id="org6dff99d"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="orgbe61fab"></a>
+<a id="orgb7668de"></a>
 
 # PCB
 
@@ -81,7 +81,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org78cae9a"></a>
+<a id="org63d661a"></a>
 
 # Bill of Materials
 
@@ -93,7 +93,7 @@
 | 1    | 50V 3.3uF                         | FS32X335K500EGG          | PSA(Prosperity Dielectrics)          | 1        | C301                                    | 1210             |
 | 2    | CAP CER 0.1UF 100V X5R            | GRM155R62A104KE14D       | Murata Electronics                   | 8        | C302 C306 C307 C401 C403 C404 C407 C410 | 0402             |
 | 3    | CAP CER 1UF 25V X5R               | GRT155R61E105KE01D       | Murata Electronics                   | 2        | C303 C304                               | 0402             |
-| 4    | CAP CER 47UF 10V X5R              | C2012X5R1A476M125AC      | TDK Corporation                      | 2        | C305 C406                               | 0805             |
+| 4    | CAP CER 47UF 10V X5R              | CGA0805X5R476M100MT      | HRE                                  | 2        | C305 C406                               | 0805             |
 | 5    | CAP CER 27pF 50V 5%               | 0402CG270J500NT          | FH (Guangdong Fenghua Advanced Tech) | 1        | C308                                    | 0402             |
 | 6    | CAP CER 0.022UF 100V X7R          | GCM188R72A223KA37D       | Murata Electronics                   | 1        | C402                                    | 0603             |
 | 7    | CAP CER 0.47UF 35V X5R            | GRT155R6YA474KE01D       | Murata Electronics                   | 1        | C405                                    | 0402             |
@@ -108,7 +108,7 @@
 | 16   | RA73F 2A 2K32 0.1% 5K RL          | RA73F2A2K32BTD           | TE Connectivity Passive Product      | 1        | R302                                    | 0805             |
 | 17   | RES SMD 1.4K OHM 1% 62.5mW        | RC0402FR-071K4L          | YAGEO                                | 1        | R303                                    | 0402             |
 | 18   | RES SMD 604 OHM 1% 100mW          | ERJ2RKF6040X             | PANASONIC                            | 1        | R304                                    | 0402             |
-| 19   | RES 100K OHM 5% 1/16W             | RC0402JR-07100KL         | YAGEO                                | 1        | R305                                    | 0402             |
+| 19   | RES SMD 1.8K OHM 5% 100mW         | ERJ2GEJ182X              | PANASONIC                            | 1        | R305                                    | 0402             |
 | 20   | RES SMD 10 OHM 1% 62.5mW          | RC0402FR-0710RL          | YAGEO                                | 1        | R401                                    | 0402             |
 | 21   | 0.12 750mW Current Sense Resistor | KRL1632E-M-R120-F-T5     | SUSUMU                               | 2        | R402 R403                               | 1206             |
 | 22   | Pulse Transformer 120uH 1CT:1CT   | FB020G00                 | Dongguan Mentech Optical & Magnetic  | 1        | TR301                                   | SMD-6P 3.5x3.2mm |
@@ -129,7 +129,7 @@
 | 5    | Supplemental BOM Version: 2.0.0    |                          |                  |          | Total | 15.33 |
 
 
-<a id="org99d90c3"></a>
+<a id="org2a5e112"></a>
 
 # Development
 

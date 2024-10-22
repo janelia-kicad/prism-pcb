@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/polidorop/Repositories/kicad/prism-pcb/prism-pcb/prism-pcb.kicad_sch</source>
-    <date>Thu 26 Sep 2024 02:29:19 PM EDT</date>
+    <date>Tue 22 Oct 2024 02:52:25 PM EDT</date>
     <tool>Eeschema 7.0.11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>2.0</rev>
-        <date>2024-09-26</date>
+        <rev>2.1</rev>
+        <date>2024-10-22</date>
         <source>prism-pcb.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>2.0</rev>
-        <date>2024-09-26</date>
+        <rev>2.1</rev>
+        <date>2024-10-22</date>
         <source>assembly.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>2.0</rev>
-        <date>2024-09-26</date>
+        <rev>2.1</rev>
+        <date>2024-10-22</date>
         <source>interface.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>prism-pcb</title>
         <company>Howard Hughes Medical Institute</company>
-        <rev>2.0</rev>
-        <date>2024-09-26</date>
+        <rev>2.1</rev>
+        <date>2024-10-22</date>
         <source>tmc5130.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -186,25 +186,25 @@
       <value>47uF_10V</value>
       <footprint>Janelia:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C2182652</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C2012X5R1A476M125AC</field>
+        <field name="LCSC">C6119904</field>
+        <field name="Manufacturer">HRE</field>
+        <field name="Manufacturer Part Number">CGA0805X5R476M100MT</field>
         <field name="Package">0805</field>
         <field name="Synopsis">CAP CER 47UF 10V X5R</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-8239-1-ND</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C6119904</field>
       </fields>
-      <libsource lib="Janelia" part="C_47uF_10V_0805" description="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="445-8239-1-ND"/>
+      <libsource lib="Janelia" part="C_47uF_10V_0805" description="10V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value="C6119904"/>
       <property name="Package" value="0805"/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C2012X5R1A476M125AC"/>
+      <property name="Manufacturer" value="HRE"/>
+      <property name="Manufacturer Part Number" value="CGA0805X5R476M100MT"/>
       <property name="Synopsis" value="CAP CER 47UF 10V X5R"/>
-      <property name="LCSC" value="C2182652"/>
+      <property name="LCSC" value="C6119904"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
-      <property name="ki_description" value="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_description" value="10V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
       <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
       <tstamps>2eb2db28-00d3-4067-a9fd-49ea0463fd09</tstamps>
     </comp>
@@ -370,7 +370,7 @@
       <tstamps>0a7a7245-f8f8-4d66-8f1a-79e84840f64b</tstamps>
     </comp>
     <comp ref="J301">
-      <value>USB_C_Receptacle_USB2.0_16P_GT-USB-7047C</value>
+      <value>Connector_USB_C_Receptacle_USB2.0_16P_GT-USB-7047C</value>
       <footprint>Janelia:USB_C_Receptacle_GT-USB-7047C_16P_TopMnt_Horizontal</footprint>
       <fields>
         <field name="LCSC">C963218</field>
@@ -381,7 +381,7 @@
         <field name="Vendor">JLCPCB</field>
         <field name="Vendor Part Number">C963218</field>
       </fields>
-      <libsource lib="Janelia" part="USB_C_Receptacle_USB2.0_16P_GT-USB-7047C" description="5A USB 2.0 1 Horizontal attachment 16P Female -40℃~+85℃ Gold High conductivity copper Type-C SMD USB Connectors ROHS"/>
+      <libsource lib="Janelia" part="Connector_USB_C_Receptacle_USB2.0_16P_GT-USB-7047C" description="5A USB 2.0 1 Horizontal attachment 16P Female -40℃~+85℃ Gold High conductivity copper Type-C SMD USB Connectors ROHS"/>
       <property name="Synopsis" value="USB Type-C 2.0 16P 5A"/>
       <property name="Package" value="SMD"/>
       <property name="Manufacturer" value="G-Switch"/>
@@ -394,7 +394,7 @@
       <property name="ki_description" value="5A USB 2.0 1 Horizontal attachment 16P Female -40℃~+85℃ Gold High conductivity copper Type-C SMD USB Connectors ROHS"/>
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
       <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
-      <tstamps>83d86cd6-0199-4dbf-87f2-994502a34ad3</tstamps>
+      <tstamps>c18a5029-4a85-41c0-9342-643754caef94</tstamps>
     </comp>
     <comp ref="R301">
       <value>100</value>
@@ -500,30 +500,30 @@
       <tstamps>53fc5a66-c486-480d-85f4-a05eb72aea37</tstamps>
     </comp>
     <comp ref="R305">
-      <value>100k</value>
+      <value>1.8k</value>
       <footprint>Janelia:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C106234</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="Manufacturer Part Number">RC0402JR-07100KL</field>
+        <field name="LCSC">C409855</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Manufacturer Part Number">ERJ2GEJ182X</field>
         <field name="Package">0402</field>
-        <field name="Synopsis">RES 100K OHM 5% 1/16W</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">311-100KJRCT-ND</field>
+        <field name="Synopsis">RES SMD 1.8K OHM 5% 100mW</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C409855</field>
       </fields>
-      <libsource lib="Janelia" part="R_100k_0402" description="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 100kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="311-100KJRCT-ND"/>
-      <property name="Synopsis" value="RES 100K OHM 5% 1/16W"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="Manufacturer Part Number" value="RC0402JR-07100KL"/>
+      <libsource lib="Janelia" part="R_1.8k_0402" description="100mW Thick Film Resistors ±5% ±200ppm/℃ 1.8kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value="C409855"/>
+      <property name="Synopsis" value="RES SMD 1.8K OHM 5% 100mW"/>
       <property name="Package" value="0402"/>
-      <property name="LCSC" value="C106234"/>
+      <property name="Manufacturer" value="PANASONIC"/>
+      <property name="Manufacturer Part Number" value="ERJ2GEJ182X"/>
+      <property name="LCSC" value="C409855"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
-      <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 100kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="ki_description" value="100mW Thick Film Resistors ±5% ±200ppm/℃ 1.8kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <sheetpath names="/interface/" tstamps="/c1dd8f61-494c-402f-8e59-08309c64fc3f/"/>
-      <tstamps>4a3a5b72-8338-4b03-8a21-6aa94fb16209</tstamps>
+      <tstamps>aaadfca2-1a60-49af-a7a7-8c1ce7b2d5d3</tstamps>
     </comp>
     <comp ref="TR301">
       <value>1:1</value>
@@ -739,25 +739,25 @@
       <value>47uF_10V</value>
       <footprint>Janelia:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C2182652</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C2012X5R1A476M125AC</field>
+        <field name="LCSC">C6119904</field>
+        <field name="Manufacturer">HRE</field>
+        <field name="Manufacturer Part Number">CGA0805X5R476M100MT</field>
         <field name="Package">0805</field>
         <field name="Synopsis">CAP CER 47UF 10V X5R</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-8239-1-ND</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C6119904</field>
       </fields>
-      <libsource lib="Janelia" part="C_47uF_10V_0805" description="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
-      <property name="Vendor" value="Digi-Key"/>
-      <property name="Vendor Part Number" value="445-8239-1-ND"/>
+      <libsource lib="Janelia" part="C_47uF_10V_0805" description="10V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Vendor" value="JLCPCB"/>
+      <property name="Vendor Part Number" value="C6119904"/>
       <property name="Package" value="0805"/>
-      <property name="Manufacturer" value="TDK Corporation"/>
-      <property name="Manufacturer Part Number" value="C2012X5R1A476M125AC"/>
+      <property name="Manufacturer" value="HRE"/>
+      <property name="Manufacturer Part Number" value="CGA0805X5R476M100MT"/>
       <property name="Synopsis" value="CAP CER 47UF 10V X5R"/>
-      <property name="LCSC" value="C2182652"/>
+      <property name="LCSC" value="C6119904"/>
       <property name="Sheetname" value="tmc5130"/>
       <property name="Sheetfile" value="tmc5130.kicad_sch"/>
-      <property name="ki_description" value="47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_description" value="10V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
       <sheetpath names="/tmc5130/" tstamps="/039ac378-5273-4081-85bf-9eb26cb5ed57/"/>
       <tstamps>45f6c2ef-ef01-4cf9-8044-d130b9c6959a</tstamps>
     </comp>
@@ -1058,14 +1058,14 @@
         <field name="Manufacturer Part Number">S5D16.000000A20F30T</field>
         <field name="Package">SMD5032-4P</field>
         <field name="Synopsis">XTAL OSC XO 16MHZ 5V SMD</field>
-        <field name="Vendor">jlcpcb</field>
+        <field name="Vendor">JLCPCB</field>
         <field name="Vendor Part Number">C387234</field>
       </fields>
       <libsource lib="Janelia" part="Oscillator_16MHz_5V" description="5V ±20ppm 10mA ±30ppm CMOS 16MHz SMD5032-4P Crystal Oscillators ROHS"/>
       <property name="Synopsis" value="XTAL OSC XO 16MHZ 5V SMD"/>
       <property name="Manufacturer" value="Shenzhen SCTF Elec"/>
       <property name="Manufacturer Part Number" value="S5D16.000000A20F30T"/>
-      <property name="Vendor" value="jlcpcb"/>
+      <property name="Vendor" value="JLCPCB"/>
       <property name="Vendor Part Number" value="C387234"/>
       <property name="LCSC" value="C387234"/>
       <property name="Package" value="SMD5032-4P"/>
@@ -1272,7 +1272,7 @@
       </pins>
     </libpart>
     <libpart lib="Janelia" part="C_47uF_10V_0805">
-      <description>47 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)</description>
+      <description>10V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -1282,13 +1282,13 @@
         <field name="Reference">C</field>
         <field name="Value">47uF_10V</field>
         <field name="Footprint">Janelia:C_0805_2012Metric</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">445-8239-1-ND</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C6119904</field>
         <field name="Synopsis">CAP CER 47UF 10V X5R</field>
         <field name="Package">0805</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number">C2012X5R1A476M125AC</field>
-        <field name="LCSC">C2182652</field>
+        <field name="Manufacturer">HRE</field>
+        <field name="Manufacturer Part Number">CGA0805X5R476M100MT</field>
+        <field name="LCSC">C6119904</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1343,6 +1343,44 @@
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="Connector_USB_C_Receptacle_USB2.0_16P_GT-USB-7047C">
+      <description>5A USB 2.0 1 Horizontal attachment 16P Female -40℃~+85℃ Gold High conductivity copper Type-C SMD USB Connectors ROHS</description>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_USB_C_Receptacle_USB2.0_16P_GT-USB-7047C</field>
+        <field name="Footprint">Janelia:USB_C_Receptacle_GT-USB-7047C_16P_TopMnt_Horizontal</field>
+        <field name="Synopsis">USB Type-C 2.0 16P 5A</field>
+        <field name="Package">SMD</field>
+        <field name="Manufacturer">G-Switch</field>
+        <field name="Manufacturer Part Number">GT-USB-7047C</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C963218</field>
+        <field name="LCSC">C963218</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Janelia" part="D_2A_200V_SMA">
@@ -1469,12 +1507,12 @@
       </footprints>
       <fields>
         <field name="Reference">X</field>
-        <field name="Value">16MHz</field>
+        <field name="Value">16MHz_5V</field>
         <field name="Footprint">Janelia:Oscillator_SMD_4Pin_5.0x3.2mm</field>
         <field name="Synopsis">XTAL OSC XO 16MHZ 5V SMD</field>
         <field name="Manufacturer">Shenzhen SCTF Elec</field>
         <field name="Manufacturer Part Number">S5D16.000000A20F30T</field>
-        <field name="Vendor">jlcpcb</field>
+        <field name="Vendor">JLCPCB</field>
         <field name="Vendor Part Number">C387234</field>
         <field name="LCSC">C387234</field>
         <field name="Package">SMD5032-4P</field>
@@ -1538,6 +1576,32 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Janelia" part="R_1.8k_0402">
+      <description>100mW Thick Film Resistors ±5% ±200ppm/℃ 1.8kΩ 0402 Chip Resistor - Surface Mount ROHS</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1.8k</field>
+        <field name="Footprint">Janelia:R_0402_1005Metric</field>
+        <field name="Vendor">JLCPCB</field>
+        <field name="Vendor Part Number">C409855</field>
+        <field name="Synopsis">RES SMD 1.8K OHM 5% 100mW</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Manufacturer Part Number">ERJ2GEJ182X</field>
+        <field name="LCSC">C409855</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Janelia" part="R_100_0402">
       <footprints>
         <fp>R?</fp>
@@ -1557,32 +1621,6 @@
         <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
         <field name="Manufacturer Part Number">0402WGF1000TCE</field>
         <field name="LCSC">C25076</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Janelia" part="R_100k_0402">
-      <description>62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 100kΩ 0402 Chip Resistor - Surface Mount ROHS</description>
-      <footprints>
-        <fp>R?</fp>
-        <fp>SM0603</fp>
-        <fp>SM0805</fp>
-        <fp>R?-*</fp>
-        <fp>SM1206</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">100k</field>
-        <field name="Footprint">Janelia:R_0402_1005Metric</field>
-        <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number">311-100KJRCT-ND</field>
-        <field name="Synopsis">RES 100K OHM 5% 1/16W</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="Manufacturer Part Number">RC0402JR-07100KL</field>
-        <field name="Package">0402</field>
-        <field name="LCSC">C106234</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1791,43 +1829,6 @@
         <pin num="6" name="TCT" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Janelia" part="USB_C_Receptacle_USB2.0_16P_GT-USB-7047C">
-      <description>5A USB 2.0 1 Horizontal attachment 16P Female -40℃~+85℃ Gold High conductivity copper Type-C SMD USB Connectors ROHS</description>
-      <footprints>
-        <fp>USB*C*Receptacle*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_C_Receptacle_USB2.0_16P_GT-USB-7047C</field>
-        <field name="Footprint">Janelia:USB_C_Receptacle_GT-USB-7047C_16P_TopMnt_Horizontal</field>
-        <field name="Synopsis">USB Type-C 2.0 16P 5A</field>
-        <field name="Package">SMD</field>
-        <field name="Manufacturer">G-Switch</field>
-        <field name="Manufacturer Part Number">GT-USB-7047C</field>
-        <field name="Vendor">JLCPCB</field>
-        <field name="Vendor Part Number">C963218</field>
-        <field name="LCSC">C963218</field>
-      </fields>
-      <pins>
-        <pin num="A1" name="GND" type="passive"/>
-        <pin num="A4" name="VBUS" type="passive"/>
-        <pin num="A5" name="CC1" type="bidirectional"/>
-        <pin num="A6" name="D+" type="bidirectional"/>
-        <pin num="A7" name="D-" type="bidirectional"/>
-        <pin num="A8" name="SBU1" type="bidirectional"/>
-        <pin num="A9" name="VBUS" type="passive"/>
-        <pin num="A12" name="GND" type="passive"/>
-        <pin num="B1" name="GND" type="passive"/>
-        <pin num="B4" name="VBUS" type="passive"/>
-        <pin num="B5" name="CC2" type="bidirectional"/>
-        <pin num="B6" name="D+" type="bidirectional"/>
-        <pin num="B7" name="D-" type="bidirectional"/>
-        <pin num="B8" name="SBU2" type="bidirectional"/>
-        <pin num="B9" name="VBUS" type="passive"/>
-        <pin num="B12" name="GND" type="passive"/>
-        <pin num="S1" name="SHIELD" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Janelia">
@@ -1892,7 +1893,6 @@
       <node ref="J301" pin="A12" pinfunction="GND" pintype="passive"/>
       <node ref="J301" pin="B1" pinfunction="GND" pintype="passive"/>
       <node ref="J301" pin="B12" pinfunction="GND" pintype="passive"/>
-      <node ref="J301" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="R304" pin="2" pintype="passive"/>
       <node ref="R402" pin="2" pintype="passive"/>
       <node ref="R403" pin="2" pintype="passive"/>
@@ -2054,58 +2054,64 @@
     <net code="33" name="unconnected-(J301-SBU2-PadB8)">
       <node ref="J301" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="34" name="unconnected-(TR301-MCT-Pad3)">
+    <net code="34" name="unconnected-(J301-SHIELD-PadS1)">
+      <node ref="J301" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J301-SHIELD-PadS2)">
+      <node ref="J301" pin="S2" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(TR301-MCT-Pad3)">
       <node ref="TR301" pin="3" pinfunction="MCT" pintype="passive+no_connect"/>
     </net>
-    <net code="35" name="unconnected-(U301-BOOT-Pad7)">
+    <net code="37" name="unconnected-(U301-BOOT-Pad7)">
       <node ref="U301" pin="7" pinfunction="BOOT" pintype="unspecified+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(U301-PGOOD-Pad1)">
+    <net code="38" name="unconnected-(U301-PGOOD-Pad1)">
       <node ref="U301" pin="1" pinfunction="PGOOD" pintype="open_collector+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(U301-SW-Pad5)">
+    <net code="39" name="unconnected-(U301-SW-Pad5)">
       <node ref="U301" pin="5" pinfunction="SW" pintype="unspecified+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(U301-SW-Pad6)">
+    <net code="40" name="unconnected-(U301-SW-Pad6)">
       <node ref="U301" pin="6" pinfunction="SW" pintype="unspecified+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(U401-DNC-Pad14)">
+    <net code="41" name="unconnected-(U401-DNC-Pad14)">
       <node ref="U401" pin="14" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="40" name="unconnected-(U401-DNC-Pad16)">
+    <net code="42" name="unconnected-(U401-DNC-Pad16)">
       <node ref="U401" pin="16" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="41" name="unconnected-(U401-DNC-Pad18)">
+    <net code="43" name="unconnected-(U401-DNC-Pad18)">
       <node ref="U401" pin="18" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="42" name="unconnected-(U401-DNC-Pad20)">
+    <net code="44" name="unconnected-(U401-DNC-Pad20)">
       <node ref="U401" pin="20" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="43" name="unconnected-(U401-DNC-Pad22)">
+    <net code="45" name="unconnected-(U401-DNC-Pad22)">
       <node ref="U401" pin="22" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="44" name="unconnected-(U401-DNC-Pad41)">
+    <net code="46" name="unconnected-(U401-DNC-Pad41)">
       <node ref="U401" pin="41" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="45" name="unconnected-(U401-DNC-Pad43)">
+    <net code="47" name="unconnected-(U401-DNC-Pad43)">
       <node ref="U401" pin="43" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="46" name="unconnected-(U401-DNC-Pad45)">
+    <net code="48" name="unconnected-(U401-DNC-Pad45)">
       <node ref="U401" pin="45" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="47" name="unconnected-(U401-DNC-Pad47)">
+    <net code="49" name="unconnected-(U401-DNC-Pad47)">
       <node ref="U401" pin="47" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="48" name="unconnected-(U401-SWN_DIAG0-Pad26)">
+    <net code="50" name="unconnected-(U401-SWN_DIAG0-Pad26)">
       <node ref="U401" pin="26" pinfunction="SWN_DIAG0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(U401-SWP_DIAG1-Pad27)">
+    <net code="51" name="unconnected-(U401-SWP_DIAG1-Pad27)">
       <node ref="U401" pin="27" pinfunction="SWP_DIAG1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(U401-SWSEL-Pad28)">
+    <net code="52" name="unconnected-(U401-SWSEL-Pad28)">
       <node ref="U401" pin="28" pinfunction="SWSEL" pintype="input+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(X401-Tri-State-Pad1)">
+    <net code="53" name="unconnected-(X401-Tri-State-Pad1)">
       <node ref="X401" pin="1" pinfunction="Tri-State" pintype="input+no_connect"/>
     </net>
   </nets>

@@ -6,7 +6,7 @@
 
   (title_block
     (title "prism-pcb")
-    (date "2024-10-21")
+    (date "2024-10-22")
     (rev "2.1")
     (company "Howard Hughes Medical Institute")
   )
@@ -760,6 +760,10 @@
         (pin passive line (at -7.62 -22.86 90) (length 5.08)
           (name "SHIELD" (effects (font (size 1.27 1.27))))
           (number "S1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -22.86 90) (length 5.08)
+          (name "SHIELD" (effects (font (size 1.27 1.27))))
+          (number "S2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1704,6 +1708,7 @@
   (no_connect (at 48.26 88.9) (uuid 89fbaf40-1d7f-4265-8aa4-f4533244688b))
   (no_connect (at 25.4 119.38) (uuid 9a160b18-959b-4b98-9f0a-5dc4f6c0c6dd))
   (no_connect (at 217.17 58.42) (uuid a8cd1bcc-620e-4ccc-891f-25a96b7e17d1))
+  (no_connect (at 27.94 119.38) (uuid aac35b0d-1fa7-499b-a135-b083f7bb43a5))
   (no_connect (at 48.26 109.22) (uuid d97cff90-34e7-4132-9f56-e7d46b86392c))
 
   (wire (pts (xy 97.79 135.89) (xy 95.25 135.89))
@@ -3304,6 +3309,7 @@
     (pin "A1" (uuid ddcf2c0c-1eb3-4ee1-8157-70e64f7e33a2))
     (pin "A5" (uuid 8d3cf95e-567c-42ac-bda7-2af9445432f0))
     (pin "A12" (uuid 7f390272-876d-424e-a9b2-8f27afad602c))
+    (pin "S2" (uuid 6581b501-9533-4c97-9f0c-54c75164e8bd))
     (instances
       (project "prism-pcb"
         (path "/df2b2e89-e055-4140-95de-f1df723db034/c1dd8f61-494c-402f-8e59-08309c64fc3f"
