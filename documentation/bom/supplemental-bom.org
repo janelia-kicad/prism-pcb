@@ -18,7 +18,7 @@
 |    3 | M3 Hex Standoff Male Female 10x5mm                     | 971100354                | Würth Elektronik |        4 |  0.63 |  2.52 |
 |    4 | M3 Machine Screw 6mm                                   | RM3X6MM 2701             | APM Hexseal      |        4 |  0.58 |  2.32 |
 |------+--------------------------------------------------------+--------------------------+------------------+----------+-------+-------|
-|    5 | Supplemental BOM Version: 2.0.0 |                          |                  |          | Total | 15.33 |
+|    5 | Supplemental BOM Version: 2.1.0 |                          |                  |          | Total | 15.33 |
 #+TBLFM: $1=@#-1::$7=$5*$6;%0.2f::@>$7=vsum(@2..@-1);%0.2f
 #+LATEX: }
 #+END_TABLE

@@ -6,7 +6,7 @@
     "dateCreated": "2024-06-27",
     "dateModified": "2024-10-22",
     "name": "prism-pcb",
-    "version": "2.0",
+    "version": "2.1",
     "description": "PCB for each prism in the Voigts Lab honeycomb maze.",
     "programmingLanguage": [
         "KiCad"

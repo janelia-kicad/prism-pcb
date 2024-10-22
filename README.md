@@ -1,24 +1,24 @@
-- [Repository Info](#org9a47e60)
-- [Images](#org7683498)
-- [Schematic](#org6dff99d)
-- [PCB](#orgb7668de)
-- [Bill of Materials](#org63d661a)
-- [Development](#org2a5e112)
+- [Repository Info](#orge166407)
+- [Images](#org110d773)
+- [Schematic](#org8bf05d7)
+- [PCB](#orgaf4de01)
+- [Bill of Materials](#org7a509b2)
+- [Development](#orgef895d0)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org9a47e60"></a>
+<a id="orge166407"></a>
 
 # Repository Info
 
 -   Project Name: prism-pcb
 -   Synopsis: PCB for each prism in the Voigts Lab honeycomb maze.
--   Documentation Version: 2.0.0
--   Pcb Version: 2.0
+-   Documentation Version: 2.1.0
+-   Pcb Version: 2.1
 -   Enclosure Version: 1.0
--   Supplemental BOM Version: 2.0.0
+-   Supplemental BOM Version: 2.1.0
 -   Release Date: 2024-10-22
 -   Creation Date: 2024-06-27
 -   Kicad Version: 7.0.11
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png)
 
 
-<a id="org7683498"></a>
+<a id="org110d773"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org6dff99d"></a>
+<a id="org8bf05d7"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="orgb7668de"></a>
+<a id="orgaf4de01"></a>
 
 # PCB
 
@@ -81,7 +81,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org63d661a"></a>
+<a id="org7a509b2"></a>
 
 # Bill of Materials
 
@@ -126,10 +126,10 @@
 | 2    | USB 2.0 C Male to C Male 1m        | DH-20UE0063-NH           | Cvilux USA       | 1        | 5.74  | 5.74  |
 | 3    | M3 Hex Standoff Male Female 10x5mm | 971100354                | Würth Elektronik | 4        | 0.63  | 2.52  |
 | 4    | M3 Machine Screw 6mm               | RM3X6MM 2701             | APM Hexseal      | 4        | 0.58  | 2.32  |
-| 5    | Supplemental BOM Version: 2.0.0    |                          |                  |          | Total | 15.33 |
+| 5    | Supplemental BOM Version: 2.1.0    |                          |                  |          | Total | 15.33 |
 
 
-<a id="org2a5e112"></a>
+<a id="orgef895d0"></a>
 
 # Development
 

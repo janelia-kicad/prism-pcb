@@ -2,10 +2,10 @@
 # File edits may be overwritten!
 - Project Name: prism-pcb
 - Synopsis: PCB for each prism in the Voigts Lab honeycomb maze.
-- Documentation Version: 2.0.0
-- Pcb Version: 2.0
+- Documentation Version: 2.1.0
+- Pcb Version: 2.1
 - Enclosure Version: 1.0
-- Supplemental BOM Version: 2.0.0
+- Supplemental BOM Version: 2.1.0
 - Release Date: 2024-10-22
 - Creation Date: 2024-06-27
 - Kicad Version: 7.0.11
