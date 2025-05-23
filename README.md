@@ -1,15 +1,15 @@
-- [Repository Info](#orge166407)
-- [Images](#org110d773)
-- [Schematic](#org8bf05d7)
-- [PCB](#orgaf4de01)
-- [Bill of Materials](#org7a509b2)
-- [Development](#orgef895d0)
+- [Repository Info](#org828f207)
+- [Images](#orgb7f0c41)
+- [Schematic](#org1bb097a)
+- [PCB](#orgb5dbdc9)
+- [Bill of Materials](#orgcb18792)
+- [Development](#org51ea665)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orge166407"></a>
+<a id="org828f207"></a>
 
 # Repository Info
 
@@ -19,14 +19,14 @@
 -   Pcb Version: 2.1
 -   Enclosure Version: 1.0
 -   Supplemental BOM Version: 2.1.0
--   Release Date: 2024-10-22
+-   Release Date: 2025-05-23
 -   Creation Date: 2024-06-27
--   Kicad Version: 7.0.11
+-   Kicad Version: 9.0
 -   License: BSD-3-Clause
 -   URL: <https://github.com/janelia-kicad/prism-pcb>
 -   Author: Peter Polidoro
 -   Email: peter@polidoro.io
--   Copyright: 2024 Howard Hughes Medical Institute
+-   Copyright: 2025 Howard Hughes Medical Institute
 -   References:
     -   [cluster-pcb](https://github.com/janelia-kicad/cluster-pcb)
     -   [TMC5130](https://www.analog.com/en/products/tmc5130.html)
@@ -34,7 +34,7 @@
 ![img](./documentation/pcb/pcb.png)
 
 
-<a id="org110d773"></a>
+<a id="orgb7f0c41"></a>
 
 # Images
 
@@ -51,7 +51,7 @@
 <img src="./documentation/pcb/right.png" width="1920">
 
 
-<a id="org8bf05d7"></a>
+<a id="org1bb097a"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 <img src="./documentation/schematic/prism-pcb-tmc5130.svg" width="1920">
 
 
-<a id="orgaf4de01"></a>
+<a id="orgb5dbdc9"></a>
 
 # PCB
 
@@ -81,7 +81,7 @@
 <img src="./documentation/pcb/prism-pcb-B_Fab.svg" width="1920">
 
 
-<a id="org7a509b2"></a>
+<a id="orgcb18792"></a>
 
 # Bill of Materials
 
@@ -129,7 +129,7 @@
 | 5    | Supplemental BOM Version: 2.1.0    |                          |                  |          | Total | 15.33 |
 
 
-<a id="orgef895d0"></a>
+<a id="org51ea665"></a>
 
 # Development
 

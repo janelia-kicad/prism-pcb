@@ -1,266 +1,626 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid df2b2e89-e055-4140-95de-f1df723db034)
-
-  (paper "A4")
-
-  (title_block
-    (title "prism-pcb")
-    (date "2024-10-22")
-    (rev "2.1")
-    (company "Howard Hughes Medical Institute")
-  )
-
-  (lib_symbols
-  )
-
-
-  (wire (pts (xy 130.81 106.68) (xy 128.27 106.68))
-    (stroke (width 0) (type default))
-    (uuid 062f7b91-6a63-46cf-97af-62198b135023)
-  )
-  (wire (pts (xy 130.81 72.39) (xy 128.27 72.39))
-    (stroke (width 0) (type default))
-    (uuid 096e344f-128b-4078-9417-a6d37137fd8a)
-  )
-  (wire (pts (xy 130.81 99.06) (xy 128.27 99.06))
-    (stroke (width 0) (type default))
-    (uuid 374bde2b-dd27-44f1-8b01-def496c1482f)
-  )
-  (wire (pts (xy 128.27 91.44) (xy 130.81 91.44))
-    (stroke (width 0) (type default))
-    (uuid 38274a86-c373-4981-9f1b-5eb6c602df45)
-  )
-  (wire (pts (xy 130.81 104.14) (xy 128.27 104.14))
-    (stroke (width 0) (type default))
-    (uuid 3abd6c37-994d-4bcd-8a12-36626c062beb)
-  )
-  (wire (pts (xy 130.81 74.93) (xy 128.27 74.93))
-    (stroke (width 0) (type default))
-    (uuid 3b129527-2805-418d-a94d-4318deb3d583)
-  )
-  (wire (pts (xy 154.94 67.31) (xy 152.4 67.31))
-    (stroke (width 0) (type default))
-    (uuid 42ba836b-4ec4-4da8-90c2-ccbbfd868efb)
-  )
-  (wire (pts (xy 128.27 55.88) (xy 130.81 55.88))
-    (stroke (width 0) (type default))
-    (uuid 657b6205-3ace-45ff-80d2-211a2b4f691b)
-  )
-  (wire (pts (xy 128.27 88.9) (xy 130.81 88.9))
-    (stroke (width 0) (type default))
-    (uuid 671fa30c-f2d0-406b-a049-8640d8f61073)
-  )
-  (wire (pts (xy 130.81 67.31) (xy 128.27 67.31))
-    (stroke (width 0) (type default))
-    (uuid 814007aa-e39e-4a86-a97b-50a642bdf6c0)
-  )
-  (wire (pts (xy 128.27 96.52) (xy 130.81 96.52))
-    (stroke (width 0) (type default))
-    (uuid 8dd5776f-5fc4-4ceb-8cb7-cf2c878e2e94)
-  )
-  (wire (pts (xy 154.94 72.39) (xy 152.4 72.39))
-    (stroke (width 0) (type default))
-    (uuid a27a4f16-d6cd-469b-b44c-15b79abedbb3)
-  )
-  (wire (pts (xy 130.81 101.6) (xy 128.27 101.6))
-    (stroke (width 0) (type default))
-    (uuid de75fb25-a860-43e4-bd62-5f29cc3faad6)
-  )
-  (wire (pts (xy 154.94 69.85) (xy 152.4 69.85))
-    (stroke (width 0) (type default))
-    (uuid deea61ee-d898-4b6d-9f76-5080ee917fbb)
-  )
-  (wire (pts (xy 128.27 93.98) (xy 130.81 93.98))
-    (stroke (width 0) (type default))
-    (uuid e4613055-de65-4e2b-b359-1c31c35e4199)
-  )
-  (wire (pts (xy 130.81 69.85) (xy 128.27 69.85))
-    (stroke (width 0) (type default))
-    (uuid fd76f646-f588-4c29-ad19-97e139c36bf1)
-  )
-
-  (label "GND" (at 154.94 72.39 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 01baeeb6-46ce-4972-b202-a584ff1c5af1)
-  )
-  (label "+5V" (at 154.94 69.85 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1bdc6b5f-ee4b-4588-b810-890fbab69ebc)
-  )
-  (label "CIPO" (at 128.27 106.68 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3558df64-e038-4449-9dbd-93c92746bcd8)
-  )
-  (label "~{CS}" (at 128.27 99.06 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 4ac524db-58c1-42a6-91b2-eb5ede71926a)
-  )
-  (label "+5V" (at 128.27 91.44 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 7a40607e-5ebc-4da6-a4cb-559e56c353dc)
-  )
-  (label "+5V" (at 128.27 93.98 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 7b107886-d988-4d9b-bc22-a6c07439b845)
-  )
-  (label "VAA" (at 128.27 88.9 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 7b20ad32-855a-4b64-9baa-b843e9158bad)
-  )
-  (label "COPI" (at 128.27 104.14 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 8b682d56-6f3e-47cc-b6ac-701de21d6a6b)
-  )
-  (label "GND" (at 128.27 55.88 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid a4045a19-d613-4318-befc-be32580bc18c)
-  )
-  (label "~{CS}" (at 128.27 67.31 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid a8157291-6fb9-4b86-8f6b-6451ddd56a4d)
-  )
-  (label "COPI" (at 128.27 72.39 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b1aa9a0e-72da-4e8e-8403-c7f59c30e9da)
-  )
-  (label "GND" (at 128.27 96.52 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b40dc822-feb2-4a87-9507-51dd21cd58aa)
-  )
-  (label "CIPO" (at 128.27 74.93 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b720170f-7949-408d-ac78-3bd94b966e56)
-  )
-  (label "SCK" (at 128.27 101.6 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid c15726f3-7ca0-464d-9644-0ef6270403ca)
-  )
-  (label "SCK" (at 128.27 69.85 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid e44dd3cd-4d8c-40a2-9854-5f8a27a76876)
-  )
-  (label "VAA" (at 154.94 67.31 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f8455e7e-ce57-4226-847c-55cc462bb148)
-  )
-
-  (sheet (at 130.81 86.36) (size 21.59 22.86) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 039ac378-5273-4081-85bf-9eb26cb5ed57)
-    (property "Sheetname" "tmc5130" (at 130.81 85.6484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "tmc5130.kicad_sch" (at 130.81 109.8046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "VM" passive (at 130.81 88.9 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 31bd3840-5f2a-4b40-aa4c-c4f8a7d3aa26)
-    )
-    (pin "VIO" passive (at 130.81 93.98 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 134aa7b0-5122-4cbe-a624-b4467de396bb)
-    )
-    (pin "GND" passive (at 130.81 96.52 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 417a7a27-ff4a-47be-b25f-c741413e82c2)
-    )
-    (pin "+5V" passive (at 130.81 91.44 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 011fc249-f862-4386-8ff4-5aa5286fe6e1)
-    )
-    (pin "~{CS}" input (at 130.81 99.06 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid c94346c2-0b55-4a44-a4b2-945d41409291)
-    )
-    (pin "SCK" input (at 130.81 101.6 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f69ce100-84cb-48b0-aca5-fedb8e48befd)
-    )
-    (pin "COPI" input (at 130.81 104.14 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0a766490-cb13-4ee4-97a3-568bcb0cec2e)
-    )
-    (pin "CIPO" output (at 130.81 106.68 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid dd0d2d01-bc09-40ff-86e5-50e3b8b4b44a)
-    )
-    (instances
-      (project "prism-pcb"
-        (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 130.81 53.34) (size 21.59 5.08) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e)
-    (property "Sheetname" "assembly" (at 130.81 52.6284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "assembly.kicad_sch" (at 130.81 59.0046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "GND" passive (at 130.81 55.88 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 27cfdaec-c4e6-4a5e-aff6-ae19f93ba201)
-    )
-    (instances
-      (project "prism-pcb"
-        (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 130.81 64.77) (size 21.59 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c1dd8f61-494c-402f-8e59-08309c64fc3f)
-    (property "Sheetname" "interface" (at 130.81 64.0584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "interface.kicad_sch" (at 130.81 78.0546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "GND" passive (at 152.4 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 1804865c-d1f4-43bf-bd24-77a684e671cb)
-    )
-    (pin "+5V" passive (at 152.4 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 4b3850e0-3b81-4b4d-b84b-3c85eb05b239)
-    )
-    (pin "VAA" passive (at 152.4 67.31 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid bbdd0c8c-0cf5-43e3-a832-b9e2489efe16)
-    )
-    (pin "SCK" output (at 130.81 69.85 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid fb226b3c-0b03-4cad-b7d8-8095d7fa493b)
-    )
-    (pin "CIPO" input (at 130.81 74.93 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2f1ecf44-5190-492a-8833-494cc7d985f4)
-    )
-    (pin "~{CS}" output (at 130.81 67.31 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 38cdc3dc-7f99-40ec-9224-fcbce99ca059)
-    )
-    (pin "COPI" output (at 130.81 72.39 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid da1192ef-e9a1-4377-82ec-a254195c63f6)
-    )
-    (instances
-      (project "prism-pcb"
-        (path "/df2b2e89-e055-4140-95de-f1df723db034" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "df2b2e89-e055-4140-95de-f1df723db034")
+	(paper "A4")
+	(title_block
+		(title "prism-pcb")
+		(date "2024-10-22")
+		(rev "2.1")
+		(company "Howard Hughes Medical Institute")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 130.81 106.68) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062f7b91-6a63-46cf-97af-62198b135023")
+	)
+	(wire
+		(pts
+			(xy 130.81 72.39) (xy 128.27 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096e344f-128b-4078-9417-a6d37137fd8a")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374bde2b-dd27-44f1-8b01-def496c1482f")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 130.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38274a86-c373-4981-9f1b-5eb6c602df45")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abd6c37-994d-4bcd-8a12-36626c062beb")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 128.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b129527-2805-418d-a94d-4318deb3d583")
+	)
+	(wire
+		(pts
+			(xy 154.94 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ba836b-4ec4-4da8-90c2-ccbbfd868efb")
+	)
+	(wire
+		(pts
+			(xy 128.27 55.88) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657b6205-3ace-45ff-80d2-211a2b4f691b")
+	)
+	(wire
+		(pts
+			(xy 128.27 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671fa30c-f2d0-406b-a049-8640d8f61073")
+	)
+	(wire
+		(pts
+			(xy 130.81 67.31) (xy 128.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814007aa-e39e-4a86-a97b-50a642bdf6c0")
+	)
+	(wire
+		(pts
+			(xy 128.27 96.52) (xy 130.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd5776f-5fc4-4ceb-8cb7-cf2c878e2e94")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27a4f16-d6cd-469b-b44c-15b79abedbb3")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 128.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de75fb25-a860-43e4-bd62-5f29cc3faad6")
+	)
+	(wire
+		(pts
+			(xy 154.94 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deea61ee-d898-4b6d-9f76-5080ee917fbb")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4613055-de65-4e2b-b359-1c31c35e4199")
+	)
+	(wire
+		(pts
+			(xy 130.81 69.85) (xy 128.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd76f646-f588-4c29-ad19-97e139c36bf1")
+	)
+	(label "GND"
+		(at 154.94 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01baeeb6-46ce-4972-b202-a584ff1c5af1")
+	)
+	(label "+5V"
+		(at 154.94 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bdc6b5f-ee4b-4588-b810-890fbab69ebc")
+	)
+	(label "CIPO"
+		(at 128.27 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3558df64-e038-4449-9dbd-93c92746bcd8")
+	)
+	(label "~{CS}"
+		(at 128.27 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ac524db-58c1-42a6-91b2-eb5ede71926a")
+	)
+	(label "+5V"
+		(at 128.27 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a40607e-5ebc-4da6-a4cb-559e56c353dc")
+	)
+	(label "+5V"
+		(at 128.27 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b107886-d988-4d9b-bc22-a6c07439b845")
+	)
+	(label "VAA"
+		(at 128.27 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b20ad32-855a-4b64-9baa-b843e9158bad")
+	)
+	(label "COPI"
+		(at 128.27 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b682d56-6f3e-47cc-b6ac-701de21d6a6b")
+	)
+	(label "GND"
+		(at 128.27 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4045a19-d613-4318-befc-be32580bc18c")
+	)
+	(label "~{CS}"
+		(at 128.27 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8157291-6fb9-4b86-8f6b-6451ddd56a4d")
+	)
+	(label "COPI"
+		(at 128.27 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1aa9a0e-72da-4e8e-8403-c7f59c30e9da")
+	)
+	(label "GND"
+		(at 128.27 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b40dc822-feb2-4a87-9507-51dd21cd58aa")
+	)
+	(label "CIPO"
+		(at 128.27 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b720170f-7949-408d-ac78-3bd94b966e56")
+	)
+	(label "SCK"
+		(at 128.27 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c15726f3-7ca0-464d-9644-0ef6270403ca")
+	)
+	(label "SCK"
+		(at 128.27 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e44dd3cd-4d8c-40a2-9854-5f8a27a76876")
+	)
+	(label "VAA"
+		(at 154.94 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8455e7e-ce57-4226-847c-55cc462bb148")
+	)
+	(sheet
+		(at 130.81 86.36)
+		(size 21.59 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "039ac378-5273-4081-85bf-9eb26cb5ed57")
+		(property "Sheetname" "tmc5130"
+			(at 130.81 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tmc5130.kicad_sch"
+			(at 130.81 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VM" passive
+			(at 130.81 88.9 180)
+			(uuid "31bd3840-5f2a-4b40-aa4c-c4f8a7d3aa26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIO" passive
+			(at 130.81 93.98 180)
+			(uuid "134aa7b0-5122-4cbe-a624-b4467de396bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" passive
+			(at 130.81 96.52 180)
+			(uuid "417a7a27-ff4a-47be-b25f-c741413e82c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" passive
+			(at 130.81 91.44 180)
+			(uuid "011fc249-f862-4386-8ff4-5aa5286fe6e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CS}" input
+			(at 130.81 99.06 180)
+			(uuid "c94346c2-0b55-4a44-a4b2-945d41409291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 130.81 101.6 180)
+			(uuid "f69ce100-84cb-48b0-aca5-fedb8e48befd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COPI" input
+			(at 130.81 104.14 180)
+			(uuid "0a766490-cb13-4ee4-97a3-568bcb0cec2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CIPO" output
+			(at 130.81 106.68 180)
+			(uuid "dd0d2d01-bc09-40ff-86e5-50e3b8b4b44a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "prism-pcb"
+				(path "/df2b2e89-e055-4140-95de-f1df723db034"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 53.34)
+		(size 21.59 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ec4fe58-7f94-4826-b0e2-2bc8f3ffe81e")
+		(property "Sheetname" "assembly"
+			(at 130.81 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "assembly.kicad_sch"
+			(at 130.81 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 130.81 55.88 180)
+			(uuid "27cfdaec-c4e6-4a5e-aff6-ae19f93ba201")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "prism-pcb"
+				(path "/df2b2e89-e055-4140-95de-f1df723db034"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 64.77)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1dd8f61-494c-402f-8e59-08309c64fc3f")
+		(property "Sheetname" "interface"
+			(at 130.81 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface.kicad_sch"
+			(at 130.81 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 152.4 72.39 0)
+			(uuid "1804865c-d1f4-43bf-bd24-77a684e671cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" passive
+			(at 152.4 69.85 0)
+			(uuid "4b3850e0-3b81-4b4d-b84b-3c85eb05b239")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VAA" passive
+			(at 152.4 67.31 0)
+			(uuid "bbdd0c8c-0cf5-43e3-a832-b9e2489efe16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" output
+			(at 130.81 69.85 180)
+			(uuid "fb226b3c-0b03-4cad-b7d8-8095d7fa493b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CIPO" input
+			(at 130.81 74.93 180)
+			(uuid "2f1ecf44-5190-492a-8833-494cc7d985f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CS}" output
+			(at 130.81 67.31 180)
+			(uuid "38cdc3dc-7f99-40ec-9224-fcbce99ca059")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COPI" output
+			(at 130.81 72.39 180)
+			(uuid "da1192ef-e9a1-4377-82ec-a254195c63f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "prism-pcb"
+				(path "/df2b2e89-e055-4140-95de-f1df723db034"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
